@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-11m\\Desktop\\projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosFlujoControl\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3DB40CB-14BF-4721-8A11-7EC7722A6C9F}|ejerciciosFlujoControl\\ejerciciosFlujoControl.csproj|C:\\Users\\b15-11m\\Desktop\\projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosFlujoControl\\ejerciciosflujocontrol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3DB40CB-14BF-4721-8A11-7EC7722A6C9F}|ejerciciosFlujoControl\\ejerciciosFlujoControl.csproj|solutionrelative:ejerciciosflujocontrol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3DB40CB-14BF-4721-8A11-7EC7722A6C9F}|ejerciciosFlujoControl\\ejerciciosFlujoControl.csproj|c:\\users\\b15-11m\\desktop\\projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosflujocontrol\\ejerciciosflujocontrol\\operaciones\\operacionesejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3DB40CB-14BF-4721-8A11-7EC7722A6C9F}|ejerciciosFlujoControl\\ejerciciosFlujoControl.csproj|solutionrelative:ejerciciosflujocontrol\\operaciones\\operacionesejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "operacionesEjercicios.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosFlujoControl\\ejerciciosFlujoControl\\operaciones\\operacionesEjercicios.cs",
+              "RelativeDocumentMoniker": "ejerciciosFlujoControl\\operaciones\\operacionesEjercicios.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosFlujoControl\\ejerciciosFlujoControl\\operaciones\\operacionesEjercicios.cs",
+              "RelativeToolTip": "ejerciciosFlujoControl\\operaciones\\operacionesEjercicios.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAADwv+gAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T09:14:25.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosFlujoControl\\ejerciciosFlujoControl\\Program.cs",
+              "RelativeDocumentMoniker": "ejerciciosFlujoControl\\Program.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosFlujoControl\\ejerciciosFlujoControl\\Program.cs",
+              "RelativeToolTip": "ejerciciosFlujoControl\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T09:13:02.377Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

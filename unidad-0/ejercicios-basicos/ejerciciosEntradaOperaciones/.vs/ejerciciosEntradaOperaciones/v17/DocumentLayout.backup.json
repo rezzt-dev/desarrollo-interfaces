@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\java-projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosEntradaOperaciones\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFB4C0FF-640C-42C1-A4AF-1E8C80C91180}|ejerciciosEntradaOperaciones\\ejerciciosEntradaOperaciones.csproj|c:\\users\\administrator\\documents\\java-projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosentradaoperaciones\\ejerciciosentradaoperaciones\\operaciones\\operacionesejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFB4C0FF-640C-42C1-A4AF-1E8C80C91180}|ejerciciosEntradaOperaciones\\ejerciciosEntradaOperaciones.csproj|solutionrelative:ejerciciosentradaoperaciones\\operaciones\\operacionesejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFB4C0FF-640C-42C1-A4AF-1E8C80C91180}|ejerciciosEntradaOperaciones\\ejerciciosEntradaOperaciones.csproj|c:\\users\\administrator\\documents\\java-projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosentradaoperaciones\\ejerciciosentradaoperaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFB4C0FF-640C-42C1-A4AF-1E8C80C91180}|ejerciciosEntradaOperaciones\\ejerciciosEntradaOperaciones.csproj|solutionrelative:ejerciciosentradaoperaciones\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "operacionesEjercicios.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\java-projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosEntradaOperaciones\\ejerciciosEntradaOperaciones\\operaciones\\operacionesEjercicios.cs",
+              "RelativeDocumentMoniker": "ejerciciosEntradaOperaciones\\operaciones\\operacionesEjercicios.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\java-projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosEntradaOperaciones\\ejerciciosEntradaOperaciones\\operaciones\\operacionesEjercicios.cs",
+              "RelativeToolTip": "ejerciciosEntradaOperaciones\\operaciones\\operacionesEjercicios.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAADwv1sAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T17:58:20.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\java-projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosEntradaOperaciones\\ejerciciosEntradaOperaciones\\Program.cs",
+              "RelativeDocumentMoniker": "ejerciciosEntradaOperaciones\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\java-projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosEntradaOperaciones\\ejerciciosEntradaOperaciones\\Program.cs",
+              "RelativeToolTip": "ejerciciosEntradaOperaciones\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T17:57:42.788Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

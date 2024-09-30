@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-11m\\Desktop\\projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosEntradaTeclado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{513A3D57-CE92-4371-9B76-ED081AFEF2FE}|ejerciciosEntradaTeclado\\ejerciciosEntradaTeclado.csproj|c:\\users\\b15-11m\\desktop\\projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosentradateclado\\ejerciciosentradateclado\\operaciones\\operacionesejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513A3D57-CE92-4371-9B76-ED081AFEF2FE}|ejerciciosEntradaTeclado\\ejerciciosEntradaTeclado.csproj|solutionrelative:ejerciciosentradateclado\\operaciones\\operacionesejercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513A3D57-CE92-4371-9B76-ED081AFEF2FE}|ejerciciosEntradaTeclado\\ejerciciosEntradaTeclado.csproj|c:\\users\\b15-11m\\desktop\\projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosentradateclado\\ejerciciosentradateclado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513A3D57-CE92-4371-9B76-ED081AFEF2FE}|ejerciciosEntradaTeclado\\ejerciciosEntradaTeclado.csproj|solutionrelative:ejerciciosentradateclado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "operacionesEjercicios.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosEntradaTeclado\\ejerciciosEntradaTeclado\\operaciones\\operacionesEjercicios.cs",
+              "RelativeDocumentMoniker": "ejerciciosEntradaTeclado\\operaciones\\operacionesEjercicios.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosEntradaTeclado\\ejerciciosEntradaTeclado\\operaciones\\operacionesEjercicios.cs",
+              "RelativeToolTip": "ejerciciosEntradaTeclado\\operaciones\\operacionesEjercicios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T10:44:11.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosEntradaTeclado\\ejerciciosEntradaTeclado\\Program.cs",
+              "RelativeDocumentMoniker": "ejerciciosEntradaTeclado\\Program.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\projects\\di-projects\\unidad-0\\ejercicios-basicos\\ejerciciosEntradaTeclado\\ejerciciosEntradaTeclado\\Program.cs",
+              "RelativeToolTip": "ejerciciosEntradaTeclado\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T10:43:44.89Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
