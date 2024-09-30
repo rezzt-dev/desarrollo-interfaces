@@ -1,0 +1,7 @@
+C:\Users\b15-11m\Desktop\projects\di-projects\unidad-1\ejercicios-1\ejercicios-1\bin\Debug\ejercicios-1.exe.config
+C:\Users\b15-11m\Desktop\projects\di-projects\unidad-1\ejercicios-1\ejercicios-1\bin\Debug\ejercicios-1.exe
+C:\Users\b15-11m\Desktop\projects\di-projects\unidad-1\ejercicios-1\ejercicios-1\bin\Debug\ejercicios-1.pdb
+C:\Users\b15-11m\Desktop\projects\di-projects\unidad-1\ejercicios-1\ejercicios-1\obj\Debug\ejercicios-1.csproj.AssemblyReference.cache
+C:\Users\b15-11m\Desktop\projects\di-projects\unidad-1\ejercicios-1\ejercicios-1\obj\Debug\ejercicios-1.csproj.CoreCompileInputs.cache
+C:\Users\b15-11m\Desktop\projects\di-projects\unidad-1\ejercicios-1\ejercicios-1\obj\Debug\ejercicios-1.exe
+C:\Users\b15-11m\Desktop\projects\di-projects\unidad-1\ejercicios-1\ejercicios-1\obj\Debug\ejercicios-1.pdb
