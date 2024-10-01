@@ -1,0 +1,7 @@
+C:\Users\b15-11m\Desktop\projects\di-projects\unidad-1\ejercicioCoches\ejercicioCoches\bin\Debug\ejercicioCoches.exe.config
+C:\Users\b15-11m\Desktop\projects\di-projects\unidad-1\ejercicioCoches\ejercicioCoches\bin\Debug\ejercicioCoches.exe
+C:\Users\b15-11m\Desktop\projects\di-projects\unidad-1\ejercicioCoches\ejercicioCoches\bin\Debug\ejercicioCoches.pdb
+C:\Users\b15-11m\Desktop\projects\di-projects\unidad-1\ejercicioCoches\ejercicioCoches\obj\Debug\ejercicioCoches.csproj.AssemblyReference.cache
+C:\Users\b15-11m\Desktop\projects\di-projects\unidad-1\ejercicioCoches\ejercicioCoches\obj\Debug\ejercicioCoches.csproj.CoreCompileInputs.cache
+C:\Users\b15-11m\Desktop\projects\di-projects\unidad-1\ejercicioCoches\ejercicioCoches\obj\Debug\ejercicioCoches.exe
+C:\Users\b15-11m\Desktop\projects\di-projects\unidad-1\ejercicioCoches\ejercicioCoches\obj\Debug\ejercicioCoches.pdb
