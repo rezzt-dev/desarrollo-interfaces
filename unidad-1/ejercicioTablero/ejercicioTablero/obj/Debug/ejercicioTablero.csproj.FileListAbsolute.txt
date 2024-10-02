@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\github-repositories\desarrollo-interfaces\unidad-1\ejercicioTablero\ejercicioTablero\bin\Debug\ejercicioTablero.exe.config
+C:\Users\Administrator\Documents\github-repositories\desarrollo-interfaces\unidad-1\ejercicioTablero\ejercicioTablero\bin\Debug\ejercicioTablero.exe
+C:\Users\Administrator\Documents\github-repositories\desarrollo-interfaces\unidad-1\ejercicioTablero\ejercicioTablero\bin\Debug\ejercicioTablero.pdb
+C:\Users\Administrator\Documents\github-repositories\desarrollo-interfaces\unidad-1\ejercicioTablero\ejercicioTablero\obj\Debug\ejercicioTablero.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\github-repositories\desarrollo-interfaces\unidad-1\ejercicioTablero\ejercicioTablero\obj\Debug\ejercicioTablero.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\github-repositories\desarrollo-interfaces\unidad-1\ejercicioTablero\ejercicioTablero\obj\Debug\ejercicioTablero.exe
+C:\Users\Administrator\Documents\github-repositories\desarrollo-interfaces\unidad-1\ejercicioTablero\ejercicioTablero\obj\Debug\ejercicioTablero.pdb
