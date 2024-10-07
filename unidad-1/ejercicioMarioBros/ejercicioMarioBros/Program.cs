@@ -13,6 +13,7 @@ namespace ejercicioMarioBros
       string[,] tableroMario = new string[8,8];
       Mario mario = new Mario(3, 0);
 
+      helperOperaciones.setTableroOculto(false);
       helperOperaciones.fillRandomValue(tableroMario);
       helperOperaciones.procesarMovimiento(tableroMario, mario);
     }

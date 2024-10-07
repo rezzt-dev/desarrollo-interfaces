@@ -8,15 +8,39 @@ namespace ejercicioMarioBros
 {
   internal class helperOperaciones
   {
-     // metodo "fillRandomValue" | rellena un tablero con valores aleatorios =>
+    private static int posMarioI = 0;
+    private static int posMarioJ = 0;
+
+    private static List<int> posILista = new List<int>();
+    private static List<int> posJLista = new List<int>();
+
+    private static bool tableroOculto = true;
+
+    // metodo "fillRandomValue" | rellena un tablero con valores aleatorios =>
     public static void fillRandomValue (string[,] inputTablero) {
       Random random = new Random ();
 
       for (int i = 0; i < inputTablero.GetLength (0); i++) {
         for (int j = 0; j < inputTablero.GetLength (1); j++) {
-          inputTablero [i, j] = Convert.ToString (random.Next(0,3));
+          if (inputTablero[i, j] == inputTablero[posMarioI, posMarioJ]) {
+            inputTablero[i, j] = "M";
+          } else if (isPosInList(i,j)) {
+            inputTablero[i, j] = "-";
+          } else {
+            inputTablero[i, j] = Convert.ToString(random.Next(0, 3));
+          }
         }
       }
+    }
+
+     // metodo "isPosInList" | comprueba si una posicion esta en la lista =>
+    public static bool isPosInList (int inputI, int inputJ) {
+      for (int index = 0; index < posILista.Count; index++) {
+        if (posILista[index] == inputI && posJLista[index] == inputJ) {
+          return true;
+        }
+    }
+    return false;
     }
 
      // metodo "printTablero" | imprime un tablero en pantalla =>
@@ -33,8 +57,16 @@ namespace ejercicioMarioBros
     public static void printTableroOculto (string[,] inputTablero) {
       for (int i = 0; i < inputTablero.GetLength (0); i++) {
         for (int j = 0; j < inputTablero.GetLength (1); j++) {
-          if (inputTablero [i, j] == " M ") Console.Write ("M");
-          else Console.Write (" x ");
+          if (inputTablero[i, j] == inputTablero[posMarioI, posMarioJ]) {
+            Console.Write(" M ");
+          }
+          else if (isPosInList(i, j)) {
+            Console.Write(" - ");
+          }
+          else
+          {
+            Console.Write(" x ");
+          }
         }
         Console.WriteLine ();
       }
@@ -55,6 +87,8 @@ namespace ejercicioMarioBros
     public static int movimientoTablero (string[,] inputTablero, ref int inputI, ref int inputJ, ref Mario inputMario) {
       int returnValue = 0;
       inputTablero[inputI, inputJ] = "-";
+      posILista.Add (inputI);
+      posJLista.Add (inputJ);
 
       Console.WriteLine("  > Introduce la proxima posicion: ");
       int inputPosicion = Convert.ToInt32(Console.ReadLine());
@@ -63,8 +97,7 @@ namespace ejercicioMarioBros
       switch (inputPosicion) {
         case 0:
           Console.WriteLine ("  > Saliendo...");
-          returnValue = 3;
-          break;
+          return returnValue = 3;
         case 1:
           if (inputJ < inputTablero.GetLength(1) - 1) inputJ++;
           else Console.WriteLine("Posicion Incorrecta");
@@ -85,6 +118,8 @@ namespace ejercicioMarioBros
 
       returnValue = int.Parse(inputTablero[inputI, inputJ]);
       inputTablero[inputI, inputJ] = "M";
+      posMarioI = inputI;
+      posMarioJ = inputJ;
 
 
       if (inputI == 7 && inputJ == 7 && inputMario.CantPocima >= 5) returnValue = 3;
@@ -103,7 +138,17 @@ namespace ejercicioMarioBros
         Console.WriteLine($"NumVidas: {inputMario.NumVidas} | CantPocima: {inputMario.CantPocima}");
         Console.WriteLine();
 
-        printTablero(inputTablero);
+        fillRandomValue(inputTablero);
+        if (inputMario.CantPocima >= 5) {
+          inputTablero[7, 7] = "S";
+        }
+
+        if (tableroOculto) {
+          printTableroOculto(inputTablero);
+        } else {
+          printTablero(inputTablero);
+        }
+
         mostrarMenu();
 
         int returnValue = movimientoTablero(inputTablero, ref i, ref j, ref inputMario);
@@ -141,6 +186,18 @@ namespace ejercicioMarioBros
         Console.Clear();
         Console.WriteLine("Has salvado a la Peach!");
         Console.ReadKey();
+      }
+    }
+
+     // metodo "setTableroOculto" | poner el tablero en oculto o no =>
+    public static void setTableroOculto (bool setOculto)
+    {
+      if (setOculto)
+      {
+        tableroOculto = true;
+      } else
+      {
+        tableroOculto = false;
       }
     }
   }
