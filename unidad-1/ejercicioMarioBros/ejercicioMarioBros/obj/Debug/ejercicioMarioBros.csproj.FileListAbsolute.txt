@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\github-repositories\desarrollo-interfaces\unidad-1\ejercicioMarioBros\ejercicioMarioBros\bin\Debug\ejercicioMarioBros.exe.config
+C:\Users\Administrator\Documents\github-repositories\desarrollo-interfaces\unidad-1\ejercicioMarioBros\ejercicioMarioBros\bin\Debug\ejercicioMarioBros.exe
+C:\Users\Administrator\Documents\github-repositories\desarrollo-interfaces\unidad-1\ejercicioMarioBros\ejercicioMarioBros\bin\Debug\ejercicioMarioBros.pdb
+C:\Users\Administrator\Documents\github-repositories\desarrollo-interfaces\unidad-1\ejercicioMarioBros\ejercicioMarioBros\obj\Debug\ejercicioMarioBros.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\github-repositories\desarrollo-interfaces\unidad-1\ejercicioMarioBros\ejercicioMarioBros\obj\Debug\ejercicioMarioBros.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\github-repositories\desarrollo-interfaces\unidad-1\ejercicioMarioBros\ejercicioMarioBros\obj\Debug\ejercicioMarioBros.exe
+C:\Users\Administrator\Documents\github-repositories\desarrollo-interfaces\unidad-1\ejercicioMarioBros\ejercicioMarioBros\obj\Debug\ejercicioMarioBros.pdb
