@@ -63,15 +63,47 @@ namespace ejercicioTablero
           break;
         case 1:
           if (j < inputTablero.GetLength(1) - 1) j++;
+          else Console.WriteLine("Posicion Incorrecta");
           break;
         case 2:
           if (j > 0) j--;
+          else Console.WriteLine("Posicion Incorrecta");
           break;
         case 3:
           if (i > 0) i--;
           break;
         case 4:
           if (i < inputTablero.GetLength(0) - 1) i++;
+          else Console.WriteLine("Posicion Incorrecta");
+          break;
+
+        case 5:
+          if (i > 0 && j < inputTablero.GetLength(1) - 1)
+          {
+            i--;
+            j++;
+          } else Console.WriteLine("Posicion Incorrecta");
+          break;
+        case 6:
+          if (i > 0 && j > 0)
+          {
+            i--;
+            j--;
+          } else Console.WriteLine("Posicion Incorrecta");
+          break;
+        case 7:
+          if (i < inputTablero.GetLength(0) - 1 && j < inputTablero.GetLength(1) - 1)
+          {
+            i++;
+            j++;
+          } else Console.WriteLine("Posicion Incorrecta");
+          break;
+        case 8:
+          if (i < inputTablero.GetLength(0) - 1 && j > 0)
+          {
+            i++;
+            j--;
+          } else Console.WriteLine("Posicion Incorrecta");
           break;
 
         default:

@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejercicioTablero\\",
+  "WorkspaceRootPath": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-1\\ejercicioTablero\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74C641B7-9B07-4BC3-ACA1-BA95D5CF202D}|ejercicioTablero\\ejercicioTablero.csproj|c:\\users\\administrator\\documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejerciciotablero\\ejerciciotablero\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74C641B7-9B07-4BC3-ACA1-BA95D5CF202D}|ejercicioTablero\\ejercicioTablero.csproj|solutionrelative:ejerciciotablero\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74C641B7-9B07-4BC3-ACA1-BA95D5CF202D}|ejercicioTablero\\ejercicioTablero.csproj|c:\\users\\b15-11m\\desktop\\github\\desarrollo-interfaces\\unidad-1\\ejerciciotablero\\ejerciciotablero\\operacionestablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C641B7-9B07-4BC3-ACA1-BA95D5CF202D}|ejercicioTablero\\ejercicioTablero.csproj|solutionrelative:ejerciciotablero\\operacionestablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C641B7-9B07-4BC3-ACA1-BA95D5CF202D}|ejercicioTablero\\ejercicioTablero.csproj|c:\\users\\administrator\\documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejerciciotablero\\ejerciciotablero\\operacionestablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74C641B7-9B07-4BC3-ACA1-BA95D5CF202D}|ejercicioTablero\\ejercicioTablero.csproj|solutionrelative:ejerciciotablero\\operacionestablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74C641B7-9B07-4BC3-ACA1-BA95D5CF202D}|ejercicioTablero\\ejercicioTablero.csproj|c:\\users\\b15-11m\\desktop\\github\\desarrollo-interfaces\\unidad-1\\ejerciciotablero\\ejerciciotablero\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C641B7-9B07-4BC3-ACA1-BA95D5CF202D}|ejercicioTablero\\ejercicioTablero.csproj|solutionrelative:ejerciciotablero\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "operacionesTablero.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejercicioTablero\\ejercicioTablero\\operacionesTablero.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-1\\ejercicioTablero\\ejercicioTablero\\operacionesTablero.cs",
               "RelativeDocumentMoniker": "ejercicioTablero\\operacionesTablero.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejercicioTablero\\ejercicioTablero\\operacionesTablero.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-1\\ejercicioTablero\\ejercicioTablero\\operacionesTablero.cs",
               "RelativeToolTip": "ejercicioTablero\\operacionesTablero.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAlwGgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAYwHgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:21:11.115Z",
+              "WhenOpened": "2024-10-07T10:03:24.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejercicioTablero\\ejercicioTablero\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-1\\ejercicioTablero\\ejercicioTablero\\Program.cs",
               "RelativeDocumentMoniker": "ejercicioTablero\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejercicioTablero\\ejercicioTablero\\Program.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-1\\ejercicioTablero\\ejercicioTablero\\Program.cs",
               "RelativeToolTip": "ejercicioTablero\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:20:40.131Z",
+              "WhenOpened": "2024-10-07T09:17:02.385Z",
               "EditorCaption": ""
             }
           ]
