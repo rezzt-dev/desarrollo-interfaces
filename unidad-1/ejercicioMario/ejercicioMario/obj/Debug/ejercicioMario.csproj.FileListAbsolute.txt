@@ -1,0 +1,7 @@
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-1\ejercicioMario\ejercicioMario\obj\Debug\ejercicioMario.csproj.AssemblyReference.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-1\ejercicioMario\ejercicioMario\obj\Debug\ejercicioMario.csproj.CoreCompileInputs.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-1\ejercicioMario\ejercicioMario\bin\Debug\ejercicioMario.exe.config
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-1\ejercicioMario\ejercicioMario\bin\Debug\ejercicioMario.exe
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-1\ejercicioMario\ejercicioMario\bin\Debug\ejercicioMario.pdb
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-1\ejercicioMario\ejercicioMario\obj\Debug\ejercicioMario.exe
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-1\ejercicioMario\ejercicioMario\obj\Debug\ejercicioMario.pdb
