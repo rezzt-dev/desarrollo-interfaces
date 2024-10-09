@@ -39,7 +39,7 @@ namespace ejercicioMarioBros
         if (posILista[index] == inputI && posJLista[index] == inputJ) {
           return true;
         }
-    }
+      }
     return false;
     }
 
