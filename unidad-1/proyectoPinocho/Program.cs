@@ -1,12 +1,22 @@
-﻿namespace proyectoPinocho {
-  public class Program {
-    public static void Main(string[] args) {
-      Console.Clear();
-      Tablero tablero = new Tablero();
-      Jugador jugador1 = new Jugador("A", 3, 18);
-      
-      tablero.guardarCharsJugadores(jugador1);
-      tablero.procesarMovimiento(jugador1);
+﻿namespace proyectoPinocho
+{
+  internal class Program
+  {
+    public static void main (string[] args) {
+      Console.WriteLine(" - Proyecto Pinocho | JGC by Juan Garcia Cazallas - ");
+
+      int filasRio = 12;
+      int columnasRio = 12;
+      Tablero rioBase = new Tablero(filasRio, columnasRio);
+
+      Pinocho pinocho = new Pinocho("Pinocho");
+      Grillo grillo = new Grillo("Grillo");
+      CompeticionPesca competicion = new CompeticionPesca(rioBase, pinocho, grillo);
+
+      competicion.IniciarCompeticion();
+
+      Console.WriteLine("\n  > Presiona cualquier tecla para salir...");
+      Console.ReadKey();
     }
   }
 }
