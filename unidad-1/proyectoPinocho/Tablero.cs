@@ -231,8 +231,6 @@ namespace proyectoPinocho {
      // metodos movimiento =>
       // metodo "moverIzquierda" | mueve el jugador a la izquierda -->
     public void moverIzquierda(Jugador inputJugador) {
-      tableroGeneral[inputJugador._filaActual, inputJugador._columnaActual] = inputJugador._inicalNombre;
-
       if (inputJugador._columnaActual > 0) { // Cambiado para moverse correctamente a la izquierda
         // Guardar la posición anterior
         inputJugador._listaFilasAnteriores.Add(inputJugador._filaActual);
@@ -248,13 +246,9 @@ namespace proyectoPinocho {
 
       // metodo "moverDerecha" | mueve el jugador a la derecha -->
     public void moverDerecha(Jugador inputJugador) {
-      tableroGeneral[inputJugador._filaActual, inputJugador._columnaActual] = inputJugador._inicalNombre;
-
       if (inputJugador._columnaActual < tableroGeneral.GetLength(1) - 1) {
         inputJugador._listaFilasAnteriores.Add(inputJugador._filaActual);
         inputJugador._listaColumnasAnteriores.Add(inputJugador._columnaActual);
-
-        tableroGeneral[inputJugador._filaActual, inputJugador._columnaActual] = getRandomValue().ToString();
 
         inputJugador._columnaActual++;
       }
