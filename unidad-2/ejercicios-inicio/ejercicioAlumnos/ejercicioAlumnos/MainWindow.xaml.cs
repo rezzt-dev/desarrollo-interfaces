@@ -13,26 +13,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace holaMundo
+namespace ejercicioAlumnos
 {
   /// <summary>
   /// Lógica de interacción para MainWindow.xaml
   /// </summary>
   public partial class MainWindow : Window
   {
-
     public MainWindow()
     {
       InitializeComponent();
     }
 
-    private void Button_Click(object sender, RoutedEventArgs e)
+    private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
     {
-      lEtiqueta.Content = "hola mundo";
-    }
 
-    private void bPulsame_MouseEnter(object sender, RoutedEventArgs e) {
-      lEtiqueta.Content = "Cursor encima del boton";
     }
   }
 }

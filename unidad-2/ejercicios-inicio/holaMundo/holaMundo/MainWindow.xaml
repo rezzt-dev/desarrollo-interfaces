@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:holaMundo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Ventana" Height="450" Width="800">
+  <Grid>
+    <Label Name="lEtiqueta" Content="Etiqueta" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+    <Button Name="bPulsame" Content="Pulsame" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click" MouseEnter="bPulsame_MouseEnter"/>
+
+  </Grid>
 </Window>

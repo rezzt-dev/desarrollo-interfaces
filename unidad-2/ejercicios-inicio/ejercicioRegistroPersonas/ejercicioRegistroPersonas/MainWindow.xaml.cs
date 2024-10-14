@@ -13,26 +13,26 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace holaMundo
+namespace ejercicioRegistroPersonas
 {
   /// <summary>
   /// Lógica de interacción para MainWindow.xaml
   /// </summary>
   public partial class MainWindow : Window
   {
-
     public MainWindow()
     {
       InitializeComponent();
     }
 
-    private void Button_Click(object sender, RoutedEventArgs e)
+    private void CheckBox_Checked(object sender, RoutedEventArgs e)
     {
-      lEtiqueta.Content = "hola mundo";
+
     }
 
-    private void bPulsame_MouseEnter(object sender, RoutedEventArgs e) {
-      lEtiqueta.Content = "Cursor encima del boton";
+    private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    {
+
     }
   }
 }

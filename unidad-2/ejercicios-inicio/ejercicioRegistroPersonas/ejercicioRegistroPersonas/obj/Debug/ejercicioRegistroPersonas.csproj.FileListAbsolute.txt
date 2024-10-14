@@ -1,0 +1,15 @@
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioRegistroPersonas\ejercicioRegistroPersonas\bin\Debug\ejercicioRegistroPersonas.exe.config
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioRegistroPersonas\ejercicioRegistroPersonas\bin\Debug\ejercicioRegistroPersonas.exe
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioRegistroPersonas\ejercicioRegistroPersonas\bin\Debug\ejercicioRegistroPersonas.pdb
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioRegistroPersonas\ejercicioRegistroPersonas\obj\Debug\ejercicioRegistroPersonas.csproj.AssemblyReference.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioRegistroPersonas\ejercicioRegistroPersonas\obj\Debug\MainWindow.g.cs
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioRegistroPersonas\ejercicioRegistroPersonas\obj\Debug\App.g.cs
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioRegistroPersonas\ejercicioRegistroPersonas\obj\Debug\ejercicioRegistroPersonas_MarkupCompile.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioRegistroPersonas\ejercicioRegistroPersonas\obj\Debug\ejercicioRegistroPersonas_MarkupCompile.lref
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioRegistroPersonas\ejercicioRegistroPersonas\obj\Debug\MainWindow.baml
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioRegistroPersonas\ejercicioRegistroPersonas\obj\Debug\ejercicioRegistroPersonas.g.resources
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioRegistroPersonas\ejercicioRegistroPersonas\obj\Debug\ejercicioRegistroPersonas.Properties.Resources.resources
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioRegistroPersonas\ejercicioRegistroPersonas\obj\Debug\ejercicioRegistroPersonas.csproj.GenerateResource.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioRegistroPersonas\ejercicioRegistroPersonas\obj\Debug\ejercicioRegistroPersonas.csproj.CoreCompileInputs.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioRegistroPersonas\ejercicioRegistroPersonas\obj\Debug\ejercicioRegistroPersonas.exe
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioRegistroPersonas\ejercicioRegistroPersonas\obj\Debug\ejercicioRegistroPersonas.pdb
