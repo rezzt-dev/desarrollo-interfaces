@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace proyecto_pinocho
 {
-  class Pinocho : helperCharacter
+  class Jugador1 : helperCharacter
   {
-    public Pinocho(string name) : base(name)
+    public Jugador1(string name) : base(name)
     {
       CurrentPosition = new Tuple<int, int>(0, 0);
       Path.Add(CurrentPosition);

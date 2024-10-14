@@ -39,7 +39,7 @@ namespace proyecto_pinocho
           var tempChar = inputChars.Find(c => c.CurrentPosition.Item1 == i && c.CurrentPosition.Item2 == j);
           if (tempChar != null)
           {
-            Console.ForegroundColor = tempChar is Pinocho ? ConsoleColor.Blue : ConsoleColor.Green;
+            Console.ForegroundColor = tempChar is Jugador1 ? ConsoleColor.Blue : ConsoleColor.Green;
 
             Console.Write(tempChar.Name[0] + " ");
             Console.ResetColor();

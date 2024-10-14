@@ -44,9 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Competicion.cs" />
-    <Compile Include="Grillo.cs" />
+    <Compile Include="Jugador2.cs" />
     <Compile Include="helperCharacter.cs" />
-    <Compile Include="Pinocho.cs" />
+    <Compile Include="Jugador1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rio.cs" />

@@ -13,12 +13,12 @@ namespace proyecto_pinocho
       Console.WriteLine("Bienvenido a la competición de pesca en el río Guadalquivir!");
 
       // Parámetros del río
-      int riverLength = 12;
-      int riverWidth = 12;
+      int riverLength = 19;
+      int riverWidth = 19;
 
       Rio rio = new Rio(riverLength, riverWidth);
-      Pinocho pinocho = new Pinocho("Pinocho");
-      Grillo grillo = new Grillo("Grillo");
+      Jugador1 pinocho = new Jugador1("Pinocho");
+      Jugador2 grillo = new Jugador2("Grillo");
 
       Competicion competition = new Competicion(rio, pinocho, grillo);
       competition.Start();
