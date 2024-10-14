@@ -1,0 +1,7 @@
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-1\proyecto-pinocho\proyecto-pinocho\bin\Debug\proyecto-pinocho.exe.config
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-1\proyecto-pinocho\proyecto-pinocho\bin\Debug\proyecto-pinocho.exe
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-1\proyecto-pinocho\proyecto-pinocho\bin\Debug\proyecto-pinocho.pdb
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-1\proyecto-pinocho\proyecto-pinocho\obj\Debug\proyecto-pinocho.csproj.AssemblyReference.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-1\proyecto-pinocho\proyecto-pinocho\obj\Debug\proyecto-pinocho.csproj.CoreCompileInputs.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-1\proyecto-pinocho\proyecto-pinocho\obj\Debug\proyecto-pinocho.exe
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-1\proyecto-pinocho\proyecto-pinocho\obj\Debug\proyecto-pinocho.pdb
