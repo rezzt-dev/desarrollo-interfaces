@@ -1,0 +1,15 @@
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioFondoColores\ejercicioFondoColores\bin\Debug\ejercicioFondoColores.exe.config
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioFondoColores\ejercicioFondoColores\bin\Debug\ejercicioFondoColores.exe
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioFondoColores\ejercicioFondoColores\bin\Debug\ejercicioFondoColores.pdb
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioFondoColores\ejercicioFondoColores\obj\Debug\ejercicioFondoColores.csproj.AssemblyReference.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioFondoColores\ejercicioFondoColores\obj\Debug\MainWindow.g.cs
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioFondoColores\ejercicioFondoColores\obj\Debug\App.g.cs
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioFondoColores\ejercicioFondoColores\obj\Debug\ejercicioFondoColores_MarkupCompile.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioFondoColores\ejercicioFondoColores\obj\Debug\ejercicioFondoColores_MarkupCompile.lref
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioFondoColores\ejercicioFondoColores\obj\Debug\MainWindow.baml
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioFondoColores\ejercicioFondoColores\obj\Debug\ejercicioFondoColores.g.resources
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioFondoColores\ejercicioFondoColores\obj\Debug\ejercicioFondoColores.Properties.Resources.resources
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioFondoColores\ejercicioFondoColores\obj\Debug\ejercicioFondoColores.csproj.GenerateResource.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioFondoColores\ejercicioFondoColores\obj\Debug\ejercicioFondoColores.csproj.CoreCompileInputs.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioFondoColores\ejercicioFondoColores\obj\Debug\ejercicioFondoColores.exe
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-inicio\ejercicioFondoColores\ejercicioFondoColores\obj\Debug\ejercicioFondoColores.pdb

@@ -1,0 +1,15 @@
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-grid\ejercicioUniformGridContenedores\ejercicioUniformGridContenedores\bin\Debug\ejercicioUniformGridContenedores.exe.config
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-grid\ejercicioUniformGridContenedores\ejercicioUniformGridContenedores\bin\Debug\ejercicioUniformGridContenedores.exe
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-grid\ejercicioUniformGridContenedores\ejercicioUniformGridContenedores\bin\Debug\ejercicioUniformGridContenedores.pdb
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-grid\ejercicioUniformGridContenedores\ejercicioUniformGridContenedores\obj\Debug\ejercicioUniformGridContenedores.csproj.AssemblyReference.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-grid\ejercicioUniformGridContenedores\ejercicioUniformGridContenedores\obj\Debug\MainWindow.g.cs
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-grid\ejercicioUniformGridContenedores\ejercicioUniformGridContenedores\obj\Debug\App.g.cs
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-grid\ejercicioUniformGridContenedores\ejercicioUniformGridContenedores\obj\Debug\ejercicioUniformGridContenedores_MarkupCompile.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-grid\ejercicioUniformGridContenedores\ejercicioUniformGridContenedores\obj\Debug\ejercicioUniformGridContenedores_MarkupCompile.lref
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-grid\ejercicioUniformGridContenedores\ejercicioUniformGridContenedores\obj\Debug\MainWindow.baml
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-grid\ejercicioUniformGridContenedores\ejercicioUniformGridContenedores\obj\Debug\ejercicioUniformGridContenedores.g.resources
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-grid\ejercicioUniformGridContenedores\ejercicioUniformGridContenedores\obj\Debug\ejercicioUniformGridContenedores.Properties.Resources.resources
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-grid\ejercicioUniformGridContenedores\ejercicioUniformGridContenedores\obj\Debug\ejercicioUniformGridContenedores.csproj.GenerateResource.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-grid\ejercicioUniformGridContenedores\ejercicioUniformGridContenedores\obj\Debug\ejercicioUniformGridContenedores.csproj.CoreCompileInputs.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-grid\ejercicioUniformGridContenedores\ejercicioUniformGridContenedores\obj\Debug\ejercicioUniformGridContenedores.exe
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-grid\ejercicioUniformGridContenedores\ejercicioUniformGridContenedores\obj\Debug\ejercicioUniformGridContenedores.pdb

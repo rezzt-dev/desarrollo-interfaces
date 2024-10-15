@@ -1,0 +1,18 @@
+﻿<Window x:Class="ejercicioAvanzado.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ejercicioAvanzado"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="450">
+  <Grid>
+    <Label Name="lblTitulo" Content="Escribe el titulo de una pelicula:" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="430"/>
+    <TextBox Name="tbTituloIpt" HorizontalAlignment="Center" Margin="0,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="430" Height="25"/>
+    <Button Name="btnAgregar" Content="Añadir al ComboBox" HorizontalAlignment="Center" Margin="0,66,0,0" VerticalAlignment="Top" Width="130" Click="btnAgregar_Click"/>
+    <ComboBox Name="cmbPeliculas" HorizontalAlignment="Center" Margin="0,91,0,0" VerticalAlignment="Top" Width="200" SelectionChanged="cmbPeliculas_SelectionChanged"/>
+    <Label Name="lblElegirCmb" Content="Elegir el combobox para añadir a la lista:" HorizontalAlignment="Center" Margin="0,130,0,0" VerticalAlignment="Top" Width="226"/>
+    <ListBox Name="ltbPeliculas" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="50,172,50,172"/>
+
+  </Grid>
+</Window>
