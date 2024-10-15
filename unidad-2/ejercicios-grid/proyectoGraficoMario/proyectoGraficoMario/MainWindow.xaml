@@ -1,0 +1,42 @@
+﻿<Window x:Class="proyectoGraficoMario.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:proyectoGraficoMario"
+        mc:Ignorable="d"
+        Title="MarioBros" Height="970" Width="970">
+  <Grid ShowGridLines="True">
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="Auto" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+
+    <Image Name="imageSalida" Grid.Column="9" Grid.Row="9" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/salida.png"/>
+    <Image Name="imageMario" Grid.Column="0" Grid.Row="0" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/mario.png"/>
+    <Image Name="imageVida" Grid.Column="1" Grid.Row="1" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/vida.png"/>
+    <Image Name="imageGuardia" Grid.Column="3" Grid.Row="7" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/guardia.png"/>
+    <Image Name="imageCoin" Grid.Column="2" Grid.Row="8" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/coin.png"/>
+  </Grid>
+</Window>
