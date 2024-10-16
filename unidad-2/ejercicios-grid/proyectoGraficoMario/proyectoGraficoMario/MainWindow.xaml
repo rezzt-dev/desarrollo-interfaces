@@ -33,10 +33,11 @@
       <RowDefinition Height="*" />
     </Grid.RowDefinitions>
 
-    <Image Name="imageSalida" Grid.Column="9" Grid.Row="9" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/salida.png"/>
-    <Image Name="imageMario" Grid.Column="0" Grid.Row="0" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/mario.png"/>
-    <Image Name="imageVida" Grid.Column="1" Grid.Row="1" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/vida.png"/>
-    <Image Name="imageGuardia" Grid.Column="3" Grid.Row="7" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/guardia.png"/>
-    <Image Name="imageCoin" Grid.Column="2" Grid.Row="8" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/coin.png"/>
+    <Image Name="imageSalida" Grid.Column="9" Grid.Row="9" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/Images/salida.png"/>
+    <Image Name="imageMario1" Grid.Column="0" Grid.Row="0" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/Images/mario2.png" />
+    <Image Name="imageMario2" Grid.Column="1" Grid.Row="0" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/Images/mario1.png"/>
+    <Image Name="imageVida" Grid.Column="1" Grid.Row="1" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/Images/vida.png" />
+    <Image Name="imageGuardia" Grid.Column="3" Grid.Row="7" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/Images/guardia.png"/>
+    <Image Name="imageCoin" Grid.Column="2" Grid.Row="8" Visibility="Visible" HorizontalAlignment="Center" StretchDirection="UpOnly" Source="/Images/coin.png"/>
   </Grid>
 </Window>

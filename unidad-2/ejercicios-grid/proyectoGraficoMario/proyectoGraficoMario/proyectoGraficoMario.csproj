@@ -11,17 +11,22 @@
   <ItemGroup>
     <None Remove="coin.png" />
     <None Remove="guardia.png" />
+    <None Remove="Images\mario1.png" />
+    <None Remove="Images\mario2.png" />
     <None Remove="mario.png" />
+    <None Remove="mario1.png" />
+    <None Remove="mario2.png" />
     <None Remove="salida.png" />
     <None Remove="vida.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="coin.png" />
-    <Resource Include="guardia.png" />
-    <Resource Include="mario.png" />
-    <Resource Include="salida.png" />
-    <Resource Include="vida.png" />
+    <Resource Include="Images\coin.png" />
+    <Resource Include="Images\guardia.png" />
+    <Resource Include="Images\mario1.png" />
+    <Resource Include="Images\mario2.png" />
+    <Resource Include="Images\salida.png" />
+    <Resource Include="Images\vida.png" />
   </ItemGroup>
 
 </Project>
