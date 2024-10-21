@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-panels\\ejercicioContenedores\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32F6ABD2-806B-4456-9B3C-2C7568456131}|ejercicioContenedores\\ejercicioContenedores.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-panels\\ejerciciocontenedores\\ejerciciocontenedores\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{32F6ABD2-806B-4456-9B3C-2C7568456131}|ejercicioContenedores\\ejercicioContenedores.csproj|solutionrelative:ejerciciocontenedores\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32F6ABD2-806B-4456-9B3C-2C7568456131}|ejercicioContenedores\\ejercicioContenedores.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-panels\\ejerciciocontenedores\\ejerciciocontenedores\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32F6ABD2-806B-4456-9B3C-2C7568456131}|ejercicioContenedores\\ejercicioContenedores.csproj|solutionrelative:ejerciciocontenedores\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-panels\\ejercicioContenedores\\ejercicioContenedores\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ejercicioContenedores\\MainWindow.xaml",
+              "ToolTip": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-panels\\ejercicioContenedores\\ejercicioContenedores\\MainWindow.xaml",
+              "RelativeToolTip": "ejercicioContenedores\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-17T11:08:57.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-panels\\ejercicioContenedores\\ejercicioContenedores\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ejercicioContenedores\\MainWindow.xaml.cs",
+              "ToolTip": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-panels\\ejercicioContenedores\\ejercicioContenedores\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ejercicioContenedores\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:08:55.764Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
