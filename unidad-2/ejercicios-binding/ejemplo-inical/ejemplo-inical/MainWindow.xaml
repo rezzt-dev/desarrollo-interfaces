@@ -1,0 +1,38 @@
+﻿<Window x:Class="ejemplo_inical.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ejemplo_inical"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+    <StackPanel>
+      <ToolBar Height="26" Name="toolBar1" Width="200" >
+        <Button>
+          <Image Source="setup.ico"/>
+        </Button>
+        <Button>Nuevo</Button>
+        <Button>Abrir</Button>
+      </ToolBar>
+      <Slider Height="21" Name="slider1" Width="100" />
+      <TreeView Height="150">
+        <TreeViewItem Header="Archivo">
+          <TreeViewItem Header="Nuevo" />
+          <TreeViewItem Header="Abrir" />
+          <TreeViewItem Header="Cerrar" />
+        </TreeViewItem>
+        <TreeViewItem Header="Editar">
+          <TreeViewItem Header="Cortar" />
+          <TreeViewItem Header="Copiar" />
+          <TreeViewItem Header="Pegar" />
+        </TreeViewItem>
+      </TreeView>
+      <StatusBar Height="23" Name="statusBar1" Width="120" >
+        <TextBlock Height="15" Text="Procesando...." />
+        <ProgressBar Height="15" Name="progressBar1" Width="100" Value="20" />
+      </StatusBar>
+      <PasswordBox Name="pwdBox" Width="100" MaxLength="64" PasswordChar="*" />
+    </StackPanel>
+  </Grid>
+</Window>

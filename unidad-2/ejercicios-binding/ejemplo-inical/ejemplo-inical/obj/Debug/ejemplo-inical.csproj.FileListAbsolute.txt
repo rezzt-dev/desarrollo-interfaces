@@ -1,0 +1,15 @@
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-binding\ejemplo-inical\ejemplo-inical\bin\Debug\ejemplo-inical.exe.config
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-binding\ejemplo-inical\ejemplo-inical\bin\Debug\ejemplo-inical.exe
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-binding\ejemplo-inical\ejemplo-inical\bin\Debug\ejemplo-inical.pdb
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-binding\ejemplo-inical\ejemplo-inical\obj\Debug\ejemplo-inical.csproj.AssemblyReference.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-binding\ejemplo-inical\ejemplo-inical\obj\Debug\MainWindow.g.cs
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-binding\ejemplo-inical\ejemplo-inical\obj\Debug\App.g.cs
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-binding\ejemplo-inical\ejemplo-inical\obj\Debug\ejemplo-inical_MarkupCompile.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-binding\ejemplo-inical\ejemplo-inical\obj\Debug\ejemplo-inical_MarkupCompile.lref
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-binding\ejemplo-inical\ejemplo-inical\obj\Debug\MainWindow.baml
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-binding\ejemplo-inical\ejemplo-inical\obj\Debug\ejemplo-inical.g.resources
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-binding\ejemplo-inical\ejemplo-inical\obj\Debug\ejemplo_inical.Properties.Resources.resources
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-binding\ejemplo-inical\ejemplo-inical\obj\Debug\ejemplo-inical.csproj.GenerateResource.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-binding\ejemplo-inical\ejemplo-inical\obj\Debug\ejemplo-inical.csproj.CoreCompileInputs.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-binding\ejemplo-inical\ejemplo-inical\obj\Debug\ejemplo-inical.exe
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-binding\ejemplo-inical\ejemplo-inical\obj\Debug\ejemplo-inical.pdb
