@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\b15-11m\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-avanzados\\ejercicioBinding1\\ejercicioBinding1\\ejercicioBinding1.csproj",
+      "projectUniqueName": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-2\\ejercicios-avanzados\\ejercicioBinding1\\ejercicioBinding1\\ejercicioBinding1.csproj",
       "projectName": "ejercicioBinding1",
-      "projectPath": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-avanzados\\ejercicioBinding1\\ejercicioBinding1\\ejercicioBinding1.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-avanzados\\ejercicioBinding1\\ejercicioBinding1\\obj\\",
+      "projectPath": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-2\\ejercicios-avanzados\\ejercicioBinding1\\ejercicioBinding1\\ejercicioBinding1.csproj",
+      "packagesPath": "C:\\Users\\b15-11m\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-2\\ejercicios-avanzados\\ejercicioBinding1\\ejercicioBinding1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\b15-11m\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

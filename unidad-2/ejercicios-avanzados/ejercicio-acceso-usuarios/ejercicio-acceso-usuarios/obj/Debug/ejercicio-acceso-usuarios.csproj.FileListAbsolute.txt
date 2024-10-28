@@ -1,0 +1,15 @@
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-avanzados\ejercicio-acceso-usuarios\ejercicio-acceso-usuarios\bin\Debug\ejercicio-acceso-usuarios.exe.config
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-avanzados\ejercicio-acceso-usuarios\ejercicio-acceso-usuarios\bin\Debug\ejercicio-acceso-usuarios.exe
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-avanzados\ejercicio-acceso-usuarios\ejercicio-acceso-usuarios\bin\Debug\ejercicio-acceso-usuarios.pdb
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-avanzados\ejercicio-acceso-usuarios\ejercicio-acceso-usuarios\obj\Debug\ejercicio-acceso-usuarios.csproj.AssemblyReference.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-avanzados\ejercicio-acceso-usuarios\ejercicio-acceso-usuarios\obj\Debug\App.g.cs
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-avanzados\ejercicio-acceso-usuarios\ejercicio-acceso-usuarios\obj\Debug\ejercicio-acceso-usuarios_MarkupCompile.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-avanzados\ejercicio-acceso-usuarios\ejercicio-acceso-usuarios\obj\Debug\ejercicio-acceso-usuarios_MarkupCompile.lref
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-avanzados\ejercicio-acceso-usuarios\ejercicio-acceso-usuarios\obj\Debug\ejercicio-acceso-usuarios.g.resources
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-avanzados\ejercicio-acceso-usuarios\ejercicio-acceso-usuarios\obj\Debug\ejercicio_acceso_usuarios.Properties.Resources.resources
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-avanzados\ejercicio-acceso-usuarios\ejercicio-acceso-usuarios\obj\Debug\ejercicio-acceso-usuarios.csproj.GenerateResource.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-avanzados\ejercicio-acceso-usuarios\ejercicio-acceso-usuarios\obj\Debug\ejercicio-acceso-usuarios.csproj.CoreCompileInputs.cache
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-avanzados\ejercicio-acceso-usuarios\ejercicio-acceso-usuarios\obj\Debug\ejercicio-acceso-usuarios.exe
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-avanzados\ejercicio-acceso-usuarios\ejercicio-acceso-usuarios\obj\Debug\ejercicio-acceso-usuarios.pdb
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-avanzados\ejercicio-acceso-usuarios\ejercicio-acceso-usuarios\obj\Debug\vista\MainWindow.g.cs
+C:\Users\b15-11m\Desktop\github\desarrollo-interfaces\unidad-2\ejercicios-avanzados\ejercicio-acceso-usuarios\ejercicio-acceso-usuarios\obj\Debug\vista\MainWindow.baml
