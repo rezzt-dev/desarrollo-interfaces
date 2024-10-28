@@ -1,0 +1,65 @@
+﻿<Window x:Class="ejercicioManejoPersonas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ejercicioManejoPersonas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="3.5*"/>
+      </Grid.ColumnDefinitions>
+
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Vertical" Grid.Row="0">
+          <Label Name="lblNombre" Content="Nombre:" Margin="20,20,20,5" />
+          <TextBox Name="txtNombre" Margin="20,5,20,20" Width="135"/>
+
+          <Label Name="lblApellidos" Content="Apellidos:" Margin="20,20,20,5" />
+          <TextBox Name="txtApellidos" Margin="20,5,20,20" Width="135"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Grid.Row="1"> 
+          <Label Name="lblEdad" Content="Edad:" Margin="20,20,20,5" />
+          <TextBox Name="txtEdad" Margin="20,5,20,20" Width="135"/>
+
+          <Button Name="btnAgregar" Content="Agregar Persona" Width="135" Margin="20" Click="btnAgregar_Click" />
+        </StackPanel>
+      </Grid>
+
+      <Grid Grid.Column="1">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="7*"/>
+          <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+      <DataGrid Name="dgvPersonas" Grid.Row="0" Grid.ColumnSpan="2" AutoGenerateColumns= "False" Margin="0,20,16,0" >
+        <DataGrid.Columns>
+          <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}" />
+          <DataGridTextColumn Header="Apellidos" Binding="{Binding Apellidos}" />
+          <DataGridTextColumn Header="Edad" Binding="{Binding Edad}" />
+        </DataGrid.Columns>
+      </DataGrid>
+
+      <Button Name="btnModificar" Content="Modificar" Grid.Row="1" Grid.Column="0" Width="120" Height="20"
+              HorizontalAlignment="Left" Click="btnModificar_Click"/>
+      <Button Name="btnEliminar" Content="Eliminar" Grid.Row="1" Grid.Column="1" Width="120" Height="20"
+              HorizontalAlignment="Right" Margin="0,0,20,0" Click="btnEliminar_Click"/>
+    </Grid>
+  </Grid>
+</Window>
