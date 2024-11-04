@@ -15,6 +15,7 @@ namespace MarioBrosWPF
     private Image doorImage;
     private Image marioImage;
     private int[,] board = new int[8, 8];
+    private int minPotion;
 
     public MainWindow()
     {
@@ -54,10 +55,30 @@ namespace MarioBrosWPF
         txtLifes.Text = mario.lifes.ToString();
         txtLifes.TextAlignment = TextAlignment.Center;
       }
-      if (txtPotions != null)
+      if (txtPotion != null)
       {
-        txtPotions.Text = mario.potions.ToString();
-        txtPotions.TextAlignment = TextAlignment.Center;
+        txtPotion.Text = minPotion.ToString();
+        txtPotion.TextAlignment = TextAlignment.Center;
+      }
+      if (txtPlayerLifes != null)
+      {
+        txtPlayerLifes.Text = mario.lifes.ToString();
+      }
+      if (txtMinPotion != null)
+      {
+        txtMinPotion.Text = minPotion.ToString();
+      }
+      if (txtPlayerPotion != null)
+      {
+        txtPlayerPotion.Text = mario.potions.ToString();
+      }
+      if (slideCantVidas != null)
+      {
+        slideCantVidas.Value = mario.lifes;
+      }
+      if (slidePocimaTotal != null)
+      {
+        slidePocimaTotal.Value = minPotion;
       }
     }
 
@@ -67,6 +88,9 @@ namespace MarioBrosWPF
       fillWithImages(board, mario);
 
       // Crear y posicionar la imagen de Mario
+      slideCantVidas.Value = mario.lifes;
+      slidePocimaTotal.Value = minPotion;
+      minPotion = 5;
       ClearCell(mario.posI, mario.posJ);
       marioImage = new Image();
       marioImage.Source = new BitmapImage(new Uri("/Images/mario.png", UriKind.Relative));
@@ -134,7 +158,7 @@ namespace MarioBrosWPF
 
       UpdatePlayerUI();
 
-      if (mario.potions >= 5)
+      if (mario.potions >= minPotion)
       {
         GenerateDoor();
       }
@@ -191,6 +215,8 @@ namespace MarioBrosWPF
       // Reiniciar variables de juego
       doorImage = null;
       marioImage = null;
+      slideCantVidas.Value = mario.lifes;
+      slidePocimaTotal.Value = minPotion;
 
       // Volver a inicializar el juego
       inicializar();
@@ -258,6 +284,41 @@ namespace MarioBrosWPF
             container.Children.Add(img);
           }
         }
+      }
+    }
+
+    private void txtPlayerLifes_TextChanged(object sender, TextChangedEventArgs e)
+    {
+      txtPlayerLifes.Text = mario.lifes.ToString();
+    }
+
+    private void txtMinPotion_TextChanged(object sender, TextChangedEventArgs e)
+    {
+      txtPlayerLifes.Text = minPotion.ToString();
+    }
+
+    private void txtPlayerPotion_TextChanged(object sender, TextChangedEventArgs e)
+    {
+      txtPlayerLifes.Text = mario.potions.ToString();
+    }
+
+    private void slideCantVidas_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+    {
+      if (mario != null && txtLifes != null)
+      {
+        mario.lifes = (int)slideCantVidas.Value;
+        txtLifes.Text = mario.lifes.ToString();
+        UpdatePlayerUI();
+      }
+    }
+
+    private void slidePocimaTotal_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+    {
+      if (txtPotion != null)
+      {
+        minPotion = (int)slidePocimaTotal.Value;
+        txtPotion.Text = minPotion.ToString();
+        UpdatePlayerUI();
       }
     }
   }

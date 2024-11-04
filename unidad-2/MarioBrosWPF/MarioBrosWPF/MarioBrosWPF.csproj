@@ -13,6 +13,9 @@
     <None Remove="Images\door-close.png" />
     <None Remove="Images\door-open.png" />
     <None Remove="Images\mario.png" />
+    <None Remove="Images\menuIcons\current-lifes.png" />
+    <None Remove="Images\menuIcons\current-potion.png" />
+    <None Remove="Images\menuIcons\min-potion.png" />
     <None Remove="Images\nail.png" />
     <None Remove="Images\potion.png" />
     <None Remove="Images\star.png" />
@@ -23,6 +26,9 @@
     <Resource Include="Images\door-close.png" />
     <Resource Include="Images\door-open.png" />
     <Resource Include="Images\mario.png" />
+    <Resource Include="Images\menuIcons\current-lifes.png" />
+    <Resource Include="Images\menuIcons\current-potion.png" />
+    <Resource Include="Images\menuIcons\min-potion.png" />
     <Resource Include="Images\nail.png" />
     <Resource Include="Images\potion.png" />
     <Resource Include="Images\star.png" />

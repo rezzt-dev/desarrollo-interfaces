@@ -24,18 +24,90 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
           </Grid.ColumnDefinitions>
 
-          <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center">
-            <Label Content="Vidas: " VerticalAlignment="Center" Margin="5"/>
-            <Separator Margin="30"/>
-            <TextBox Name="txtLifes" Margin="5" Width="200" TextChanged="txtLifes_TextChanged"
-                     Height="30"/>
+          <StackPanel Grid.Row="1" Grid.Column="1" Margin="10">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+              </Grid.ColumnDefinitions>
+
+              <Label Name="lblCantVidas" Content="Indica el Numero Vidas:" Grid.Row="0" Grid.Column="0"
+                     HorizontalAlignment="Left" VerticalAlignment="Center"/>
+              <Slider Name="slideCantVidas" Grid.Row="0" Grid.Column="1" Width="200" Margin="5" Minimum="1" Maximum="100"
+                      IsSnapToTickEnabled="True" TickFrequency="1" TickPlacement="BottomRight"
+                      VerticalAlignment="Center" HorizontalAlignment="Left" ValueChanged="slideCantVidas_ValueChanged"/>
+              <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center">
+                <Label Name="lblVidasTotal" Content="Vidas Maximas:" HorizontalAlignment="Right"
+                       VerticalAlignment="Center" Width="170"/>
+                <Separator Margin="5" Visibility="Hidden"/>
+                <TextBox Name="txtLifes" Margin="5" Width="50" TextChanged="txtLifes_TextChanged"
+                         Height="30" VerticalAlignment="Center" IsReadOnly="True"/>
+              </StackPanel>
+            </Grid>
           </StackPanel>
 
-          <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center">
-            <Label Content="Pocimas: " Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
-            <Separator Margin="30"/>
-            <TextBox Name="txtPotions" Grid.Row="1" Grid.Column="1" Margin="5" Width="200" IsReadOnly="True"
-                     Height="30"/>
+          <StackPanel Grid.Row="2" Grid.Column="1" Margin="10">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+              </Grid.ColumnDefinitions>
+
+              <Label Name="lblCantPocima" Content="Pocimas Minimas:" Grid.Row="0" Grid.Column="0"
+           HorizontalAlignment="Left" VerticalAlignment="Center"/>
+              <Slider Name="slidePocimaTotal" Grid.Row="0" Grid.Column="1" Width="200" Margin="5" Minimum="1" Maximum="10"
+                      IsSnapToTickEnabled="True" TickFrequency="1" TickPlacement="BottomRight"
+                      VerticalAlignment="Center" HorizontalAlignment="Left" ValueChanged="slidePocimaTotal_ValueChanged"/>
+              <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center">
+                <Label Name="lblTotalPocima" Content="Pocimas Minimas:" HorizontalAlignment="Right"
+             VerticalAlignment="Center" Width="170"/>
+                <Separator Margin="5" Visibility="Hidden"/>
+                <TextBox Name="txtPotion" Margin="5" Width="50" TextChanged="txtLifes_TextChanged"
+               Height="30" VerticalAlignment="Center" IsReadOnly="True"/>
+              </StackPanel>
+            </Grid>
+          </StackPanel>
+
+          <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center">
+            <Grid>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+              </Grid.ColumnDefinitions>
+
+              <StackPanel Name="spVidas" Grid.Row="0" Grid.Column="0" Orientation="Vertical" Margin="5,5,5,5" Grid.RowSpan="2">
+                <Image Source="/Images/menuIcons/current-lifes.png" Width="40" />
+                <Label Content="Vidas" HorizontalAlignment="Center"/>
+                <TextBox Name="txtPlayerLifes" TextChanged="txtPlayerLifes_TextChanged"
+                         IsReadOnly="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+              </StackPanel>
+
+              <StackPanel Name="spMinPotion" Grid.Row="0" Grid.Column="1" Orientation="Vertical" Margin="5,5,5,5" Grid.RowSpan="2">
+                <Image Source="/Images/menuIcons/min-potion.png" Width="40" />
+                <Label Content="Min Pocima" HorizontalAlignment="Center"/>
+                <TextBox Name="txtMinPotion" 
+           IsReadOnly="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextChanged="txtMinPotion_TextChanged"/>
+              </StackPanel>
+
+              <StackPanel Name="spPotion" Grid.Row="0" Grid.Column="2" Orientation="Vertical" Margin="5,5,5,5" Grid.RowSpan="2">
+                <Image Source="/Images/menuIcons/current-potion.png" Width="40" />
+                <Label Content="Pocima" HorizontalAlignment="Center"/>
+                <TextBox Name="txtPlayerPotion" 
+           IsReadOnly="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextChanged="txtPlayerPotion_TextChanged"/>
+              </StackPanel>
+            </Grid>
           </StackPanel>
 
         </Grid>
