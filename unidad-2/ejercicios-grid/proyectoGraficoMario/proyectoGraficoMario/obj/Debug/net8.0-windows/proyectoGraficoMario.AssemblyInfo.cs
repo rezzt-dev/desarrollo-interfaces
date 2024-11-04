@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("proyectoGraficoMario")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ee6a1a74710476001ef1b6c377f9b96cdac42a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71d67fba745404973977ac4d1e300f2d88789b13")]
 [assembly: System.Reflection.AssemblyProductAttribute("proyectoGraficoMario")]
 [assembly: System.Reflection.AssemblyTitleAttribute("proyectoGraficoMario")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

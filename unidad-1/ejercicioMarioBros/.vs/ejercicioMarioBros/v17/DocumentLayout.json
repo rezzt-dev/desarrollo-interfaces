@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\",
+  "WorkspaceRootPath": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21887A49-7A3C-4769-8B71-8ACEB834A7AD}|ejercicioMarioBros\\ejercicioMarioBros.csproj|C:\\Users\\Administrator\\Documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejerciciomariobros\\helperoperaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{21887A49-7A3C-4769-8B71-8ACEB834A7AD}|ejercicioMarioBros\\ejercicioMarioBros.csproj|c:\\users\\b15-11m\\desktop\\github\\desarrollo-interfaces\\unidad-1\\ejerciciomariobros\\ejerciciomariobros\\helperoperaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21887A49-7A3C-4769-8B71-8ACEB834A7AD}|ejercicioMarioBros\\ejercicioMarioBros.csproj|solutionrelative:ejerciciomariobros\\helperoperaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21887A49-7A3C-4769-8B71-8ACEB834A7AD}|ejercicioMarioBros\\ejercicioMarioBros.csproj|C:\\Users\\Administrator\\Documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejerciciomariobros\\mario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{21887A49-7A3C-4769-8B71-8ACEB834A7AD}|ejercicioMarioBros\\ejercicioMarioBros.csproj|C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejerciciomariobros\\mario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21887A49-7A3C-4769-8B71-8ACEB834A7AD}|ejercicioMarioBros\\ejercicioMarioBros.csproj|solutionrelative:ejerciciomariobros\\mario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21887A49-7A3C-4769-8B71-8ACEB834A7AD}|ejercicioMarioBros\\ejercicioMarioBros.csproj|c:\\users\\administrator\\documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejerciciomariobros\\ejerciciomariobros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{21887A49-7A3C-4769-8B71-8ACEB834A7AD}|ejercicioMarioBros\\ejercicioMarioBros.csproj|C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejerciciomariobros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21887A49-7A3C-4769-8B71-8ACEB834A7AD}|ejercicioMarioBros\\ejercicioMarioBros.csproj|solutionrelative:ejerciciomariobros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "helperOperaciones.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejercicioMarioBros\\helperOperaciones.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejercicioMarioBros\\helperOperaciones.cs",
               "RelativeDocumentMoniker": "ejercicioMarioBros\\helperOperaciones.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejercicioMarioBros\\helperOperaciones.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejercicioMarioBros\\helperOperaciones.cs",
               "RelativeToolTip": "ejercicioMarioBros\\helperOperaciones.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAswBsAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwBsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T15:47:31.47Z",
               "EditorCaption": ""
@@ -45,11 +45,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Mario.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejercicioMarioBros\\Mario.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejercicioMarioBros\\Mario.cs",
               "RelativeDocumentMoniker": "ejercicioMarioBros\\Mario.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejercicioMarioBros\\Mario.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejercicioMarioBros\\Mario.cs",
               "RelativeToolTip": "ejercicioMarioBros\\Mario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T15:47:11.185Z",
               "EditorCaption": ""
@@ -58,9 +58,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejercicioMarioBros\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejercicioMarioBros\\Program.cs",
               "RelativeDocumentMoniker": "ejercicioMarioBros\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\github-repositories\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejercicioMarioBros\\Program.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-1\\ejercicioMarioBros\\ejercicioMarioBros\\Program.cs",
               "RelativeToolTip": "ejercicioMarioBros\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

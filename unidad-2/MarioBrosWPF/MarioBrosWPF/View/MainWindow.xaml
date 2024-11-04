@@ -1,0 +1,72 @@
+﻿<Window x:Class="MarioBrosWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MarioBrosWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        FontFamily="Cascadia Code Light"
+        FontSize="16">
+  <Grid>
+    <TabControl TabStripPlacement="Left" >
+      <TabItem Header="INICIO">
+        <Grid Background="LightGray" ShowGridLines="True">
+          <Grid.RowDefinitions >
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="6*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+          </Grid.ColumnDefinitions>
+
+          <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center">
+            <Label Content="Vidas: " VerticalAlignment="Center" Margin="5"/>
+            <Separator Margin="30"/>
+            <TextBox Name="txtLifes" Margin="5" Width="200" TextChanged="txtLifes_TextChanged"/>
+          </StackPanel>
+
+          <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center">
+            <Label Content="Pocimas: " Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+            <Separator Margin="30"/>
+            <TextBox Name="txtPotions" Grid.Row="1" Grid.Column="1" Margin="5" Width="200" IsReadOnly="True"/>
+          </StackPanel>
+
+        </Grid>
+      </TabItem>
+      <TabItem Header="JUEGO">
+        <Grid Name="container">
+          <Grid.Background>
+            <ImageBrush ImageSource="/Images/background.jpg" Stretch="UniformToFill"/>
+          </Grid.Background>
+
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+          </Grid.ColumnDefinitions>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+          </Grid.RowDefinitions>
+        </Grid>
+      </TabItem>
+
+    </TabControl>
+  </Grid>
+</Window>

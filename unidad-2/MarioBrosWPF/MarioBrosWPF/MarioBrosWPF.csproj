@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\background.jpg" />
+    <None Remove="Images\door-close.png" />
+    <None Remove="Images\door-open.png" />
+    <None Remove="Images\mario.png" />
+    <None Remove="Images\nail.png" />
+    <None Remove="Images\potion.png" />
+    <None Remove="Images\star.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\background.jpg" />
+    <Resource Include="Images\door-close.png" />
+    <Resource Include="Images\door-open.png" />
+    <Resource Include="Images\mario.png" />
+    <Resource Include="Images\nail.png" />
+    <Resource Include="Images\potion.png" />
+    <Resource Include="Images\star.png" />
+  </ItemGroup>
+
+</Project>
