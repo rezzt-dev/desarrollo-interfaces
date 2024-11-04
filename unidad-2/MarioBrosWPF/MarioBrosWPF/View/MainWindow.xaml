@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MarioBrosWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
+        Title="Juego Mario Bros" Height="450" Width="800"
         FontFamily="Cascadia Code Light"
         FontSize="16">
   <Grid>
@@ -20,20 +20,22 @@
           </Grid.RowDefinitions>
           <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="6*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
           </Grid.ColumnDefinitions>
 
           <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center">
             <Label Content="Vidas: " VerticalAlignment="Center" Margin="5"/>
             <Separator Margin="30"/>
-            <TextBox Name="txtLifes" Margin="5" Width="200" TextChanged="txtLifes_TextChanged"/>
+            <TextBox Name="txtLifes" Margin="5" Width="200" TextChanged="txtLifes_TextChanged"
+                     Height="30"/>
           </StackPanel>
 
           <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center">
             <Label Content="Pocimas: " Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
             <Separator Margin="30"/>
-            <TextBox Name="txtPotions" Grid.Row="1" Grid.Column="1" Margin="5" Width="200" IsReadOnly="True"/>
+            <TextBox Name="txtPotions" Grid.Row="1" Grid.Column="1" Margin="5" Width="200" IsReadOnly="True"
+                     Height="30"/>
           </StackPanel>
 
         </Grid>
