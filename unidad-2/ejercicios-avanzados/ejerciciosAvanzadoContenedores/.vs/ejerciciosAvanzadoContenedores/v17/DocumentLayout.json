@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-2\\ejercicios-avanzados\\ejerciciosAvanzadoContenedores\\",
+  "WorkspaceRootPath": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-avanzados\\ejerciciosAvanzadoContenedores\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9609F2E-328F-46A2-94EC-94AF8A7DF57E}|ejerciciosAvanzadoContenedores\\ejerciciosAvanzadoContenedores.csproj|c:\\users\\b15-11m\\desktop\\github\\desarrollo-interfaces\\unidad-2\\ejercicios-avanzados\\ejerciciosavanzadocontenedores\\ejerciciosavanzadocontenedores\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C9609F2E-328F-46A2-94EC-94AF8A7DF57E}|ejerciciosAvanzadoContenedores\\ejerciciosAvanzadoContenedores.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-avanzados\\ejerciciosavanzadocontenedores\\ejerciciosavanzadocontenedores\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C9609F2E-328F-46A2-94EC-94AF8A7DF57E}|ejerciciosAvanzadoContenedores\\ejerciciosAvanzadoContenedores.csproj|solutionrelative:ejerciciosavanzadocontenedores\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-2\\ejercicios-avanzados\\ejerciciosAvanzadoContenedores\\ejerciciosAvanzadoContenedores\\MainWindow.xaml",
+              "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-avanzados\\ejerciciosAvanzadoContenedores\\ejerciciosAvanzadoContenedores\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ejerciciosAvanzadoContenedores\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-2\\ejercicios-avanzados\\ejerciciosAvanzadoContenedores\\ejerciciosAvanzadoContenedores\\MainWindow.xaml",
+              "ToolTip": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-avanzados\\ejerciciosAvanzadoContenedores\\ejerciciosAvanzadoContenedores\\MainWindow.xaml",
               "RelativeToolTip": "ejerciciosAvanzadoContenedores\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-31T08:08:01.298Z",
