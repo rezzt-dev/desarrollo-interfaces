@@ -38,15 +38,35 @@
           </Grid.ColumnDefinitions>
 
           <Button Name="btnProyectos" Content="PROYECTOS" UseLayoutRounding="False" Width="130" Height="35"
-                  Grid.Row="2" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" Click="btnProyectos_Click" />
+                  Grid.Row="2" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" Click="btnProyectos_Click" >
+            <Button.Background>
+              <ImageBrush ImageSource="/view/boton.png"/>
+            </Button.Background>
+          </Button>
           <Button Name="btnEmpleados" Content="EMPLEADOS" UseLayoutRounding="False" Width="130" Height="35"
-                  Grid.Row="3" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" Click="btnEmpleados_Click"/>
+                  Grid.Row="3" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" Click="btnEmpleados_Click">
+            <Button.Background>
+              <ImageBrush ImageSource="/view/boton.png"/>
+            </Button.Background>
+          </Button>
           <Button Name="btnGEconomica" Content="G.ECONOMICA" UseLayoutRounding="False" Width="130" Height="35"
-                  Grid.Row="4" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" Click="btnGEconomica_Click"/>
+                  Grid.Row="4" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" Click="btnGEconomica_Click">
+            <Button.Background>
+              <ImageBrush ImageSource="/view/boton.png"/>
+            </Button.Background>
+          </Button>
           <Button Name="btnEstadisticas" Content="ESTADISTICAS" UseLayoutRounding="False" Width="130" Height="35"
-                  Grid.Row="2" Grid.Column="1" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" Click="btnEstadisticas_Click"/>
+                  Grid.Row="2" Grid.Column="1" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" Click="btnEstadisticas_Click">
+            <Button.Background>
+              <ImageBrush ImageSource="/view/boton.png"/>
+            </Button.Background>
+          </Button>
           <Button Name="btnUsuarios" Content="USUARIOS" UseLayoutRounding="False" Width="130" Height="35"
-                  Grid.Row="3" Grid.Column="1" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" Click="btnUsuarios_Click"/>
+                  Grid.Row="3" Grid.Column="1" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" Click="btnUsuarios_Click">
+            <Button.Background>
+              <ImageBrush ImageSource="/view/boton.png"/>
+            </Button.Background>
+          </Button>
 
           <Image Name="imgHojaFondo" Grid.Row="2" Grid.Column="2" Grid.RowSpan="4"
                  Source="/Images/hoja.png" HorizontalAlignment="Left" Opacity="0.3"/>

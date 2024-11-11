@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\ejercicioManejoPersonas\\ejercicioManejoPersonas\\ejercicioManejoPersonas.csproj": {}
+    "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\ejercicioManejoPersonas\\ejercicioManejoPersonas\\ejercicioManejoPersonas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\ejercicioManejoPersonas\\ejercicioManejoPersonas\\ejercicioManejoPersonas.csproj": {
+    "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\ejercicioManejoPersonas\\ejercicioManejoPersonas\\ejercicioManejoPersonas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\ejercicioManejoPersonas\\ejercicioManejoPersonas\\ejercicioManejoPersonas.csproj",
+        "projectUniqueName": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\ejercicioManejoPersonas\\ejercicioManejoPersonas\\ejercicioManejoPersonas.csproj",
         "projectName": "ejercicioManejoPersonas",
-        "projectPath": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\ejercicioManejoPersonas\\ejercicioManejoPersonas\\ejercicioManejoPersonas.csproj",
+        "projectPath": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\ejercicioManejoPersonas\\ejercicioManejoPersonas\\ejercicioManejoPersonas.csproj",
         "packagesPath": "C:\\Users\\b15-11m\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\b15-11m\\Desktop\\github\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\ejercicioManejoPersonas\\ejercicioManejoPersonas\\obj\\",
+        "outputPath": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\ejercicioManejoPersonas\\ejercicioManejoPersonas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\b15-11m\\AppData\\Roaming\\NuGet\\NuGet.Config",
