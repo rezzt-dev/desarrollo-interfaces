@@ -25,5 +25,11 @@ namespace ejercicioManejoPersonas.persistance
 
       return listPersonas;
     }
+
+    public void lastId (Persona inputP)
+    {
+      List<Object> listPersona = new List<Object> ();
+      listPersona = DBBroker.obtener
+    }
   }
 }

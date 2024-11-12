@@ -1,0 +1,159 @@
+C:\Users\rmzc01\source\repos\Personas\Personas\obj\Debug\Personas.csproj.AssemblyReference.cache
+C:\Users\rmzc01\source\repos\Personas\Personas\obj\Debug\App.g.cs
+C:\Users\rmzc01\source\repos\Personas\Personas\obj\Debug\Personas_MarkupCompile.cache
+C:\Users\rmzc01\source\repos\Personas\Personas\obj\Debug\Personas_MarkupCompile.lref
+C:\Users\rmzc01\source\repos\Personas\Personas\obj\Debug\view\MainWindow.g.cs
+C:\Users\rmzc01\source\repos\Personas\Personas\bin\Debug\Personas.exe.config
+C:\Users\rmzc01\source\repos\Personas\Personas\bin\Debug\Personas.exe
+C:\Users\rmzc01\source\repos\Personas\Personas\bin\Debug\Personas.pdb
+C:\Users\rmzc01\source\repos\Personas\Personas\obj\Debug\view\MainWindow.baml
+C:\Users\rmzc01\source\repos\Personas\Personas\obj\Debug\Personas.g.resources
+C:\Users\rmzc01\source\repos\Personas\Personas\obj\Debug\Personas.Properties.Resources.resources
+C:\Users\rmzc01\source\repos\Personas\Personas\obj\Debug\Personas.csproj.GenerateResource.cache
+C:\Users\rmzc01\source\repos\Personas\Personas\obj\Debug\Personas.csproj.CoreCompileInputs.cache
+C:\Users\rmzc01\source\repos\Personas\Personas\obj\Debug\Personas.exe
+C:\Users\rmzc01\source\repos\Personas\Personas\obj\Debug\Personas.pdb
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\Personas.exe.config
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\Personas.exe
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\Personas.pdb
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\obj\Debug\Personas.csproj.AssemblyReference.cache
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\obj\Debug\view\MainWindow.g.cs
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\obj\Debug\App.g.cs
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\obj\Debug\Personas_MarkupCompile.cache
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\obj\Debug\Personas_MarkupCompile.lref
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\obj\Debug\view\MainWindow.baml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\obj\Debug\Personas.g.resources
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\obj\Debug\Personas.Properties.Resources.resources
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\obj\Debug\Personas.csproj.GenerateResource.cache
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\obj\Debug\Personas.csproj.CoreCompileInputs.cache
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\obj\Debug\Personas.exe
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\obj\Debug\Personas.pdb
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\Google.Protobuf.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\MySql.Data.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.Buffers.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.IO.Pipelines.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.Memory.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\ZstdSharp.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\Google.Protobuf.pdb
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\Google.Protobuf.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\MySql.Data.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.Buffers.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.IO.Pipelines.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.Memory.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\UT2\PERSONAS\USO DATAGRID PERSONAS COMPLETO CON SIMULACION 24_25\Personas\Personas\obj\Debug\Personas.csproj.Up2Date
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\Personas.exe.config
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\Personas.exe
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\Personas.pdb
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\Google.Protobuf.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\MySql.Data.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.Buffers.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.IO.Pipelines.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.Memory.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\ZstdSharp.dll
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\Google.Protobuf.pdb
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\Google.Protobuf.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\MySql.Data.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.Buffers.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.IO.Pipelines.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.Memory.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\obj\Debug\Personas.csproj.AssemblyReference.cache
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\obj\Debug\view\MainWindow.g.cs
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\obj\Debug\App.g.cs
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\obj\Debug\Personas_MarkupCompile.cache
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\obj\Debug\Personas_MarkupCompile.lref
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\obj\Debug\view\MainWindow.baml
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\obj\Debug\Personas.g.resources
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\obj\Debug\Personas.Properties.Resources.resources
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\obj\Debug\Personas.csproj.GenerateResource.cache
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\obj\Debug\Personas.csproj.CoreCompileInputs.cache
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\obj\Debug\Personas.csproj.Up2Date
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\obj\Debug\Personas.exe
+C:\Users\rmzc01\Desktop\ROSA_DI\ut3\Personas\Personas\obj\Debug\Personas.pdb
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\Personas.exe.config
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\Personas.exe
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\Personas.pdb
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\Google.Protobuf.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\MySql.Data.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.Buffers.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.IO.Pipelines.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.Memory.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\ZstdSharp.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\Google.Protobuf.pdb
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\Google.Protobuf.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\MySql.Data.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.Buffers.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.IO.Pipelines.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.Memory.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\obj\Debug\Personas.csproj.AssemblyReference.cache
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\obj\Debug\view\MainWindow.g.cs
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\obj\Debug\App.g.cs
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\obj\Debug\Personas_MarkupCompile.cache
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\obj\Debug\Personas_MarkupCompile.lref
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\obj\Debug\view\MainWindow.baml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\obj\Debug\Personas.g.resources
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\obj\Debug\Personas.Properties.Resources.resources
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\obj\Debug\Personas.csproj.GenerateResource.cache
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\obj\Debug\Personas.csproj.CoreCompileInputs.cache
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\obj\Debug\Personas.csproj.Up2Date
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\obj\Debug\Personas.exe
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-2\ejercicios-data-grid\Personas\Personas\obj\Debug\Personas.pdb

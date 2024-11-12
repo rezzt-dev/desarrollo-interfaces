@@ -23,5 +23,10 @@ namespace ejercicioManejoPersonas.domain
     public string Nombre {get => _nombre; set => _nombre = value;}
     public string Apellidos {get => _apellidos; set => _apellidos = value;}
     public int Edad {get => _edad; set => _edad = value;}
+
+    public void last()
+    {
+
+    }
   }
 }

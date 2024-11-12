@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\Personas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A32B36C-58B8-4A3F-B133-16148C1F5DE5}|Personas\\Personas.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\Personas\\personas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7A32B36C-58B8-4A3F-B133-16148C1F5DE5}|Personas\\Personas.csproj|solutionrelative:personas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A32B36C-58B8-4A3F-B133-16148C1F5DE5}|Personas\\Personas.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\personas\\personas\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A32B36C-58B8-4A3F-B133-16148C1F5DE5}|Personas\\Personas.csproj|solutionrelative:personas\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A32B36C-58B8-4A3F-B133-16148C1F5DE5}|Personas\\Personas.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\Personas\\personas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A32B36C-58B8-4A3F-B133-16148C1F5DE5}|Personas\\Personas.csproj|solutionrelative:personas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A32B36C-58B8-4A3F-B133-16148C1F5DE5}|Personas\\Personas.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\Personas\\personas\\persistence\\manages\\peoplemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A32B36C-58B8-4A3F-B133-16148C1F5DE5}|Personas\\Personas.csproj|solutionrelative:personas\\persistence\\manages\\peoplemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\Personas\\Personas\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Personas\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\Personas\\Personas\\view\\MainWindow.xaml",
+              "RelativeToolTip": "Personas\\view\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-12T12:42:18.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\Personas\\Personas\\domain\\Persona.cs",
+              "RelativeDocumentMoniker": "Personas\\domain\\Persona.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\Personas\\Personas\\domain\\Persona.cs",
+              "RelativeToolTip": "Personas\\domain\\Persona.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:39:24.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PeopleManage.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\Personas\\Personas\\persistence\\manages\\PeopleManage.cs",
+              "RelativeDocumentMoniker": "Personas\\persistence\\manages\\PeopleManage.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\Personas\\Personas\\persistence\\manages\\PeopleManage.cs",
+              "RelativeToolTip": "Personas\\persistence\\manages\\PeopleManage.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAYwD4AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:32:45.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\Personas\\Personas\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Personas\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\ejercicios-data-grid\\Personas\\Personas\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Personas\\view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAuwF8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T11:10:33.788Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
