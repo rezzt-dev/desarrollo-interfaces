@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectoPersonas\\",
+  "WorkspaceRootPath": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectoPersonas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectopersonas\\proyectopersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectopersonas\\proyectopersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|solutionrelative:proyectopersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectopersonas\\proyectopersonas\\persistence\\manages\\manejopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|solutionrelative:proyectopersonas\\persistence\\manages\\manejopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectopersonas\\proyectopersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|solutionrelative:proyectopersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -23,10 +31,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectoPersonas\\proyectoPersonas\\domain\\Persona.cs",
+              "RelativeDocumentMoniker": "proyectoPersonas\\domain\\Persona.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectoPersonas\\proyectoPersonas\\domain\\Persona.cs",
+              "RelativeToolTip": "proyectoPersonas\\domain\\Persona.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwEgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T09:45:35.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManejoPersonas.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectoPersonas\\proyectoPersonas\\persistence\\manages\\ManejoPersonas.cs",
+              "RelativeDocumentMoniker": "proyectoPersonas\\persistence\\manages\\ManejoPersonas.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectoPersonas\\proyectoPersonas\\persistence\\manages\\ManejoPersonas.cs",
+              "RelativeToolTip": "proyectoPersonas\\persistence\\manages\\ManejoPersonas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T09:45:06.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectoPersonas\\proyectoPersonas\\view\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectoPersonas\\proyectoPersonas\\view\\MainWindow.xaml",
               "RelativeDocumentMoniker": "proyectoPersonas\\view\\MainWindow.xaml",
-              "ToolTip": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectoPersonas\\proyectoPersonas\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectoPersonas\\proyectoPersonas\\view\\MainWindow.xaml",
               "RelativeToolTip": "proyectoPersonas\\view\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-14T17:08:11.878Z",

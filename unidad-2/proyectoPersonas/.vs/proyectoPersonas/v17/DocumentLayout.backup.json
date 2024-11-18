@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectoPersonas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectopersonas\\proyectopersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|solutionrelative:proyectopersonas\\domain\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectopersonas\\proyectopersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|solutionrelative:proyectopersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -27,19 +23,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectoPersonas\\proyectoPersonas\\domain\\Persona.cs",
-              "RelativeDocumentMoniker": "proyectoPersonas\\domain\\Persona.cs",
-              "ToolTip": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectoPersonas\\proyectoPersonas\\domain\\Persona.cs",
-              "RelativeToolTip": "proyectoPersonas\\domain\\Persona.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAowBgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:12:27.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectoPersonas\\proyectoPersonas\\view\\MainWindow.xaml",
               "RelativeDocumentMoniker": "proyectoPersonas\\view\\MainWindow.xaml",
