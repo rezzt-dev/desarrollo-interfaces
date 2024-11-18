@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DataGridPersonas.persistence;
 using proyectoPersonas.persistence.manages;
 
 namespace proyectoPersonas.domain
@@ -10,9 +11,6 @@ namespace proyectoPersonas.domain
   internal class Persona
   {
       // constantes & variables =>
-    private static int nextId = 1;
-
-
     private int id;
     private String nombre;
     private String apellido;
@@ -26,20 +24,22 @@ namespace proyectoPersonas.domain
 
     public Persona (string inputNombre, string inputApellido, int inputEdad)
     {
-      this.id = nextId++;
+      mp = new ManejoPersonas();
+      this.id = mp.getNextId();
       this.nombre = inputNombre;
       this.apellido = inputApellido;
       this.edad = inputEdad;
-      mp = new ManejoPersonas ();
+      mp.incrementNextId();
     }
 
     public Persona(int inputId, string inputNombre, string inputApellido, int inputEdad)
     {
+      mp = new ManejoPersonas();
       this.id = inputId;
+
       this.nombre = inputNombre;
       this.apellido = inputApellido;
       this.edad = inputEdad;
-      mp = new ManejoPersonas();
     }
 
     //————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
@@ -48,10 +48,6 @@ namespace proyectoPersonas.domain
     public List<Persona> genListaPersonas()
     {
       listaPersonas = mp.leerPersonas();
-      if (listaPersonas.Any())
-      {
-        nextId = listaPersonas.Max(p => p.Id) + 1;
-      }
       return listaPersonas;
     }
 
@@ -71,12 +67,6 @@ namespace proyectoPersonas.domain
     public void eliminar()
     {
       mp.deletePersona(this);
-    }
-
-      // metodo | ResetIdCounter | resetea el contadort de id ==>
-    public static void ResetIdCounter()
-    {
-      nextId = 1;
     }
 
     //————————————————————————————————————————————————————————————————————————————————————————————————————————————————————

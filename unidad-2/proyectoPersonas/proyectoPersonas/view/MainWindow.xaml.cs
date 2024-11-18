@@ -59,40 +59,72 @@ namespace proyectoPersonas
 
     private void btnAgregar_Click(object sender, RoutedEventArgs e)
     {
-      persona = new Persona(txtNombre.Text, txtApellido.Text, int.Parse(txtEdad.Text));
-      persona.insertar();
-      listPersonas.Add(persona);
-      dgvPersonas.Items.Refresh();
+      try
+      {
+        // Crea una nueva persona y la guarda en la base de datos
+        Persona nuevaPersona = new Persona(txtNombre.Text, txtApellido.Text, int.Parse(txtEdad.Text));
+        nuevaPersona.insertar();
+
+        // Actualiza la lista y el DataGrid
+        listPersonas.Add(nuevaPersona);
+        dgvPersonas.Items.Refresh();
+
+        // Limpia los campos
+        start();
+      }
+      catch (Exception ex)
+      {
+        MessageBox.Show($"Ocurrió un error al agregar la persona: {ex.Message}");
+      }
     }
 
     private void btnModificar_Click(object sender, RoutedEventArgs e)
     {
-      Persona persona = (Persona)dgvPersonas.SelectedItem;
-      List<Persona> newList = (List<Persona>)dgvPersonas.ItemsSource;
-      newList.Remove(persona);
+      Persona personaSeleccionada = (Persona)dgvPersonas.SelectedItem;
 
-      Persona newPersona = new Persona(txtNombre.Text, txtApellido.Text, int.Parse(txtEdad.Text));
-      newPersona.Id = persona.Id;
+      if (personaSeleccionada != null)
+      {
+        // Actualiza las propiedades directamente
+        personaSeleccionada.Nombre = txtNombre.Text;
+        personaSeleccionada.Apellido = txtApellido.Text;
+        personaSeleccionada.Edad = int.Parse(txtEdad.Text);
 
-      newList.Add(newPersona);
-      persona.modificar();
+        // Actualiza la base de datos
+        personaSeleccionada.modificar();
 
-      dgvPersonas.Items.Refresh();
-      dgvPersonas.ItemsSource = newList;
-      start();
+        // Refresca el DataGrid
+        dgvPersonas.Items.Refresh();
+        start();
+      }
+      else
+      {
+        MessageBox.Show("Seleccione una persona para modificar.");
+      }
     }
 
     private void btnEliminar_Click(object sender, RoutedEventArgs e)
     {
-      if (MessageBox.Show("¿ Quiere eliminar esta persona?", "Confirmación", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+      try
       {
-        Persona persona = (Persona)dgvPersonas.SelectedItem;
-        persona.eliminar();
-        List<Persona> newList = (List<Persona>)dgvPersonas.ItemsSource;
-        newList.Remove(persona);
-        dgvPersonas.Items.Refresh();
-        dgvPersonas.ItemsSource = newList;
-        start();
+        Persona personaSeleccionada = (Persona)dgvPersonas.SelectedItem;
+
+        if (personaSeleccionada != null &&
+          MessageBox.Show("¿Quiere eliminar esta persona?", "Confirmación", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+        {
+          // Elimina de la base de datos
+          personaSeleccionada.eliminar();
+
+          // Actualiza la lista y el DataGrid
+          listPersonas.Remove(personaSeleccionada);
+          dgvPersonas.Items.Refresh();
+
+          // Limpia los campos
+          start();
+        }
+      }
+      catch (Exception ex)
+      {
+        MessageBox.Show($"Ocurrió un error al eliminar la persona: {ex.Message}");
       }
     }
   }

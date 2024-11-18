@@ -56,6 +56,29 @@ namespace DataGridPersonas.persistence
       desconectar();
       return resultado;
     }
+    public int ObtenerContador(string nombre)
+    {
+      string sql = $"SELECT Valor FROM mydb.contador WHERE Nombre = '{nombre}'";
+      List<object> resultado = leer(sql);
+
+      if (resultado.Count > 0 && resultado[0] is List<object> fila && fila.Count > 0)
+      {
+        return int.Parse(fila[0].ToString());
+      }
+
+      throw new Exception("No se encontró el contador especificado en la tabla Contador.");
+    }
+
+    public void IncrementarContador(string nombre)
+    {
+      string sql = $"UPDATE mydb.contador SET Valor = Valor + 1 WHERE Nombre = '{nombre}'";
+      int filasAfectadas = modificar(sql);
+
+      if (filasAfectadas == 0)
+      {
+        throw new Exception("No se pudo incrementar el contador. Verifica que exista en la tabla Contador.");
+      }
+    }
     private void conectar()
     {
       if (DBBroker.conexion.State == System.Data.ConnectionState.Closed)

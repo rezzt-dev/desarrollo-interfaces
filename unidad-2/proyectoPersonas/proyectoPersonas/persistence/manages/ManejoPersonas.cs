@@ -33,14 +33,14 @@ namespace proyectoPersonas.persistence.manages
       List<Object> listaAux = DBBroker.obtenerAgente().leer("SELECT * FROM mydb.persona;");
       foreach (List<Object> aux in listaAux)
       {
-        persona = new Persona(aux[1].ToString(), aux[2].ToString(), Convert.ToInt32(aux[3]));
+        persona = new Persona(Convert.ToInt32(aux[0]), aux[1].ToString(), aux[2].ToString(), Convert.ToInt32(aux[3]));
         listaPersonas.Add(persona);
       }
 
       return listaPersonas;
     }
 
-      // metodo | genListaPersonas | genera y devuelve una lista de personas ==>
+      // metodo | insertarPersona | inserta una persona en la base de datos ==>
     public void insertarPersona(Persona inputPersona)
     {
       DBBroker dbBroker = DBBroker.obtenerAgente();
@@ -63,6 +63,20 @@ namespace proyectoPersonas.persistence.manages
       }
 
       return lastId;
+    }
+
+      // metodo | getNextId | obtiene el siguiente valor para asignar el id a una persona ==>
+    public int getNextId()
+    {
+      DBBroker dbBroker = DBBroker.obtenerAgente();
+      return dbBroker.ObtenerContador("PersonaId");
+    }
+
+      // metodo | incrementNextId | incrementa el contador para que no haya conflictos ==>
+    public void incrementNextId ()
+    {
+      DBBroker dbBroker = DBBroker.obtenerAgente();
+      dbBroker.IncrementarContador("PersonaId");
     }
 
       // metodo | deletePersona | elimina una persona ==>
