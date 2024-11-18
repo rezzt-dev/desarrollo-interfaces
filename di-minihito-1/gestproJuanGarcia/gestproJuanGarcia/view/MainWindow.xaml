@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="GestPro Juan Garcia" Height="450" Width="800"
         Background="#FFEBECDE" UseLayoutRounding="True">
-  <Grid>
+  <Grid Background="Pink">
     <Grid.RowDefinitions>
       <RowDefinition Height="*"/>
       <RowDefinition Height="8*"/>
@@ -17,10 +17,11 @@
            HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FF50345B"
            Foreground="WhiteSmoke"/>
 
-    <TabControl Name="tbcMenu" TabStripPlacement="Left" Grid.Row="1" Margin="5,25,5,5" UseLayoutRounding="False"
-                BorderThickness="0" FontSize="12" FontFamily="Comic Sans MS Bold" Background="{x:Null}" >
-      <TabItem Header="INICIO" IsSelected="True" Padding="5" >
-        <Grid Background="#FFEBECDE">
+    <TabControl Name="tbcMenu" TabStripPlacement="Left" Grid.Row="1" UseLayoutRounding="False"
+                BorderThickness="0" FontSize="12" FontFamily="Comic Sans MS Bold" Background="{x:Null}">
+      <TabItem Header="INICIO" IsSelected="True" Padding="5" BorderBrush="{x:Null}" Background="Pink"
+               Foreground="#FFB18181">
+        <Grid Background="#FFFDFDFD">
           <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
@@ -37,35 +38,34 @@
             <ColumnDefinition Width="*"/>
           </Grid.ColumnDefinitions>
 
+          <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="2" Grid.Column="0" RadiusX="20" RadiusY="100" Width="130" Height="45"/>
           <Button Name="btnProyectos" Content="PROYECTOS" UseLayoutRounding="False" Width="130" Height="35"
-                  Grid.Row="2" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" Click="btnProyectos_Click" >
-            <Button.Background>
-              <ImageBrush ImageSource="/view/boton.png"/>
-            </Button.Background>
+                  Grid.Row="2" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" 
+                  Click="btnProyectos_Click" BorderBrush="Transparent"  Background="{x:Null}">
           </Button>
+
+          <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="3" Grid.Column="0" RadiusX="20" RadiusY="100" Width="130" Height="45"/>
           <Button Name="btnEmpleados" Content="EMPLEADOS" UseLayoutRounding="False" Width="130" Height="35"
-                  Grid.Row="3" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" Click="btnEmpleados_Click">
-            <Button.Background>
-              <ImageBrush ImageSource="/view/boton.png"/>
-            </Button.Background>
+                  Grid.Row="3" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" 
+                  Click="btnEmpleados_Click" BorderBrush="Transparent"  Background="{x:Null}">
           </Button>
+
+          <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="4" Grid.Column="0" RadiusX="20" RadiusY="100" Width="130" Height="45"/>
           <Button Name="btnGEconomica" Content="G.ECONOMICA" UseLayoutRounding="False" Width="130" Height="35"
-                  Grid.Row="4" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" Click="btnGEconomica_Click">
-            <Button.Background>
-              <ImageBrush ImageSource="/view/boton.png"/>
-            </Button.Background>
+                  Grid.Row="4" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" 
+                  Click="btnGEconomica_Click" BorderBrush="Transparent"  Background="{x:Null}">
           </Button>
+
+          <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="2" Grid.Column="1" RadiusX="20" RadiusY="100" Width="130" Height="45"/>
           <Button Name="btnEstadisticas" Content="ESTADISTICAS" UseLayoutRounding="False" Width="130" Height="35"
-                  Grid.Row="2" Grid.Column="1" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" Click="btnEstadisticas_Click">
-            <Button.Background>
-              <ImageBrush ImageSource="/view/boton.png"/>
-            </Button.Background>
+                  Grid.Row="2" Grid.Column="1" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" 
+                  Click="btnEstadisticas_Click" BorderBrush="Transparent"  Background="{x:Null}">
           </Button>
+
+          <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="3" Grid.Column="1" RadiusX="20" RadiusY="100" Width="130" Height="45"/>
           <Button Name="btnUsuarios" Content="USUARIOS" UseLayoutRounding="False" Width="130" Height="35"
-                  Grid.Row="3" Grid.Column="1" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" Click="btnUsuarios_Click">
-            <Button.Background>
-              <ImageBrush ImageSource="/view/boton.png"/>
-            </Button.Background>
+                  Grid.Row="3" Grid.Column="1" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16"
+                  Click="btnUsuarios_Click" BorderBrush="Transparent"  Background="{x:Null}">
           </Button>
 
           <Image Name="imgHojaFondo" Grid.Row="2" Grid.Column="2" Grid.RowSpan="4"
@@ -76,8 +76,9 @@
 
         </Grid>
       </TabItem>
-      <TabItem Name="tbiProyecto" Header="PROYECTO" IsSelected="True" Padding="5" IsEnabled="False">
-        <Grid>
+      <TabItem Name="tbiProyecto" Header="PROYECTO" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
+               Foreground="#FFB18181">
+        <Grid Background="#FFFDFDFD">
           <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
@@ -96,11 +97,13 @@
 
           <TextBox Name="tboxBusqueda" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="10" Padding="5"
                    VerticalContentAlignment="Center" FontSize="16" FontFamily="Comic Sans MS"
-                   BorderThickness="0" Background="#FFE2CDE2" Foreground="#FFC5A6C5" Width="350" Text="Search"/>
+                   BorderThickness="0" Background="#FFE2CDE2" Foreground="#FFC5A6C5" Width="350" Text="Search"
+                   TextChanged="tboxBusqueda_TextChanged" KeyDown="tboxBusqueda_KeyDown"/>
 
           <DataGrid Name="dataProyectos" Grid.Row="2" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="3"
                     BorderThickness="0" Margin="10" FontFamily="Cascadia Code" FontSize="14"
-                    AutoGenerateColumns= "False" Focusable="False">
+                    AutoGenerateColumns= "False" Focusable="False" IsReadOnly="True"
+                    SelectionChanged = "dataProyectos_SelectionChanged">
             <DataGrid.Columns>
               <DataGridTextColumn Header="CODIGO PROYECTO" Binding="{Binding Codigo}"/>
               <DataGridTextColumn Header="NOMBRE" Binding="{Binding Nombre}"/>
@@ -134,29 +137,55 @@
                                BorderThickness="0" FontFamily="Cascadia Code Light"/>
           </StackPanel>
 
-          <StackPanel Name="stpBotonesFuncion" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Orientation="Horizontal"
+          <Grid Name="stpBotonesFuncion" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3"
                       HorizontalAlignment="Right" Margin="0,0,10,0">
-            <Button Name="btnAgregarProyecto" Content="Añadir" Background="#FF50345B" Height="35" Width="135"
-                    FontFamily="Cascadia Code Bold" FontSize="12" Click="btnAgregarProyecto_Click"/>
-            <Separator Margin="5"/>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
 
-            <Button Name="btnModificarProyecto" Content="Modificar" Background="#FF50345B" Height="35" Width="135"
-                    FontFamily="Cascadia Code Bold" FontSize="12" Click="btnModificarProyecto_Click"/>
-            <Separator Margin="5"/>
-            
-            <Button Name="btnEliminarProyecto" Content="Eliminar" Background="#FF50345B" Height="35" Width="135"
-                    FontFamily="Cascadia Code Bold" FontSize="12" Click="btnEliminarProyecto_Click"/>
-          </StackPanel>
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="0" RadiusX="20" RadiusY="100"
+                       Height="40" Width="120"/>
+            <Button Name="btnAgregarProyecto" Grid.Row="0" Grid.Column="0" Content="Añadir" Background="{x:Null}" 
+                    Height="35" Width="135" FontFamily="Cascadia Code Bold" FontSize="12" 
+                    Click="btnAgregarProyecto_Click" Margin="5" BorderBrush="Transparent"/>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="1" RadiusX="20" RadiusY="100"
+                       Height="40" Width="120"/>
+            <Button Name="btnModificarProyecto" Grid.Row="0" Grid.Column="1" Content="Modificar" Background="{x:Null}" 
+                    Height="35" Width="135" FontFamily="Cascadia Code Bold" FontSize="12" Click="btnModificarProyecto_Click"
+                    Margin="5" BorderBrush="Transparent"/>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="2" RadiusX="20" RadiusY="100"
+                       Height="40" Width="120"/>
+            <Button Name="btnEliminarProyecto" Grid.Row="0" Grid.Column="2" Content="Eliminar" Background="{x:Null}" 
+                    Height="35" Width="135" FontFamily="Cascadia Code Bold" FontSize="12" Click="btnEliminarProyecto_Click" 
+                    Margin="5" BorderBrush="Transparent"/>
+          </Grid>
           
           <Image Name="imgLogotipoMaestre2" Grid.Row="5" Grid.Column="0" Source="/Images/logotipo.png"
                  HorizontalAlignment="Left" Margin="2" Width="130"/>
         </Grid>
       </TabItem>
 
-      <TabItem Name="tbiEmpleados" Header="EMPLEADOS" IsSelected="True" Padding="5" IsEnabled="False"/>
-      <TabItem Name="tbiGEconomica" Header="G.ECONOMICA" IsSelected="True" Padding="5" IsEnabled="False"/>
-      <TabItem Name="tbiEstadisticas" Header="ESTADISTICAS" IsSelected="True" Padding="5" IsEnabled="False"/>
-      <TabItem Name="tbiUsuarios" Header="USUARIOS" IsSelected="True" Padding="5" IsEnabled="False"/>
+      <TabItem Name="tbiEmpleados" Header="EMPLEADOS" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
+               Foreground="#FFB18181" BorderThickness="0">
+        <Grid Background="#FFFDFDFD"></Grid>
+      </TabItem>
+
+      <TabItem Name="tbiGEconomica" Header="G.ECONOMICA" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
+               Foreground="#FFB18181" BorderThickness="0">
+        <Grid Background="#FFFDFDFD"></Grid>
+      </TabItem>
+      <TabItem Name="tbiEstadisticas" Header="ESTADISTICAS" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
+               Foreground="#FFB18181" BorderThickness="0">
+        <Grid Background="#FFFDFDFD"></Grid>
+      </TabItem>
+      <TabItem Name="tbiUsuarios" Header="USUARIOS" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
+               Foreground="#FFB18181">
+        <Grid Background="#FFFDFDFD"></Grid>
+      </TabItem>
     </TabControl>
   </Grid>
 </Window>
