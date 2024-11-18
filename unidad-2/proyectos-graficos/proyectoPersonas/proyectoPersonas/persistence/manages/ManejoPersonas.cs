@@ -55,7 +55,7 @@ namespace proyectoPersonas.persistence.manages
     public int getLastId (Persona inputPersona)
     {
       List<Object> listaAux;
-      listaAux = DBBroker.obtenerAgente().leer("select MAX(idpersona) FROM mydb.persona");
+      listaAux = DBBroker.obtenerAgente().leer("select COALESCE(MAX(idpersona), 0) FROM mydb.persona");
 
       foreach (List<Object > aux in listaAux)
       {

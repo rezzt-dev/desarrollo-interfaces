@@ -62,7 +62,7 @@ namespace proyectoPersonas
       try
       {
         // Crea una nueva persona y la guarda en la base de datos
-        Persona nuevaPersona = new Persona(txtNombre.Text, txtApellido.Text, int.Parse(txtEdad.Text));
+        Persona nuevaPersona = new Persona(txtNombre.Text, txtApellido.Text, Convert.ToInt32(txtEdad.Text));
         nuevaPersona.insertar();
 
         // Actualiza la lista y el DataGrid
