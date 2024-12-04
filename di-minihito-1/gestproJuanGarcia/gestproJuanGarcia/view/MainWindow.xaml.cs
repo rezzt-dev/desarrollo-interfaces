@@ -24,11 +24,15 @@ namespace gestproJuanGarcia
   public partial class MainWindow : Window
   {
     private List<Proyecto> listProyectos;
+    private Proyecto proyecto;
 
     public MainWindow()
     {
       InitializeComponent();
       listProyectos = new List<Proyecto>();
+      proyecto = new Proyecto();
+
+      listProyectos = proyecto.getProyectList();
       dataProyectos.ItemsSource = listProyectos;
 
       btnAgregarProyecto.IsEnabled = true;
@@ -41,8 +45,8 @@ namespace gestproJuanGarcia
     {
       txtCodigoProyectoInput.Text = "";
       txtNombreProyectoInput.Text = "";
-      txtFechaInicioInput.Text = "";
-      txtFechaFinInput.Text = "";
+      txtDescripcionProyectoInput.Text = "";
+      txtPresupuestoProyecto.Text = "";
     }
 
     private void dataProyectos_SelectionChanged (object sender, SelectionChangedEventArgs e)
@@ -50,10 +54,10 @@ namespace gestproJuanGarcia
       if (dataProyectos.SelectedItems.Count > 0)
       {
         Proyecto proyecto = (Proyecto) dataProyectos.SelectedItems[0];
-        txtCodigoProyectoInput.Text = proyecto.Codigo.ToString();
+        txtCodigoProyectoInput.Text = proyecto.Codigo;
         txtNombreProyectoInput.Text = proyecto.Nombre;
-        txtFechaInicioInput.Text = proyecto.FechaInicio;
-        txtFechaFinInput.Text = proyecto.FechaFin;
+        txtDescripcionProyectoInput.Text = proyecto.Descripcion;
+        txtPresupuestoProyecto.Text = proyecto.Presupuesto.ToString();
 
         btnAgregarProyecto.IsEnabled = true;
         btnEliminarProyecto.IsEnabled = true;
@@ -63,18 +67,20 @@ namespace gestproJuanGarcia
 
     private void btnAgregarProyecto_Click(object sender, RoutedEventArgs e)
     {
-      if (Int32.TryParse(txtCodigoProyectoInput.Text, out int codigoProyecto))
+      if (Double.TryParse(txtPresupuestoProyecto.Text, out double presupuestoProyecto))
       {
         if (MessageBox.Show("¿Quieres agregar un proyecto?", "Confirmación", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
         {
           try
           {
             Proyecto nuevoProyecto = new Proyecto(
-                codigoProyecto,
+                txtCodigoProyectoInput.Text,
                 txtNombreProyectoInput.Text,
-                txtFechaInicioInput.Text,
-                txtFechaFinInput.Text
+                txtDescripcionProyectoInput.Text,
+                presupuestoProyecto
             );
+
+            nuevoProyecto.insertar();
 
             listProyectos.Add(nuevoProyecto);
             dataProyectos.Items.Refresh();
@@ -88,36 +94,49 @@ namespace gestproJuanGarcia
       }
       else
       {
-        MessageBox.Show("El código del proyecto debe ser un número entero válido.", "Error de entrada", MessageBoxButton.OK, MessageBoxImage.Warning);
+        MessageBox.Show("El presupuesto del proyecto debe ser un numero válido.", "Error de entrada", MessageBoxButton.OK, MessageBoxImage.Warning);
       }
     }
 
     private void btnModificarProyecto_Click(object sender, RoutedEventArgs e)
     {
       Proyecto selectProyecto = (Proyecto)dataProyectos.SelectedItem;
+      Proyecto tempProyect = new Proyecto();
 
-      if (selectProyecto != null)
+      if (Double.TryParse(txtPresupuestoProyecto.Text, out double presupuestoProyecto))
       {
-        selectProyecto.Codigo = Int32.Parse(txtCodigoProyectoInput.Text);
-        selectProyecto.Nombre = txtNombreProyectoInput.Text;
-        selectProyecto.FechaInicio = txtFechaInicioInput.Text;
-        selectProyecto.FechaFin = txtFechaFinInput.Text;
+        if (selectProyecto != null)
+        {
+          tempProyect.Id = selectProyecto.Id;
+          tempProyect.Codigo = txtCodigoProyectoInput.Text;
+          tempProyect.Nombre = txtNombreProyectoInput.Text;
+          tempProyect.Descripcion = txtDescripcionProyectoInput.Text;
+          tempProyect.Presupuesto = presupuestoProyecto;
 
-        dataProyectos.Items.Refresh();
-        cleanData();
+
+          tempProyect.modificar();
+          dataProyectos.Items.Refresh();
+          cleanData();
+        }
       }
+      else
+      {
+        MessageBox.Show("El presupuesto del proyecto debe ser un numero válido.", "Error de entrada", MessageBoxButton.OK, MessageBoxImage.Warning);
+      }
+
+
     }
 
     private void btnEliminarProyecto_Click(object sender, RoutedEventArgs e)
     {
+      Proyecto selectedProyecto = (Proyecto)dataProyectos.SelectedItem;
+
       if (MessageBox.Show("¿Quieres eliminar el proyecto?", "Confirmation", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
       {
-        btnAgregarProyecto.IsEnabled = false;
-        btnModificarProyecto.IsEnabled = false;
-
         if (dataProyectos.SelectedItem != null)
         {
-          listProyectos.Remove((Proyecto)dataProyectos.SelectedItem);
+          selectedProyecto.eliminar();
+          listProyectos.Remove(selectedProyecto);
         }
         dataProyectos.Items.Refresh();
         cleanData();
@@ -127,10 +146,10 @@ namespace gestproJuanGarcia
     private void dataProyectos_Selected(object sender, RoutedEventArgs e)
     {
       Proyecto selectProyecto = (Proyecto)dataProyectos.SelectedItem;
-      txtCodigoProyectoInput.Text = selectProyecto.Codigo.ToString();
+      txtCodigoProyectoInput.Text = selectProyecto.Codigo;
       txtNombreProyectoInput.Text = selectProyecto.Nombre;
-      txtFechaInicioInput.Text = selectProyecto.FechaInicio;
-      txtFechaFinInput.Text = selectProyecto.FechaFin;
+      txtDescripcionProyectoInput.Text = selectProyecto.Descripcion;
+      txtPresupuestoProyecto.Text = selectProyecto.Presupuesto.ToString();
     }
 
     private void tboxBusqueda_KeyDown(object sender, KeyEventArgs e)
@@ -163,10 +182,10 @@ namespace gestproJuanGarcia
       {
         var filteredList = listProyectos.Where(proyecto =>
             proyecto != null && (
-            proyecto.Codigo.ToString().ToLower().Contains(searchText) ||
+            proyecto.Codigo != null && proyecto.Codigo.ToLower().Contains(searchText) ||
             (proyecto.Nombre != null && proyecto.Nombre.ToLower().Contains(searchText)) ||
-            (proyecto.FechaInicio != null && proyecto.FechaInicio.ToLower().Contains(searchText)) ||
-            (proyecto.FechaFin != null && proyecto.FechaFin.ToLower().Contains(searchText))
+            (proyecto.Descripcion != null && proyecto.Descripcion.ToLower().Contains(searchText)) ||
+            (proyecto.Presupuesto > 0 && proyecto.Presupuesto.ToString().Contains(searchText))
             )
         ).ToList();
 
@@ -174,6 +193,18 @@ namespace gestproJuanGarcia
       }
 
       dataProyectos.Items.Refresh();
+    }
+
+    private void btnCargarDatos_Click(object sender, RoutedEventArgs e)
+    {
+      for (int i = 0; i < 20; i++)
+      {
+        Proyecto tempProyecto = new Proyecto();
+        tempProyecto.genProyecto();
+        tempProyecto.insertar();
+        listProyectos.Add(tempProyecto);
+        dataProyectos.Items.Refresh();
+      }
     }
 
     private void btnProyectos_Click(object sender, RoutedEventArgs e)

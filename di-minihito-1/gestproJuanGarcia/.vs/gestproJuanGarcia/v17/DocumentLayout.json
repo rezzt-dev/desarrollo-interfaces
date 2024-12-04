@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\",
+  "WorkspaceRootPath": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestprojuangarcia\\gestprojuangarcia\\persistence\\manage\\proyectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\persistence\\manage\\proyectmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestprojuangarcia\\gestprojuangarcia\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestprojuangarcia\\gestprojuangarcia\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestprojuangarcia\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestprojuangarcia\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestprojuangarcia\\persistence\\manages\\proyectomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\persistence\\manages\\proyectomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestprojuangarcia\\domain\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\domain\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestprojuangarcia\\gestprojuangarcia\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\persistence\\dbbroker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,40 +38,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProyectManager.cs",
-              "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\persistence\\manage\\ProyectManager.cs",
-              "RelativeDocumentMoniker": "gestproJuanGarcia\\persistence\\manage\\ProyectManager.cs",
-              "ToolTip": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\persistence\\manage\\ProyectManager.cs",
-              "RelativeToolTip": "gestproJuanGarcia\\persistence\\manage\\ProyectManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "DBBroker.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\persistence\\DBBroker.cs",
+              "RelativeDocumentMoniker": "gestproJuanGarcia\\persistence\\DBBroker.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\persistence\\DBBroker.cs",
+              "RelativeToolTip": "gestproJuanGarcia\\persistence\\DBBroker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:21:21.352Z",
+              "WhenOpened": "2024-11-26T09:29:58.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DBBroker.cs",
-              "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\persistence\\DBBroker.cs",
-              "RelativeDocumentMoniker": "gestproJuanGarcia\\persistence\\DBBroker.cs",
-              "ToolTip": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\persistence\\DBBroker.cs",
-              "RelativeToolTip": "gestproJuanGarcia\\persistence\\DBBroker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "gestproJuanGarcia\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml",
+              "RelativeToolTip": "gestproJuanGarcia\\view\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-19T12:29:33.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Proyecto.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\domain\\Proyecto.cs",
+              "RelativeDocumentMoniker": "gestproJuanGarcia\\domain\\Proyecto.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\domain\\Proyecto.cs",
+              "RelativeToolTip": "gestproJuanGarcia\\domain\\Proyecto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:16:51.391Z",
+              "WhenOpened": "2024-11-19T12:24:24.898Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "gestproJuanGarcia\\view\\MainWindow.xaml",
-              "ToolTip": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml",
-              "RelativeToolTip": "gestproJuanGarcia\\view\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-05T11:16:36.862Z",
+              "Title": "ProyectoManager.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\persistence\\manages\\ProyectoManager.cs",
+              "RelativeDocumentMoniker": "gestproJuanGarcia\\persistence\\manages\\ProyectoManager.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\persistence\\manages\\ProyectoManager.cs",
+              "RelativeToolTip": "gestproJuanGarcia\\persistence\\manages\\ProyectoManager.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwEYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T12:24:20.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "gestproJuanGarcia\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "gestproJuanGarcia\\view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwCMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T12:19:08.799Z",
               "EditorCaption": ""
             }
           ]

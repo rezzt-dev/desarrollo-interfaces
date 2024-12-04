@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\LudoMarioBrosWPF\\",
+  "WorkspaceRootPath": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectos-graficos\\LudoMarioBrosWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A72A14CB-7E74-433E-8237-F14D60B58E83}|MarioBrosWPF\\MarioBrosWPF.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\ludomariobroswpf\\mariobroswpf\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A72A14CB-7E74-433E-8237-F14D60B58E83}|MarioBrosWPF\\MarioBrosWPF.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectos-graficos\\ludomariobroswpf\\mariobroswpf\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A72A14CB-7E74-433E-8237-F14D60B58E83}|MarioBrosWPF\\MarioBrosWPF.csproj|solutionrelative:mariobroswpf\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\LudoMarioBrosWPF\\MarioBrosWPF\\View\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectos-graficos\\LudoMarioBrosWPF\\MarioBrosWPF\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MarioBrosWPF\\View\\MainWindow.xaml",
-              "ToolTip": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-2\\LudoMarioBrosWPF\\MarioBrosWPF\\View\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-2\\proyectos-graficos\\LudoMarioBrosWPF\\MarioBrosWPF\\View\\MainWindow.xaml",
               "RelativeToolTip": "MarioBrosWPF\\View\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-04T10:01:26.802Z",
