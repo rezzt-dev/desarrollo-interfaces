@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>proyecto_tpv</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\profile-ico.ico" />
+    <None Remove="images\profileImages\image-1.ico" />
+    <None Remove="images\profileImages\image-2.ico" />
+    <None Remove="images\profileImages\image-3.ico" />
+    <None Remove="images\profileImages\image-5.ico" />
+    <None Remove="images\tpvOptions\calendar.ico" />
+    <None Remove="images\tpvOptions\exit.ico" />
+    <None Remove="images\tpvOptions\order.ico" />
+    <None Remove="images\tpvOptions\settings.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="database\" />
+    <Folder Include="images\calendarButtons\" />
+    <Folder Include="persistence\model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Calendar.v3" Version="1.68.0.3592" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\profile-ico.ico" />
+    <Resource Include="images\profileImages\image-1.ico" />
+    <Resource Include="images\profileImages\image-2.ico" />
+    <Resource Include="images\profileImages\image-3.ico" />
+    <Resource Include="images\profileImages\image-5.ico" />
+    <Resource Include="images\profileImages\image-4.ico" />
+    <Resource Include="images\tpvOptions\calendar.ico" />
+    <Resource Include="images\tpvOptions\exit.ico" />
+    <Resource Include="images\tpvOptions\order.ico" />
+    <Resource Include="images\tpvOptions\settings.ico" />
+  </ItemGroup>
+
+</Project>

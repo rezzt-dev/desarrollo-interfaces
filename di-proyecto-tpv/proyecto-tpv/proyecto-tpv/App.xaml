@@ -1,0 +1,9 @@
+﻿<Application x:Class="proyecto_tpv.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:proyecto_tpv"
+             StartupUri="views/TPVWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\views\\tpvwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|solutionrelative:proyecto-tpv\\views\\tpvwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\views\\calendarwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|solutionrelative:proyecto-tpv\\views\\calendarwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TPVWindow.xaml",
+              "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\views\\TPVWindow.xaml",
+              "RelativeDocumentMoniker": "proyecto-tpv\\views\\TPVWindow.xaml",
+              "ToolTip": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\views\\TPVWindow.xaml",
+              "RelativeToolTip": "proyecto-tpv\\views\\TPVWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T22:23:41.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalendarWindow.xaml",
+              "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\views\\CalendarWindow.xaml",
+              "RelativeDocumentMoniker": "proyecto-tpv\\views\\CalendarWindow.xaml",
+              "ToolTip": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\views\\CalendarWindow.xaml",
+              "RelativeToolTip": "proyecto-tpv\\views\\CalendarWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-08T21:49:17.006Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
