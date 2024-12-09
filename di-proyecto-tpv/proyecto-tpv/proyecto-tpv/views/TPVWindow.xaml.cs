@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using proyecto_tpv.views.productViews;
 
 namespace proyecto_tpv.views
 {
@@ -31,8 +32,8 @@ namespace proyecto_tpv.views
 
     private void optCalendar_Click(object sender, RoutedEventArgs e)
     {
-      CalendarWindow calendarWindow = new CalendarWindow();
-      calendarWindow.Show();
+      InventoryWindow inventoryWindow = new InventoryWindow();
+      inventoryWindow.Show();
       this.Close();
     }
 
@@ -41,6 +42,16 @@ namespace proyecto_tpv.views
       SettingsWindow settingsWindow = new SettingsWindow();
       settingsWindow.Show();
       this.Close();
+    }
+
+    private void btnRefrescos_Click(object sender, RoutedEventArgs e)
+    {
+      contenidoProductos.Navigate(new coolDrinksPage());
+    }
+
+    private void btnAlcohol_Click(object sender, RoutedEventArgs e)
+    {
+      contenidoProductos.Navigate(new alcoholicDrinksPage());
     }
   }
 }

@@ -7,7 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="views\CalendarWindow.xaml.cs">
+    <Compile Update="views\InventoryWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\popViews\CreateProduct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\productViews\alcoholicDrinksPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\productViews\coolDrinksPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="views\SettingsWindow.xaml.cs">
@@ -18,7 +27,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="views\CalendarWindow.xaml">
+    <Page Update="views\InventoryWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\popViews\CreateProduct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\productViews\alcoholicDrinksPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\productViews\coolDrinksPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="views\SettingsWindow.xaml">

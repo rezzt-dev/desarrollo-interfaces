@@ -26,8 +26,8 @@ namespace proyecto_tpv.views
 
     private void optCalendar_Click(object sender, RoutedEventArgs e)
     {
-      CalendarWindow calendarWindow = new CalendarWindow();
-      calendarWindow.Show();
+      InventoryWindow inventoryWindow = new InventoryWindow();
+      inventoryWindow.Show();
       this.Close();
     }
 

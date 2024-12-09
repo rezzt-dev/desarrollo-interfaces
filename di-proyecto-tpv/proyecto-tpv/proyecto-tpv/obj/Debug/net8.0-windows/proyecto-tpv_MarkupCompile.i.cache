@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 G:\documents\github-repositories\personal-data\desarrollo-interfaces\di-proyecto-tpv\proyecto-tpv\proyecto-tpv\App.xaml
-32061829960
+6-1404104658
 
-8-1674743876
-204825809106
-views\CalendarWindow.xaml;views\SettingsWindow.xaml;views\TPVWindow.xaml;
+18799420647
+2121917240916
+views\InventoryWindow.xaml;views\popViews\CreateProduct.xaml;views\productViews\alcoholicDrinksPage.xaml;views\productViews\coolDrinksPage.xaml;views\SettingsWindow.xaml;views\TPVWindow.xaml;
 
-True
+False
 

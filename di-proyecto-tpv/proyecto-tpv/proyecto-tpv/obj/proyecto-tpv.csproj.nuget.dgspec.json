@@ -53,6 +53,10 @@
             "Google.Apis.Calendar.v3": {
               "target": "Package",
               "version": "[1.68.0.3592, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.1.0, )"
             }
           },
           "imports": [
@@ -74,7 +78,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

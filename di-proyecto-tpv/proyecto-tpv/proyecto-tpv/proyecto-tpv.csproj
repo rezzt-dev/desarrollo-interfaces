@@ -10,11 +10,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="images\productImages\alcoholicDrinks\cerveza.png" />
+    <None Remove="images\productImages\alcoholicDrinks\vinotinto.ico" />
+    <None Remove="images\productImages\alcoholicDrinks\whisky.ico" />
+    <None Remove="images\productImages\coolDrinks\agua.ico" />
+    <None Remove="images\productImages\coolDrinks\cocacola.ico" />
+    <None Remove="images\productImages\coolDrinks\fanta.ico" />
     <None Remove="images\profile-ico.ico" />
     <None Remove="images\profileImages\image-1.ico" />
     <None Remove="images\profileImages\image-2.ico" />
     <None Remove="images\profileImages\image-3.ico" />
     <None Remove="images\profileImages\image-5.ico" />
+    <None Remove="images\tpvFoodImages\alcohol.ico" />
+    <None Remove="images\tpvFoodImages\aperitivo.ico" />
+    <None Remove="images\tpvFoodImages\cafe.ico" />
+    <None Remove="images\tpvFoodImages\entrante.ico" />
+    <None Remove="images\tpvFoodImages\postre.ico" />
+    <None Remove="images\tpvFoodImages\principal.ico" />
+    <None Remove="images\tpvFoodImages\refresco.ico" />
     <None Remove="images\tpvOptions\calendar.ico" />
     <None Remove="images\tpvOptions\exit.ico" />
     <None Remove="images\tpvOptions\order.ico" />
@@ -24,20 +37,33 @@
   <ItemGroup>
     <Folder Include="database\" />
     <Folder Include="images\calendarButtons\" />
-    <Folder Include="persistence\model\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Google.Apis.Calendar.v3" Version="1.68.0.3592" />
+    <PackageReference Include="MySql.Data" Version="9.1.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="images\productImages\alcoholicDrinks\cerveza.png" />
+    <Resource Include="images\productImages\alcoholicDrinks\vinotinto.ico" />
+    <Resource Include="images\productImages\alcoholicDrinks\whisky.ico" />
+    <Resource Include="images\productImages\coolDrinks\agua.ico" />
+    <Resource Include="images\productImages\coolDrinks\cocacola.ico" />
+    <Resource Include="images\productImages\coolDrinks\fanta.ico" />
     <Resource Include="images\profile-ico.ico" />
     <Resource Include="images\profileImages\image-1.ico" />
     <Resource Include="images\profileImages\image-2.ico" />
     <Resource Include="images\profileImages\image-3.ico" />
     <Resource Include="images\profileImages\image-5.ico" />
     <Resource Include="images\profileImages\image-4.ico" />
+    <Resource Include="images\tpvFoodImages\alcohol.ico" />
+    <Resource Include="images\tpvFoodImages\aperitivo.ico" />
+    <Resource Include="images\tpvFoodImages\cafe.ico" />
+    <Resource Include="images\tpvFoodImages\entrante.ico" />
+    <Resource Include="images\tpvFoodImages\postre.ico" />
+    <Resource Include="images\tpvFoodImages\principal.ico" />
+    <Resource Include="images\tpvFoodImages\refresco.ico" />
     <Resource Include="images\tpvOptions\calendar.ico" />
     <Resource Include="images\tpvOptions\exit.ico" />
     <Resource Include="images\tpvOptions\order.ico" />
