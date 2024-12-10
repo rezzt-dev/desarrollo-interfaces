@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\views\\tpvwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|solutionrelative:proyecto-tpv\\views\\tpvwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\views\\inventorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|solutionrelative:proyecto-tpv\\views\\inventorywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TPVWindow.xaml.cs",
+              "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\views\\TPVWindow.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto-tpv\\views\\TPVWindow.xaml.cs",
+              "ToolTip": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\views\\TPVWindow.xaml.cs",
+              "RelativeToolTip": "proyecto-tpv\\views\\TPVWindow.xaml.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAA0wKwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T19:40:46.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "InventoryWindow.xaml.cs",
               "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\views\\InventoryWindow.xaml.cs",
               "RelativeDocumentMoniker": "proyecto-tpv\\views\\InventoryWindow.xaml.cs",
               "ToolTip": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\views\\InventoryWindow.xaml.cs",
               "RelativeToolTip": "proyecto-tpv\\views\\InventoryWindow.xaml.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAzwGEAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAxwGAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T19:01:28.07Z",
               "EditorCaption": ""

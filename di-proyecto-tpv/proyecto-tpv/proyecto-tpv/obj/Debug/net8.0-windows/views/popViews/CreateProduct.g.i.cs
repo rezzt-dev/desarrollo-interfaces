@@ -133,7 +133,7 @@ namespace proyecto_tpv.views.popViews {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/proyecto-tpv;component/views/popviews/createproduct.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/proyecto-tpv;V1.0.0.0;component/views/popviews/createproduct.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\views\popViews\CreateProduct.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
