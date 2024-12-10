@@ -24,6 +24,18 @@ namespace proyecto_tpv.views.popViews
     public CreateProduct()
     {
       InitializeComponent();
+      startCategorias();
+    }
+    private void startCategorias ()
+    {
+      List<Categoria> categorias = new Categoria().getCategoriaList();
+      List<String> nombreCategorias = new List<String>();
+
+      foreach (Categoria c in categorias)
+      {
+        nombreCategorias.Add(c.Nombre);
+      }
+      lstCategorias.ItemsSource = nombreCategorias;
     }
 
     private void btnCancelar_Click(object sender, RoutedEventArgs e)
@@ -38,7 +50,8 @@ namespace proyecto_tpv.views.popViews
         if (decimal.TryParse(inputPrecioProduct.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out decimal precioProducto) &&
             int.TryParse(inputStockProduct.Text, out int stockProducto))
         {
-          Categoria tempCategoria = new Categoria().getCategoriaList().Find(c => c.Nombre.Equals(inputCategoriaProduct.Text));
+          String nombreCategoria = (string)lstCategorias.SelectedItem;
+          Categoria tempCategoria = new Categoria().getCategoriaList().Find(c => c.Nombre.Equals(nombreCategoria));
           if (tempCategoria != null)
           {
             Producto tempProducto = new Producto(inputNombreProduct.Text, precioProducto, tempCategoria.Id, tempCategoria.Nombre, stockProducto);

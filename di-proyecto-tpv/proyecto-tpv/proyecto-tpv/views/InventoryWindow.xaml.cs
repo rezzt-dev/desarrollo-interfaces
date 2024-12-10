@@ -87,5 +87,24 @@ namespace proyecto_tpv.views
         dataInventario.Items.Refresh();
       }
     }
+
+    private void btnProductosCriticos_Click(object sender, RoutedEventArgs e)
+    {
+      if (listaProductos == null)
+      {
+        return;
+      } else
+      {
+        var listaFiltrada = listaProductos.Where(p => p != null && p.Stock <= 10).ToList();
+        dataInventario.ItemsSource = listaFiltrada;
+      }
+
+      dataInventario.Items.Refresh();
+    }
+
+    private void btnTodosLosProductos_Click(object sender, RoutedEventArgs e)
+    {
+      windowStart();
+    }
   }
 }

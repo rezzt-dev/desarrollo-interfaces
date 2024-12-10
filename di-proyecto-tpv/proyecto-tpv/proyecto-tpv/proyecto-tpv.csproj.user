@@ -16,7 +16,22 @@
     <Compile Update="views\productViews\alcoholicDrinksPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="views\productViews\aperitivosPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="views\productViews\coolDrinksPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\productViews\entrantesPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\productViews\hotDrinksPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\productViews\platoPrincipalPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\productViews\postrePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="views\SettingsWindow.xaml.cs">
@@ -36,7 +51,22 @@
     <Page Update="views\productViews\alcoholicDrinksPage.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="views\productViews\aperitivosPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="views\productViews\coolDrinksPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\productViews\entrantesPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\productViews\hotDrinksPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\productViews\platoPrincipalPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\productViews\postrePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="views\SettingsWindow.xaml">

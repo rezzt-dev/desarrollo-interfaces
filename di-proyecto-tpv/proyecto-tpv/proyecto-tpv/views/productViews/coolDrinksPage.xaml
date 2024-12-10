@@ -13,33 +13,73 @@
       <RowDefinition Height="*"/>
       <RowDefinition Height="*"/>
       <RowDefinition Height="*"/>
-      <RowDefinition Height="*"/>
     </Grid.RowDefinitions>
     <Grid.ColumnDefinitions>
-      <ColumnDefinition Width="*"/>
       <ColumnDefinition Width="*"/>
       <ColumnDefinition Width="*"/>
       <ColumnDefinition Width="*"/>
     </Grid.ColumnDefinitions>
 
     <Rectangle Grid.Row="0" Grid.Column="0" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
-    <Button Name="btnAguaMineral" Grid.Row="0" Grid.Column="0" Margin="8" BorderBrush="{x:Null}">
+    <Button Name="btnAguaMineral" Grid.Row="0" Grid.Column="0" Margin="8" BorderBrush="{x:Null}" Click="btnAguaMineral_Click">
       <Button.Background>
         <ImageBrush ImageSource="/images/productImages/coolDrinks/agua.ico" Stretch="Uniform"/>
       </Button.Background>
     </Button>
 
     <Rectangle Grid.Row="0" Grid.Column="1" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
-    <Button Name="btnCocaCola" Grid.Row="0" Grid.Column="1" Margin="8" BorderBrush="{x:Null}">
+    <Button Name="btnCocaCola" Grid.Row="0" Grid.Column="1" Margin="8" BorderBrush="{x:Null}" Click="btnCocaCola_Click">
       <Button.Background>
         <ImageBrush ImageSource="/images/productImages/coolDrinks/cocacola.ico" Stretch="Uniform"/>
       </Button.Background>
     </Button>
 
     <Rectangle Grid.Row="0" Grid.Column="2" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
-    <Button Name="btnFantaNaranja" Grid.Row="0" Grid.Column="2" Margin="8" BorderBrush="{x:Null}">
+    <Button Name="btnFantaNaranja" Grid.Row="0" Grid.Column="2" Margin="8" BorderBrush="{x:Null}" Click="btnFantaNaranja_Click">
       <Button.Background>
         <ImageBrush ImageSource="/images/productImages/coolDrinks/fanta.ico" Stretch="Uniform"/>
+      </Button.Background>
+    </Button>
+
+    <Rectangle Grid.Row="1" Grid.Column="0" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
+    <Button Name="btnAguaGas" Grid.Row="1" Grid.Column="0" Margin="8" BorderBrush="{x:Null}" Click="btnAguaGas_Click">
+      <Button.Background>
+        <ImageBrush ImageSource="/images/productImages/coolDrinks/agua-gas.ico" Stretch="Uniform"/>
+      </Button.Background>
+    </Button>
+
+    <Rectangle Grid.Row="1" Grid.Column="1" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
+    <Button Name="btnBatidoFresa" Grid.Row="1" Grid.Column="1" Margin="8" BorderBrush="{x:Null}" Click="btnBatidoFresa_Click">
+      <Button.Background>
+        <ImageBrush ImageSource="/images/productImages/coolDrinks/batido-fresa.ico" Stretch="Uniform"/>
+      </Button.Background>
+    </Button>
+
+    <Rectangle Grid.Row="1" Grid.Column="2" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
+    <Button Name="btnBatidoPlatano" Grid.Row="1" Grid.Column="2" Margin="8" BorderBrush="{x:Null}" Click="btnBatidoPlatano_Click">
+      <Button.Background>
+        <ImageBrush ImageSource="/images/productImages/coolDrinks/batido-platano.ico" Stretch="Uniform"/>
+      </Button.Background>
+    </Button>
+
+    <Rectangle Grid.Row="2" Grid.Column="0" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
+    <Button Name="btnLimonada" Grid.Row="2" Grid.Column="0" Margin="8" BorderBrush="{x:Null}" Click="btnLimonada_Click">
+      <Button.Background>
+        <ImageBrush ImageSource="/images/productImages/coolDrinks/limonada.ico" Stretch="Uniform"/>
+      </Button.Background>
+    </Button>
+
+    <Rectangle Grid.Row="2" Grid.Column="1" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
+    <Button Name="btnTonica" Grid.Row="2" Grid.Column="1" Margin="8" BorderBrush="{x:Null}" Click="btnTonica_Click">
+      <Button.Background>
+        <ImageBrush ImageSource="/images/productImages/coolDrinks/tonica.ico" Stretch="Uniform"/>
+      </Button.Background>
+    </Button>
+
+    <Rectangle Grid.Row="2" Grid.Column="2" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
+    <Button Name="btnZumoNaranja" Grid.Row="2" Grid.Column="2" Margin="8" BorderBrush="{x:Null}" Click="btnZumoNaranja_Click">
+      <Button.Background>
+        <ImageBrush ImageSource="/images/productImages/coolDrinks/zumo-naranja.png" Stretch="Uniform"/>
       </Button.Background>
     </Button>
   </Grid>

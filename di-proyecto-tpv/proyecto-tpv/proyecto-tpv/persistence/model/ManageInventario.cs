@@ -9,7 +9,7 @@ using proyecto_tpv.domain;
 
 namespace proyecto_tpv.persistence.model
 {
-  internal class ManageInventario
+  public class ManageInventario
   {
     private DataTable dataTable;
     private List<Inventario> listInventario;
