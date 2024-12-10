@@ -11,11 +11,53 @@
 
   <ItemGroup>
     <None Remove="images\productImages\alcoholicDrinks\cerveza.png" />
+    <None Remove="images\productImages\alcoholicDrinks\gin-tonic.ico" />
+    <None Remove="images\productImages\alcoholicDrinks\mojito.ico" />
+    <None Remove="images\productImages\alcoholicDrinks\ron-cola.ico" />
+    <None Remove="images\productImages\alcoholicDrinks\sangria.ico" />
+    <None Remove="images\productImages\alcoholicDrinks\tequila-sunrise.ico" />
+    <None Remove="images\productImages\alcoholicDrinks\tercio.ico" />
     <None Remove="images\productImages\alcoholicDrinks\vinotinto.ico" />
     <None Remove="images\productImages\alcoholicDrinks\whisky.ico" />
+    <None Remove="images\productImages\aperitivosFood\aceitunas.ico" />
+    <None Remove="images\productImages\aperitivosFood\almendras.ico" />
+    <None Remove="images\productImages\aperitivosFood\calamares.ico" />
+    <None Remove="images\productImages\aperitivosFood\mini-sandwich.ico" />
+    <None Remove="images\productImages\aperitivosFood\queso.ico" />
+    <None Remove="images\productImages\aperitivosFood\tortilla-patatas.ico" />
+    <None Remove="images\productImages\coolDrinks\agua-gas.ico" />
     <None Remove="images\productImages\coolDrinks\agua.ico" />
+    <None Remove="images\productImages\coolDrinks\batido-fresa.ico" />
+    <None Remove="images\productImages\coolDrinks\batido-platano.ico" />
     <None Remove="images\productImages\coolDrinks\cocacola.ico" />
     <None Remove="images\productImages\coolDrinks\fanta.ico" />
+    <None Remove="images\productImages\coolDrinks\limonada.ico" />
+    <None Remove="images\productImages\coolDrinks\tonica.ico" />
+    <None Remove="images\productImages\coolDrinks\zumo-naranja.png" />
+    <None Remove="images\productImages\entranteFood\bruschetta.ico" />
+    <None Remove="images\productImages\entranteFood\croquetas.ico" />
+    <None Remove="images\productImages\entranteFood\hummus.png" />
+    <None Remove="images\productImages\entranteFood\mejillones.ico" />
+    <None Remove="images\productImages\entranteFood\rollitos-primavera.ico" />
+    <None Remove="images\productImages\entranteFood\tostadas.ico" />
+    <None Remove="images\productImages\hotDrinks\chocolate.ico" />
+    <None Remove="images\productImages\hotDrinks\descafeinado.ico" />
+    <None Remove="images\productImages\hotDrinks\expresso.ico" />
+    <None Remove="images\productImages\hotDrinks\latte.ico" />
+    <None Remove="images\productImages\hotDrinks\macchiato.ico" />
+    <None Remove="images\productImages\hotDrinks\tenegro.ico" />
+    <None Remove="images\productImages\platoPrincipalFood\costillas-bbq.ico" />
+    <None Remove="images\productImages\platoPrincipalFood\filete.ico" />
+    <None Remove="images\productImages\platoPrincipalFood\lasagna.ico" />
+    <None Remove="images\productImages\platoPrincipalFood\margarita.ico" />
+    <None Remove="images\productImages\platoPrincipalFood\risotto.ico" />
+    <None Remove="images\productImages\platoPrincipalFood\tacos-pollo.ico" />
+    <None Remove="images\productImages\postreFood\crema-catalana.ico" />
+    <None Remove="images\productImages\postreFood\cupcake-vainilla.ico" />
+    <None Remove="images\productImages\postreFood\flan-caramelo.ico" />
+    <None Remove="images\productImages\postreFood\gelatina.ico" />
+    <None Remove="images\productImages\postreFood\mousse-chocolate.ico" />
+    <None Remove="images\productImages\postreFood\pastel-zanahoria.ico" />
     <None Remove="images\profile-ico.ico" />
     <None Remove="images\profileImages\image-1.ico" />
     <None Remove="images\profileImages\image-2.ico" />
@@ -35,7 +77,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="database\" />
+    <Resource Include="images\productImages\aperitivosFood\aceitunas.ico" />
+    <Resource Include="images\productImages\aperitivosFood\almendras.ico" />
+    <Resource Include="images\productImages\aperitivosFood\calamares.ico" />
+    <Resource Include="images\productImages\aperitivosFood\mini-sandwich.ico" />
+    <Resource Include="images\productImages\aperitivosFood\queso.ico" />
+    <Resource Include="images\productImages\aperitivosFood\tortilla-patatas.ico" />
+    <Resource Include="images\productImages\coolDrinks\limonada.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\productImages\alcoholicDrinks\tequila-sunrise.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="images\calendarButtons\" />
   </ItemGroup>
 
@@ -46,11 +101,45 @@
 
   <ItemGroup>
     <Resource Include="images\productImages\alcoholicDrinks\cerveza.png" />
+    <Resource Include="images\productImages\alcoholicDrinks\gin-tonic.ico" />
+    <Resource Include="images\productImages\alcoholicDrinks\mojito.ico" />
+    <Resource Include="images\productImages\alcoholicDrinks\ron-cola.ico" />
+    <Resource Include="images\productImages\alcoholicDrinks\sangria.ico" />
+    <Resource Include="images\productImages\alcoholicDrinks\tercio.ico" />
     <Resource Include="images\productImages\alcoholicDrinks\vinotinto.ico" />
     <Resource Include="images\productImages\alcoholicDrinks\whisky.ico" />
+    <Resource Include="images\productImages\coolDrinks\agua-gas.ico" />
     <Resource Include="images\productImages\coolDrinks\agua.ico" />
+    <Resource Include="images\productImages\coolDrinks\batido-fresa.ico" />
+    <Resource Include="images\productImages\coolDrinks\batido-platano.ico" />
     <Resource Include="images\productImages\coolDrinks\cocacola.ico" />
     <Resource Include="images\productImages\coolDrinks\fanta.ico" />
+    <Resource Include="images\productImages\coolDrinks\tonica.ico" />
+    <Resource Include="images\productImages\coolDrinks\zumo-naranja.png" />
+    <Resource Include="images\productImages\entranteFood\bruschetta.ico" />
+    <Resource Include="images\productImages\entranteFood\croquetas.ico" />
+    <Resource Include="images\productImages\entranteFood\hummus.png" />
+    <Resource Include="images\productImages\entranteFood\mejillones.ico" />
+    <Resource Include="images\productImages\entranteFood\rollitos-primavera.ico" />
+    <Resource Include="images\productImages\entranteFood\tostadas.ico" />
+    <Resource Include="images\productImages\hotDrinks\chocolate.ico" />
+    <Resource Include="images\productImages\hotDrinks\descafeinado.ico" />
+    <Resource Include="images\productImages\hotDrinks\expresso.ico" />
+    <Resource Include="images\productImages\hotDrinks\latte.ico" />
+    <Resource Include="images\productImages\hotDrinks\macchiato.ico" />
+    <Resource Include="images\productImages\hotDrinks\tenegro.ico" />
+    <Resource Include="images\productImages\platoPrincipalFood\costillas-bbq.ico" />
+    <Resource Include="images\productImages\platoPrincipalFood\filete.ico" />
+    <Resource Include="images\productImages\platoPrincipalFood\lasagna.ico" />
+    <Resource Include="images\productImages\platoPrincipalFood\margarita.ico" />
+    <Resource Include="images\productImages\platoPrincipalFood\risotto.ico" />
+    <Resource Include="images\productImages\platoPrincipalFood\tacos-pollo.ico" />
+    <Resource Include="images\productImages\postreFood\crema-catalana.ico" />
+    <Resource Include="images\productImages\postreFood\cupcake-vainilla.ico" />
+    <Resource Include="images\productImages\postreFood\flan-caramelo.ico" />
+    <Resource Include="images\productImages\postreFood\gelatina.ico" />
+    <Resource Include="images\productImages\postreFood\mousse-chocolate.ico" />
+    <Resource Include="images\productImages\postreFood\pastel-zanahoria.ico" />
     <Resource Include="images\profile-ico.ico" />
     <Resource Include="images\profileImages\image-1.ico" />
     <Resource Include="images\profileImages\image-2.ico" />

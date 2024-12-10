@@ -11,7 +11,7 @@ using proyecto_tpv.domain;
 
 namespace proyecto_tpv.persistence.model
 {
-  class ManageProductos
+  public class ManageProductos
   {
     private DataTable dataTable;
     private List<Producto> listProductos;
@@ -65,12 +65,12 @@ namespace proyecto_tpv.persistence.model
 
     public void insertarProducto (Producto producto)
     {
+      string precioFormateado = producto.Precio.ToString("0.00", System.Globalization.CultureInfo.InvariantCulture);
+      string query = $"INSERT INTO tpv_bar.productos (id_producto, nombre, precio, id_categoria) " +
+                     $"VALUES ({producto.Id}, {producto.Nombre}, {precioFormateado}, {producto.idCategoria});";
+
       DBBroker dbBroker = DBBroker.obtenerAgente();
-      dbBroker.modificar("INSERT INTO tpv_bar.productos (id_producto, nombre, precio, id_categoria) values (" + 
-        producto.Id + ", '" + 
-        producto.Nombre + "', " + 
-        producto.Precio + ", " + 
-        producto.idCategoria + ");");
+      dbBroker.modificar(query);
 
       Inventario tempIvent = new Inventario();
       tempIvent.Id = producto.Id;

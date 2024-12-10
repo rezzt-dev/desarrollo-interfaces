@@ -8,7 +8,7 @@ using proyecto_tpv.persistence.model;
 
 namespace proyecto_tpv.domain
 {
-  internal class Producto
+  public class Producto
   {
     private int _id;
     private string _nombre;
@@ -16,6 +16,7 @@ namespace proyecto_tpv.domain
     private int _idCategoria;
     private string _nombreCategoria;
     private int _cantStock;
+    private int _cantidad;
 
     private List<Producto> _productosList;
     private ManageProductos mp;
@@ -34,6 +35,7 @@ namespace proyecto_tpv.domain
       _nombreCategoria = nombreCategoria;
       _idCategoria = new Categoria().getCategoriaList().Find(c => c.Nombre.Equals(nombreCategoria)).Id;
       _cantStock = cantStock;
+      _cantidad = 0;
     }
 
     public Producto (string nombre, decimal precio, int idCategoria, string nombreCategoria, int cantStock)
@@ -45,6 +47,7 @@ namespace proyecto_tpv.domain
       _nombreCategoria = nombreCategoria;
       _idCategoria = idCategoria;
       _cantStock = cantStock;
+      _cantidad = 0;
     }
     public Producto (int id, string nombre, decimal precio, int idCategoria, string nombreCategoria, int cantStock)
     {
@@ -55,6 +58,7 @@ namespace proyecto_tpv.domain
       _idCategoria = idCategoria;
       _nombreCategoria = nombreCategoria;
       _cantStock = cantStock;
+      _cantidad = 0;
     }
     public Producto (int id, string nombre, decimal precio, int idCategoria)
     {
@@ -63,6 +67,7 @@ namespace proyecto_tpv.domain
       _nombre = nombre;
       _precio = precio;
       _idCategoria = idCategoria;
+      _cantidad = 0;
     }
 
     public List<Producto> getProductoList ()
@@ -90,5 +95,6 @@ namespace proyecto_tpv.domain
     public int idCategoria { get => _idCategoria; set => _idCategoria = value; }
     public string NombreCategoria { get => _nombreCategoria; set => _nombreCategoria = value; }
     public int Stock { get => _cantStock; set => _cantStock = value; }
+    public int Cantidad { get => _cantidad; set => _cantidad = value; }
   }
 }

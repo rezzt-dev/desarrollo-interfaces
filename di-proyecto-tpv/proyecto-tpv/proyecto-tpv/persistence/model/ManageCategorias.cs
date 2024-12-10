@@ -10,7 +10,7 @@ using proyecto_tpv.domain;
 
 namespace proyecto_tpv.persistence.model
 {
-  internal class ManageCategorias
+  public class ManageCategorias
   {
     private DataTable dataTable;
     private List<Categoria> listCategorias;

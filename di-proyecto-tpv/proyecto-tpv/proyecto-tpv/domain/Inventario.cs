@@ -8,7 +8,7 @@ using proyecto_tpv.persistence.model;
 
 namespace proyecto_tpv.domain
 {
-  internal class Inventario
+  public class Inventario
   {
     private int _id;
     private int _stock;

@@ -13,33 +13,73 @@
       <RowDefinition Height="*"/>
       <RowDefinition Height="*"/>
       <RowDefinition Height="*"/>
-      <RowDefinition Height="*"/>
     </Grid.RowDefinitions>
     <Grid.ColumnDefinitions>
-      <ColumnDefinition Width="*"/>
       <ColumnDefinition Width="*"/>
       <ColumnDefinition Width="*"/>
       <ColumnDefinition Width="*"/>
     </Grid.ColumnDefinitions>
 
     <Rectangle Grid.Row="0" Grid.Column="0" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
-    <Button Name="btnVinoTinto" Grid.Row="0" Grid.Column="0" Margin="8" BorderBrush="{x:Null}">
+    <Button Name="btnVinoTinto" Grid.Row="0" Grid.Column="0" Margin="8" BorderBrush="{x:Null}" Click="btnVinoTinto_Click">
       <Button.Background>
         <ImageBrush ImageSource="/images/productImages/alcoholicDrinks/vinotinto.ico" Stretch="Uniform"/>
       </Button.Background>
     </Button>
 
     <Rectangle Grid.Row="0" Grid.Column="1" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
-    <Button Name="btnWhisky" Grid.Row="0" Grid.Column="1" Margin="8" BorderBrush="{x:Null}">
+    <Button Name="btnWhisky" Grid.Row="0" Grid.Column="1" Margin="8" BorderBrush="{x:Null}" Click="btnWhisky_Click">
       <Button.Background>
         <ImageBrush ImageSource="/images/productImages/alcoholicDrinks/whisky.ico" Stretch="Uniform"/>
       </Button.Background>
     </Button>
 
     <Rectangle Grid.Row="0" Grid.Column="2" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
-    <Button Name="btnCervezaArtesana" Grid.Row="0" Grid.Column="2" Margin="8" BorderBrush="{x:Null}">
+    <Button Name="btnCervezaArtesana" Grid.Row="0" Grid.Column="2" Margin="8" BorderBrush="{x:Null}" Click="btnCervezaArtesana_Click">
       <Button.Background>
         <ImageBrush ImageSource="/images/productImages/alcoholicDrinks/cerveza.png" Stretch="Uniform"/>
+      </Button.Background>
+    </Button>
+
+    <Rectangle Grid.Row="1" Grid.Column="0" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
+    <Button Name="btnGinTonic" Grid.Row="1" Grid.Column="0" Margin="8" BorderBrush="{x:Null}" Click="btnGinTonic_Click">
+      <Button.Background>
+        <ImageBrush ImageSource="/images/productImages/alcoholicDrinks/gin-tonic.ico" Stretch="Uniform"/>
+      </Button.Background>
+    </Button>
+
+    <Rectangle Grid.Row="1" Grid.Column="1" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
+    <Button Name="btnMojito" Grid.Row="1" Grid.Column="1" Margin="8" BorderBrush="{x:Null}" Click="btnMojito_Click">
+      <Button.Background>
+        <ImageBrush ImageSource="/images/productImages/alcoholicDrinks/mojito.ico" Stretch="Uniform"/>
+      </Button.Background>
+    </Button>
+
+    <Rectangle Grid.Row="1" Grid.Column="2" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
+    <Button Name="btnRonCola" Grid.Row="1" Grid.Column="2" Margin="8" BorderBrush="{x:Null}" Click="btnRonCola_Click">
+      <Button.Background>
+        <ImageBrush ImageSource="/images/productImages/alcoholicDrinks/ron-cola.ico" Stretch="Uniform"/>
+      </Button.Background>
+    </Button>
+
+    <Rectangle Grid.Row="2" Grid.Column="0" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
+    <Button Name="btnSangria" Grid.Row="2" Grid.Column="0" Margin="8" BorderBrush="{x:Null}" Click="btnSangria_Click">
+      <Button.Background>
+        <ImageBrush ImageSource="/images/productImages/alcoholicDrinks/sangria.ico" Stretch="Uniform"/>
+      </Button.Background>
+    </Button>
+
+    <Rectangle Grid.Row="2" Grid.Column="1" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
+    <Button Name="btnTequilaSunrise" Grid.Row="2" Grid.Column="1" Margin="8" BorderBrush="{x:Null}" Click="btnTequilaSunrise_Click">
+      <Button.Background>
+        <ImageBrush ImageSource="/images/productImages/alcoholicDrinks/tequila-sunrise.ico" Stretch="Uniform"/>
+      </Button.Background>
+    </Button>
+
+    <Rectangle Grid.Row="2" Grid.Column="2" Margin="4" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4"/>
+    <Button Name="btnTercio" Grid.Row="2" Grid.Column="2" Margin="8" BorderBrush="{x:Null}" Click="btnTercio_Click">
+      <Button.Background>
+        <ImageBrush ImageSource="/images/productImages/alcoholicDrinks/tercio.ico" Stretch="Uniform"/>
       </Button.Background>
     </Button>
   </Grid>

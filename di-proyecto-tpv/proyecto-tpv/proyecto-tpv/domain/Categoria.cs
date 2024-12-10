@@ -8,7 +8,7 @@ using proyecto_tpv.persistence.model;
 
 namespace proyecto_tpv.domain
 {
-  internal class Categoria
+  public class Categoria
   {
     private int _id;
     private string _nombre;

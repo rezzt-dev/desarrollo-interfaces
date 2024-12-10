@@ -39,28 +39,28 @@
              FontWeight="ExtraBold" Grid.Row="0" Grid.Column="0" Foreground="#FFFFFF"/>
       <TextBox Name="inputNombreProduct" VerticalAlignment="Center" HorizontalAlignment="Center" Width="120"
                  Grid.Row="0" Grid.Column="1" TextAlignment="Center" FontSize="14" Background="#0B090A"
-               Foreground="#FFFFFF"/>
+               Foreground="#FFFFFF" Height="25"/>
 
       <Rectangle Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="8,4,8,4" RadiusX="10" RadiusY="10" Fill="#161A1D" />
       <Label Name="lblCategoriaProduct" Content="Categoria del Producto:" VerticalAlignment="Center" HorizontalAlignment="Right"
        FontWeight="ExtraBold" Grid.Row="1" Grid.Column="0" Foreground="#FFFFFF"/>
-      <TextBox Name="inputCategoriaProduct" VerticalAlignment="Center" HorizontalAlignment="Center" Width="120"
-               Grid.Row="1" Grid.Column="1" TextAlignment="Center" FontSize="14" Background="#0B090A"
-               Foreground="#FFFFFF"/>
-      
+      <ComboBox Name="lstCategorias" VerticalContentAlignment="Center" HorizontalAlignment="Center" Width="120"
+               Grid.Row="1" Grid.Column="1" FontSize="14" Background="#0B090A"
+               Foreground="#FFFFFF" Height="25" SelectedIndex="0"/>
+
       <Rectangle Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Margin="8,4,8,4" RadiusX="10" RadiusY="10" Fill="#161A1D" />
       <Label Name="lblPrecioProduct" Content="Precio del Producto:" VerticalAlignment="Center" HorizontalAlignment="Right"
              FontWeight="ExtraBold" Grid.Row="2" Grid.Column="0" Foreground="#FFFFFF"/>
       <TextBox Name="inputPrecioProduct" VerticalAlignment="Center" HorizontalAlignment="Center" Width="120"
                Grid.Row="2" Grid.Column="1" TextAlignment="Center" FontSize="14" Background="#0B090A"
-               Foreground="#FFFFFF"/>
+               Foreground="#FFFFFF" Height="25"/>
 
       <Rectangle Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Margin="8,4,8,8" RadiusX="10" RadiusY="10" Fill="#161A1D" />
       <Label Name="lblStockProduct" Content="Stock del Producto:" VerticalAlignment="Center" HorizontalAlignment="Right"
              FontWeight="ExtraBold" Grid.Row="3" Grid.Column="0" Foreground="#FFFFFF"/>
       <TextBox Name="inputStockProduct" VerticalAlignment="Center" HorizontalAlignment="Center" Width="120"
                Grid.Row="3" Grid.Column="1" TextAlignment="Center" FontSize="14" Background="#0B090A"
-               Foreground="#FFFFFF"/>
+               Foreground="#FFFFFF" Height="25"/>
 
       
       <Rectangle Grid.Row="4" Grid.Column="0" Margin="8,8,4,8" RadiusX="10" RadiusY="10" StrokeThickness="2" Stroke="#FFF5F3F4" />
