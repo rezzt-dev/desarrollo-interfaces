@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\views\\tpvwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9BFCEA3-80F4-45AA-9114-F05DB6D853BA}|proyecto-tpv\\proyecto-tpv.csproj|solutionrelative:proyecto-tpv\\views\\tpvwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TPVWindow.xaml.cs",
+              "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\views\\TPVWindow.xaml.cs",
+              "RelativeDocumentMoniker": "proyecto-tpv\\views\\TPVWindow.xaml.cs",
+              "ToolTip": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-proyecto-tpv\\proyecto-tpv\\proyecto-tpv\\views\\TPVWindow.xaml.cs",
+              "RelativeToolTip": "proyecto-tpv\\views\\TPVWindow.xaml.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAiwKoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T19:42:50.57Z",
+              "EditorCaption": ""
             }
           ]
         }
