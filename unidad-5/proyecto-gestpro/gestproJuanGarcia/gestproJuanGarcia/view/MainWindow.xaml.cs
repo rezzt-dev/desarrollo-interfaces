@@ -35,14 +35,15 @@ namespace gestproJuanGarcia
 
       listProyectos = proyecto.getProyectList();
       dataProyectos.ItemsSource = listProyectos;
+      comboBoxProyectos.ItemsSource = listProyectos.Select(aux => aux.Nombre).ToList();
 
       btnAgregarProyecto.IsEnabled = true;
       btnEliminarProyecto.IsEnabled = false;
       btnModificarProyecto.IsEnabled = false;
     }
 
-     // metodo | "cleanData" | limpia los campos
-    private void cleanData ()
+    // metodo | "cleanData" | limpia los campos
+    private void cleanData()
     {
       txtCodigoProyectoInput.Text = "";
       txtNombreProyectoInput.Text = "";
@@ -50,11 +51,11 @@ namespace gestproJuanGarcia
       txtPresupuestoProyecto.Text = "";
     }
 
-    private void dataProyectos_SelectionChanged (object sender, SelectionChangedEventArgs e)
+    private void dataProyectos_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
       if (dataProyectos.SelectedItems.Count > 0)
       {
-        Proyecto proyecto = (Proyecto) dataProyectos.SelectedItems[0];
+        Proyecto proyecto = (Proyecto)dataProyectos.SelectedItems[0];
         txtCodigoProyectoInput.Text = proyecto.Codigo;
         txtNombreProyectoInput.Text = proyecto.Nombre;
         txtDescripcionProyectoInput.Text = proyecto.Descripcion;
@@ -166,7 +167,7 @@ namespace gestproJuanGarcia
       RealizarBusqueda();
     }
 
-    private void RealizarBusqueda ()
+    private void RealizarBusqueda()
     {
       string searchText = tboxBusqueda.Text.Trim().ToLower();
 
@@ -259,6 +260,17 @@ namespace gestproJuanGarcia
       ).ToList();
 
       frameConsultas.Navigate(new view.PaginaConsultas(listaFiltrada));
+    }
+
+    private void btnNumHoras_Click(object sender, RoutedEventArgs e)
+    {
+      tbcMenu.SelectedItem = tbiNumHoras;
+    }
+
+    private void comboBoxProyectos_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    {
+      String nombreSelected = (String)comboBoxProyectos.Items[comboBoxProyectos.SelectedIndex];
+      Proyecto proyectoSelected = listProyectos.Where(p => p.Nombre == nombreSelected).FirstOrDefault();
     }
   }
 }

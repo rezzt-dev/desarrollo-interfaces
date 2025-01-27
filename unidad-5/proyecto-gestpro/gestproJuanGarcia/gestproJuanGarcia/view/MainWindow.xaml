@@ -80,6 +80,13 @@
                   BorderBrush="Transparent"  Background="{x:Null}" VerticalAlignment="Center" Click="btnConsultas_Click">
           </Button>
 
+          <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="5" Grid.Column="0" RadiusX="20" RadiusY="100" Width="130" Height="45"
+                     VerticalAlignment="Center"/>
+          <Button Name="btnNumHoras" Content="NUM HORAS" UseLayoutRounding="False" Width="130" Height="35"
+                  Grid.Row="5" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16"
+                  BorderBrush="Transparent"  Background="{x:Null}" VerticalAlignment="Center" Click="btnNumHoras_Click">
+          </Button>
+
           <Image Name="imgHojaFondo" Grid.Row="2" Grid.Column="2" Grid.RowSpan="4"
                  Source="/Images/hoja.png" HorizontalAlignment="Left" Opacity="0.3"/>
 
@@ -188,7 +195,9 @@
 
       <TabItem Name="tbiEmpleados" Header="EMPLEADOS" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
                Foreground="#FFB18181" BorderThickness="0">
-        <Grid Background="#FFFDFDFD"></Grid>
+        <Grid Background="#FFFDFDFD">
+          
+        </Grid>
       </TabItem>
 
       <TabItem Name="tbiGEconomica" Header="G.ECONOMICA" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
@@ -268,6 +277,68 @@
                   Grid.Row="2" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" 
                   BorderBrush="Transparent"  Background="{x:Null}" VerticalAlignment="Center" Click="btnCargarFiltros_Click">
           </Button>
+        </Grid>
+      </TabItem>
+      <TabItem Name="tbiNumHoras" Header="NUM HORAS" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
+         Foreground="#FFB18181">
+        <Grid Background="#FFFDFDFD">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
+
+          <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+          </Grid.RowDefinitions>
+
+          <Rectangle Fill="{x:Null}" Margin="2,4,2,4" Grid.Row="0" Grid.RowSpan="5" Grid.Column="1" Grid.ColumnSpan="2" RadiusX="20" RadiusY="20" Stroke="#FFE2CDE2" StrokeThickness="2"/>
+
+          <Label Name="lblListaProyectos" Content="LISTA PROYECTOS" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                 Margin="5" FontFamily="Cascadia Code" FontWeight="Bold"/>
+          <ComboBox Name="comboBoxProyectos" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Width="160" Margin="5" 
+                    SelectionChanged="comboBoxProyectos_SelectionChanged"/>
+
+          <Label Name="lblDiaLaborable" Content="SELECCION DIA" Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                 Margin="5" FontFamily="Cascadia Code" FontWeight="Bold"/>
+          <DatePicker Name="datePickerDia" SelectedDate="{x:Static sys:DateTime.Now}" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top"
+                      Margin="5" FontFamily="Cascadia Code" FontWeight="Bold" xmlns:sys="clr-namespace:System;assembly=mscorlib" VerticalContentAlignment="Center"/>
+
+          <Label Name="lblUsuarioEmpleado" Content="USUARIO" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                 Margin="5" FontFamily="Cascadia Code" FontWeight="Bold"/>
+          <TextBox Name="txtUsuarioEmpleado" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Top"
+                     Margin="5" FontFamily="Cascadia Code" Width="160" Height="20"/>
+
+          <Label Name="lblPassEmpleado" Content="CONTRASEÑA" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                 Margin="5" FontFamily="Cascadia Code" FontWeight="Bold"/>
+          <TextBox Name="txtPassEmpleado" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Top"
+                     Margin="5" FontFamily="Cascadia Code" Width="160" Height="20"/>
+          
+          <Grid Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="0" RadiusX="20" RadiusY="100" Width="130" Height="45"
+                     VerticalAlignment="Center"/>
+            <Button Name="btnCargarHoras" Content="CARGAR HORAS" UseLayoutRounding="False" Width="130" Height="35"
+                  Grid.Row="0" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" 
+                  BorderBrush="Transparent"  Background="{x:Null}" VerticalAlignment="Center" Click="btnCargarFiltros_Click">
+            </Button>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="1" RadiusX="20" RadiusY="100" Width="130" Height="45"
+                     VerticalAlignment="Center"/>
+            <Button Name="btnCancelarCargaHoras" Content="CANCELAR" UseLayoutRounding="False" Width="130" Height="35"
+                  Grid.Row="0" Grid.Column="1" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" 
+                  BorderBrush="Transparent"  Background="{x:Null}" VerticalAlignment="Center" Click="btnCargarFiltros_Click">
+            </Button>
+          </Grid>
         </Grid>
       </TabItem>
     </TabControl>

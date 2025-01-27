@@ -7,12 +7,11 @@ namespace DataGridPersonas.persistence
   {
     private static DBBroker _instancia;
     private static MySql.Data.MySqlClient.MySqlConnection conexion;
-    private const String cadenaConexion = "server=localhost;database=proyectoempleado;uid=root;pwd=toor";
+    private const String cadenaConexion = "server=localhost;database=proyectoempleado;uid=rezzt;pwd=rezzt";
 
     private DBBroker()
     {
       DBBroker.conexion = new MySql.Data.MySqlClient.MySqlConnection(DBBroker.cadenaConexion);
-
     }
 
     public static DBBroker obtenerAgente()
