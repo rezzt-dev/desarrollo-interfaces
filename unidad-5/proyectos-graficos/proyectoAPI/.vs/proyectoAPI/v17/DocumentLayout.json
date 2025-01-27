@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{417761BF-9BBF-4A69-8B8F-5FA60BBE7E1D}|proyectoAPI\\proyectoAPI.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\proyectoapi\\modelo\\apiobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{417761BF-9BBF-4A69-8B8F-5FA60BBE7E1D}|proyectoAPI\\proyectoAPI.csproj|solutionrelative:proyectoapi\\modelo\\apiobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{417761BF-9BBF-4A69-8B8F-5FA60BBE7E1D}|proyectoAPI\\proyectoAPI.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoapi\\proyectoapi\\controlador\\controlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{417761BF-9BBF-4A69-8B8F-5FA60BBE7E1D}|proyectoAPI\\proyectoAPI.csproj|solutionrelative:proyectoapi\\controlador\\controlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{417761BF-9BBF-4A69-8B8F-5FA60BBE7E1D}|proyectoAPI\\proyectoAPI.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\proyectoapi\\vista\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{417761BF-9BBF-4A69-8B8F-5FA60BBE7E1D}|proyectoAPI\\proyectoAPI.csproj|solutionrelative:proyectoapi\\vista\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\proyectoAPI\\vista\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "proyectoAPI\\vista\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\proyectoAPI\\vista\\MainWindow.xaml",
+              "RelativeToolTip": "proyectoAPI\\vista\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-14T12:39:27.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiObject.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\proyectoAPI\\modelo\\ApiObject.cs",
+              "RelativeDocumentMoniker": "proyectoAPI\\modelo\\ApiObject.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\proyectoAPI\\modelo\\ApiObject.cs",
+              "RelativeToolTip": "proyectoAPI\\modelo\\ApiObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:58:38.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Controlador.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\proyectoAPI\\controlador\\Controlador.cs",
+              "RelativeDocumentMoniker": "proyectoAPI\\controlador\\Controlador.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\proyectoAPI\\controlador\\Controlador.cs",
+              "RelativeToolTip": "proyectoAPI\\controlador\\Controlador.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvyYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T12:56:45.689Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestprojuangarcia\\gestprojuangarcia\\view\\paginaconsultas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\view\\paginaconsultas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestprojuangarcia\\gestprojuangarcia\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestprojuangarcia\\gestprojuangarcia\\view\\paginaconsultas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\view\\paginaconsultas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestprojuangarcia\\gestprojuangarcia\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaginaConsultas.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\PaginaConsultas.xaml.cs",
+              "RelativeDocumentMoniker": "gestproJuanGarcia\\view\\PaginaConsultas.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\PaginaConsultas.xaml.cs",
+              "RelativeToolTip": "gestproJuanGarcia\\view\\PaginaConsultas.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:26:42.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "gestproJuanGarcia\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml",
+              "RelativeToolTip": "gestproJuanGarcia\\view\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-23T08:03:22.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaginaConsultas.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\PaginaConsultas.xaml",
+              "RelativeDocumentMoniker": "gestproJuanGarcia\\view\\PaginaConsultas.xaml",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\PaginaConsultas.xaml",
+              "RelativeToolTip": "gestproJuanGarcia\\view\\PaginaConsultas.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-23T08:27:55.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "gestproJuanGarcia\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "gestproJuanGarcia\\view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAAAQwAMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T08:21:14.497Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

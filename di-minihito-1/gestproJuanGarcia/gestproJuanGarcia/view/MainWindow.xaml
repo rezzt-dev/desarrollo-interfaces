@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:gestproJuanGarcia"
+        xmlns:local="clr-namespace:gestproJuanGarcia" xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
         Title="GestPro Juan Garcia" Height="450" Width="800"
         Background="#FFEBECDE" UseLayoutRounding="True">
@@ -118,7 +118,7 @@
               <DataGridTextColumn Header="CODIGO" Binding="{Binding Codigo}"/>
               <DataGridTextColumn Header="NOMBRE" Binding="{Binding Nombre}"/>
               <DataGridTextColumn Header="DESCRIPCION" Binding="{Binding Descripcion}"/>
-              <DataGridTextColumn Header="CODIGPRESUPUESTO" Binding="{Binding Presupuesto}"/>
+              <DataGridTextColumn Header="PRESUPUESTO" Binding="{Binding Presupuesto}"/>
             </DataGrid.Columns>
           </DataGrid>
 

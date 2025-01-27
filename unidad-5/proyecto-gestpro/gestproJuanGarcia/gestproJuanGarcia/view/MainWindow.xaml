@@ -1,0 +1,275 @@
+﻿<Window x:Class="gestproJuanGarcia.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:gestproJuanGarcia" xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="GestPro Juan Garcia" Height="450" Width="800"
+        Background="#FFEBECDE" UseLayoutRounding="True">
+  <Grid Background="Pink">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="8*"/>
+    </Grid.RowDefinitions>
+
+    <Label Name="lblTituloGestPro" Content="GESTPRO" Grid.Row="0" FontFamily="Arial Bold" FontSize="16"
+           HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FF50345B"
+           Foreground="WhiteSmoke"/>
+
+    <TabControl Name="tbcMenu" TabStripPlacement="Left" Grid.Row="1" UseLayoutRounding="False"
+                BorderThickness="0" FontSize="12" FontFamily="Comic Sans MS Bold" Background="{x:Null}">
+      <TabItem Header="INICIO" IsSelected="True" Padding="5" BorderBrush="{x:Null}" Background="Pink"
+               Foreground="#FFB18181">
+        <Grid Background="#FFFDFDFD">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
+
+          <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="2" Grid.Column="0" RadiusX="20" RadiusY="100" Width="130" Height="45"
+                     VerticalAlignment="Center"/>
+          <Button Name="btnProyectos" Content="PROYECTOS" UseLayoutRounding="False" Width="130" Height="35"
+                  Grid.Row="2" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" 
+                  Click="btnProyectos_Click" BorderBrush="Transparent"  Background="{x:Null}" VerticalAlignment="Center">
+          </Button>
+
+          <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="3" Grid.Column="0" RadiusX="20" RadiusY="100" Width="130" Height="45"
+                     VerticalAlignment="Center"/>
+          <Button Name="btnEmpleados" Content="EMPLEADOS" UseLayoutRounding="False" Width="130" Height="35"
+                  Grid.Row="3" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" 
+                  Click="btnEmpleados_Click" BorderBrush="Transparent"  Background="{x:Null}" VerticalAlignment="Center">
+          </Button>
+
+          <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="4" Grid.Column="0" RadiusX="20" RadiusY="100" Width="130" Height="45"
+                     VerticalAlignment="Center"/>
+          <Button Name="btnGEconomica" Content="G.ECONOMICA" UseLayoutRounding="False" Width="130" Height="35"
+                  Grid.Row="4" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" 
+                  Click="btnGEconomica_Click" BorderBrush="Transparent"  Background="{x:Null}" VerticalAlignment="Center">
+          </Button>
+
+          <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="2" Grid.Column="1" RadiusX="20" RadiusY="100" Width="130" Height="45"
+                     VerticalAlignment="Center"/>
+          <Button Name="btnEstadisticas" Content="ESTADISTICAS" UseLayoutRounding="False" Width="130" Height="35"
+                  Grid.Row="2" Grid.Column="1" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" 
+                  Click="btnEstadisticas_Click" BorderBrush="Transparent"  Background="{x:Null}" VerticalAlignment="Center">
+          </Button>
+
+          <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="3" Grid.Column="1" RadiusX="20" RadiusY="100" Width="130" Height="45"
+                     VerticalAlignment="Center"/>
+          <Button Name="btnUsuarios" Content="USUARIOS" UseLayoutRounding="False" Width="130" Height="35"
+                  Grid.Row="3" Grid.Column="1" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16"
+                  Click="btnUsuarios_Click" BorderBrush="Transparent"  Background="{x:Null}" VerticalAlignment="Center">
+          </Button>
+
+          <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="4" Grid.Column="1" RadiusX="20" RadiusY="100" Width="130" Height="45"
+           VerticalAlignment="Center"/>
+          <Button Name="btnConsultas" Content="CONSULTAS" UseLayoutRounding="False" Width="130" Height="35"
+                  Grid.Row="4" Grid.Column="1" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16"
+                  BorderBrush="Transparent"  Background="{x:Null}" VerticalAlignment="Center" Click="btnConsultas_Click">
+          </Button>
+
+          <Image Name="imgHojaFondo" Grid.Row="2" Grid.Column="2" Grid.RowSpan="4"
+                 Source="/Images/hoja.png" HorizontalAlignment="Left" Opacity="0.3"/>
+
+          <Image Name="imgLogotipoMaestre" Grid.Row="6" Grid.Column="3" Source="/Images/logotipo.png"
+                 HorizontalAlignment="Right" Margin="2"/>
+
+        </Grid>
+      </TabItem>
+      <TabItem Name="tbiProyecto" Header="PROYECTO" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
+               Foreground="#FFB18181">
+        <Grid Background="#FFFDFDFD">
+          <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+          </Grid.RowDefinitions>
+          
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1.3*"/>
+          </Grid.ColumnDefinitions>
+
+          <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="3" RadiusX="20" RadiusY="100"
+           Height="40" Width="120"/>
+          <Button Name="btnCargarDatos" Grid.Row="0" Grid.Column="3" Content="CARGAR DATOS" Background="{x:Null}" 
+                  Height="35" Width="135" FontFamily="Cascadia Code Bold" FontSize="12" 
+                  Click="btnCargarDatos_Click" Margin="5" BorderBrush="Transparent"/>
+
+          <TextBox Name="tboxBusqueda" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="10" Padding="5"
+                   VerticalContentAlignment="Center" FontSize="16" FontFamily="Comic Sans MS"
+                   BorderThickness="0" Background="#FFE2CDE2" Foreground="#FFC5A6C5" Width="350" Text=""
+                   TextChanged="tboxBusqueda_TextChanged" KeyDown="tboxBusqueda_KeyDown"/>
+
+          <DataGrid Name="dataProyectos" Grid.Row="2" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="3"
+                    BorderThickness="0" Margin="10" FontFamily="Cascadia Code" FontSize="14" Focusable="False" 
+                    IsReadOnly="True" SelectionChanged = "dataProyectos_SelectionChanged" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+              <DataGridTextColumn Header="CODIGO" Binding="{Binding Codigo}"/>
+              <DataGridTextColumn Header="NOMBRE" Binding="{Binding Nombre}"/>
+              <DataGridTextColumn Header="DESCRIPCION" Binding="{Binding Descripcion}"/>
+              <DataGridTextColumn Header="PRESUPUESTO" Binding="{Binding Presupuesto}"/>
+            </DataGrid.Columns>
+          </DataGrid>
+
+          <StackPanel Name="stpCodigoProyecto" Grid.Row="1" Grid.Column="3" Orientation="Vertical">
+            <Label Name="lblCodigoProyecto" Content="Codigo Proyecto" FontFamily="Cascadia Code Bold" FontSize="12"/>
+            <Separator Margin="1" Visibility="Hidden"/>
+            <TextBox Name="txtCodigoProyectoInput" Text=" " Background="#FFE2CDE2" Height="25" Margin="1"
+                     VerticalContentAlignment="Center" BorderThickness="0"/>
+          </StackPanel>
+          <StackPanel Name="stpNombreProyecto" Grid.Row="2" Grid.Column="3" Orientation="Vertical">
+            <Label Name="lblNombreProyecto" Content="Nombre" FontFamily="Cascadia Code Bold" FontSize="12"/>
+            <Separator Margin="1" Visibility="Hidden"/>
+            <TextBox Name="txtNombreProyectoInput" Text=" " Background="#FFE2CDE2" Height="25" Margin="1"
+                     VerticalContentAlignment="Center" AutomationProperties.HelpText="Search" BorderThickness="0" />
+          </StackPanel>
+          <StackPanel Name="stpDescripcionProyecto" Grid.Row="3" Grid.Column="3" Orientation="Vertical">
+            <Label Name="lblDescripcionProyecto" Content="Descripcion" FontFamily="Cascadia Code Bold" FontSize="12"/>
+            <Separator Margin="1" Visibility="Hidden"/>
+            <TextBox Name="txtDescripcionProyectoInput" Text=" " Background="#FFE2CDE2" Height="25" Margin="1"
+                        VerticalContentAlignment="Center" BorderThickness="0"/>
+          </StackPanel>
+          <StackPanel Name="stpPresupuestoProyecto" Grid.Row="4" Grid.Column="3" Orientation="Vertical">
+            <Label Name="lblPresupuestoProyecto" Content="Presupuesto" FontFamily="Cascadia Code Bold" FontSize="12"/>
+            <Separator Margin="1" Visibility="Hidden"/>
+            <TextBox Name="txtPresupuestoProyecto" Text=" " Background="#FFE2CDE2" Height="25" Margin="1" BorderThickness="0"
+                     VerticalContentAlignment="Center"/>
+          </StackPanel>
+
+          <Grid Name="stpBotonesFuncion" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3"
+                      HorizontalAlignment="Right" Margin="0,0,10,0">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="0" RadiusX="20" RadiusY="100"
+                       Height="40" Width="120"/>
+            <Button Name="btnAgregarProyecto" Grid.Row="0" Grid.Column="0" Content="Añadir" Background="{x:Null}" 
+                    Height="35" Width="135" FontFamily="Cascadia Code Bold" FontSize="12" 
+                    Click="btnAgregarProyecto_Click" Margin="5" BorderBrush="Transparent"/>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="1" RadiusX="20" RadiusY="100"
+                       Height="40" Width="120"/>
+            <Button Name="btnModificarProyecto" Grid.Row="0" Grid.Column="1" Content="Modificar" Background="{x:Null}" 
+                    Height="35" Width="135" FontFamily="Cascadia Code Bold" FontSize="12" Click="btnModificarProyecto_Click"
+                    Margin="5" BorderBrush="Transparent"/>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="2" RadiusX="20" RadiusY="100"
+                       Height="40" Width="120"/>
+            <Button Name="btnEliminarProyecto" Grid.Row="0" Grid.Column="2" Content="Eliminar" Background="{x:Null}" 
+                    Height="35" Width="135" FontFamily="Cascadia Code Bold" FontSize="12" Click="btnEliminarProyecto_Click" 
+                    Margin="5" BorderBrush="Transparent"/>
+          </Grid>
+          
+          <Image Name="imgLogotipoMaestre2" Grid.Row="5" Grid.Column="0" Source="/Images/logotipo.png"
+                 HorizontalAlignment="Left" Margin="2" Width="130"/>
+        </Grid>
+      </TabItem>
+
+      <TabItem Name="tbiEmpleados" Header="EMPLEADOS" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
+               Foreground="#FFB18181" BorderThickness="0">
+        <Grid Background="#FFFDFDFD"></Grid>
+      </TabItem>
+
+      <TabItem Name="tbiGEconomica" Header="G.ECONOMICA" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
+               Foreground="#FFB18181" BorderThickness="0">
+        <Grid Background="#FFFDFDFD"></Grid>
+      </TabItem>
+      <TabItem Name="tbiEstadisticas" Header="ESTADISTICAS" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
+               Foreground="#FFB18181" BorderThickness="0">
+        <Grid Background="#FFFDFDFD"></Grid>
+      </TabItem>
+      <TabItem Name="tbiUsuarios" Header="USUARIOS" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
+               Foreground="#FFB18181">
+        <Grid Background="#FFFDFDFD"></Grid>
+      </TabItem>
+      <TabItem Name="tbiConsultas" Header="CONSULTAS" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
+         Foreground="#FFB18181">
+        <Grid Background="#FFFDFDFD" ShowGridLines="True">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
+          </Grid.ColumnDefinitions>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+          </Grid.RowDefinitions>
+
+          <Frame Name="frameConsultas" Grid.Row="0" Grid.Column="1" Margin="5" Grid.RowSpan="4" NavigationUIVisibility="Hidden"/>
+          <Grid Grid.Row="0" Grid.Column="0" Margin="5">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="1.5*"/>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            
+            <Label Name="lblTituloFiltroEmpresa" Grid.Row="0" Content="Nombres de Empresas" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <CheckBox Name="cboxAllegro" Content="Allegro" Grid.Row="1" FontFamily="Cascadia Code Light" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+            <CheckBox Name="cboxVelneo" Content="Velneo" Grid.Row="2" FontFamily="Cascadia Code Light" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+            <CheckBox Name="cboxSAP" Content="SAP" Grid.Row="3" FontFamily="Cascadia Code Light" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+            <CheckBox Name="cboxNaturgy" Content="Naturgy" Grid.Row="4" FontFamily="Cascadia Code Light" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+            <CheckBox Name="cboxSantander" Content="Santander" Grid.Row="5" FontFamily="Cascadia Code Light" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+            <CheckBox Name="cboxMutuaM" Content="Mutua Madrileña" Grid.Row="6" FontFamily="Cascadia Code Light" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+          </Grid>
+
+          <Grid Grid.Row="1" Grid.Column="0" Margin="5">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="1.5*"/>
+              <RowDefinition Height="1.5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="1.8*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Name="lblTituloFiltroPresupuesto" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Content="Presupuesto de Proyecto" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <Label Name="lblMinimoPresupuesto" Content="Minimo" Grid.Row="1" Grid.Column="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <xctk:IntegerUpDown Name="btnSpinnerMinimo" Grid.Row="1" Grid.Column="1" Maximum="10000" Minimum="0" Value="3000" 
+                                VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="5" Height="20" Increment="100"/>
+
+            <Label Name="lblMaximoPresupuesto" Content="Maximo" Grid.Row="2" Grid.Column="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <xctk:IntegerUpDown Name="btnSpinnerMaximo" Grid.Row="2" Grid.Column="1" Maximum="10000" Minimum="0" Value="7000" 
+                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="5" Height="20" Increment="100"/>
+          </Grid>
+
+          <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="2" Grid.Column="0" RadiusX="20" RadiusY="100" Width="130" Height="45"
+           VerticalAlignment="Center"/>
+          <Button Name="btnCargarFiltros" Content="BUSCAR" UseLayoutRounding="False" Width="130" Height="35"
+                  Grid.Row="2" Grid.Column="0" BorderThickness="0" FontFamily="Cascadia Code Bold" FontSize="16" 
+                  BorderBrush="Transparent"  Background="{x:Null}" VerticalAlignment="Center" Click="btnCargarFiltros_Click">
+          </Button>
+        </Grid>
+      </TabItem>
+    </TabControl>
+  </Grid>
+</Window>

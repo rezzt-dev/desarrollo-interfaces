@@ -70,7 +70,7 @@
       </Grid.RowDefinitions>
 
       <Rectangle Grid.Row="0" Fill="#161A1D" Margin="4" RadiusX="10" RadiusY="10"/>
-      <DataGrid Name="dataInventario" AutoGenerateColumns="False" Margin="4" Background="{x:Null}" Foreground="#FFF5F3F4"
+      <DataGrid Name="dataInventario" AutoGenerateColumns="False" Margin="4" Background="{x:Null}" Foreground="Black"
                 HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="16" SelectionChanged="dataInventario_SelectionChanged"
                 IsReadOnly="True" Focusable="False">
         <DataGrid.Columns>
