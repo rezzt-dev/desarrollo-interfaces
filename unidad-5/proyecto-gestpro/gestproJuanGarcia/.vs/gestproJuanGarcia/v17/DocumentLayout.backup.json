@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\",
+  "WorkspaceRootPath": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|g:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestprojuangarcia\\gestprojuangarcia\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestprojuangarcia\\gestprojuangarcia\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestprojuangarcia\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestprojuangarcia\\persistence\\controladorcalendarific.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\persistence\\controladorcalendarific.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestprojuangarcia\\persistence\\manages\\rolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\persistence\\manages\\rolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestprojuangarcia\\domain\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\domain\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestprojuangarcia\\domain\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E63C59-D52E-49D7-8009-6DA4B131EB79}|gestproJuanGarcia\\gestproJuanGarcia.csproj|solutionrelative:gestprojuangarcia\\domain\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +43,74 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "gestproJuanGarcia\\view\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml.cs",
+              "RelativeToolTip": "gestproJuanGarcia\\view\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAYwA8BAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:11:29.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml",
               "RelativeDocumentMoniker": "gestproJuanGarcia\\view\\MainWindow.xaml",
-              "ToolTip": "G:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml",
               "RelativeToolTip": "gestproJuanGarcia\\view\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-27T19:11:38.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T09:11:24.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ControladorCalendarific.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestproJuanGarcia\\persistence\\ControladorCalendarific.cs",
+              "RelativeDocumentMoniker": "gestproJuanGarcia\\persistence\\ControladorCalendarific.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestproJuanGarcia\\persistence\\ControladorCalendarific.cs",
+              "RelativeToolTip": "gestproJuanGarcia\\persistence\\ControladorCalendarific.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:11:21.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RolManager.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestproJuanGarcia\\persistence\\manages\\RolManager.cs",
+              "RelativeDocumentMoniker": "gestproJuanGarcia\\persistence\\manages\\RolManager.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestproJuanGarcia\\persistence\\manages\\RolManager.cs",
+              "RelativeToolTip": "gestproJuanGarcia\\persistence\\manages\\RolManager.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwEIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:04:47.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestproJuanGarcia\\domain\\Rol.cs",
+              "RelativeDocumentMoniker": "gestproJuanGarcia\\domain\\Rol.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestproJuanGarcia\\domain\\Rol.cs",
+              "RelativeToolTip": "gestproJuanGarcia\\domain\\Rol.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAwwFIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T08:15:36.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestproJuanGarcia\\domain\\Usuario.cs",
+              "RelativeDocumentMoniker": "gestproJuanGarcia\\domain\\Usuario.cs",
+              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyecto-gestpro\\gestproJuanGarcia\\gestproJuanGarcia\\domain\\Usuario.cs",
+              "RelativeToolTip": "gestproJuanGarcia\\domain\\Usuario.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAzwDMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T08:15:35.403Z"
             }
           ]
         }

@@ -109,8 +109,6 @@ C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\obj\Debug\gestproJ.67CA769C.Up2Date
-C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\obj\Debug\view\PaginaConsultas.g.cs
-C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\obj\Debug\view\PaginaConsultas.baml
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\bin\Debug\Xceed.Wpf.AvalonDock.dll
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
@@ -129,3 +127,9 @@ C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\bin\Debug\System.Text.Json.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\bin\Debug\System.ValueTuple.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\bin\Debug\System.Text.Json.xml
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\di-minihito-1\gestproJuanGarcia\gestproJuanGarcia\bin\Debug\System.ValueTuple.xml

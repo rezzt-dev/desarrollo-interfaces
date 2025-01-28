@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{417761BF-9BBF-4A69-8B8F-5FA60BBE7E1D}|proyectoAPI\\proyectoAPI.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\proyectoapi\\modelo\\apiobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{417761BF-9BBF-4A69-8B8F-5FA60BBE7E1D}|proyectoAPI\\proyectoAPI.csproj|solutionrelative:proyectoapi\\modelo\\apiobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{417761BF-9BBF-4A69-8B8F-5FA60BBE7E1D}|proyectoAPI\\proyectoAPI.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoapi\\proyectoapi\\controlador\\controlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{417761BF-9BBF-4A69-8B8F-5FA60BBE7E1D}|proyectoAPI\\proyectoAPI.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\proyectoapi\\controlador\\controlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{417761BF-9BBF-4A69-8B8F-5FA60BBE7E1D}|proyectoAPI\\proyectoAPI.csproj|solutionrelative:proyectoapi\\controlador\\controlador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{417761BF-9BBF-4A69-8B8F-5FA60BBE7E1D}|proyectoAPI\\proyectoAPI.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\proyectoapi\\vista\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{417761BF-9BBF-4A69-8B8F-5FA60BBE7E1D}|proyectoAPI\\proyectoAPI.csproj|solutionrelative:proyectoapi\\vista\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{417761BF-9BBF-4A69-8B8F-5FA60BBE7E1D}|proyectoAPI\\proyectoAPI.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoapi\\proyectoapi\\modelo\\apiobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{417761BF-9BBF-4A69-8B8F-5FA60BBE7E1D}|proyectoAPI\\proyectoAPI.csproj|solutionrelative:proyectoapi\\modelo\\apiobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,18 +30,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\proyectoAPI\\vista\\MainWindow.xaml",
               "RelativeDocumentMoniker": "proyectoAPI\\vista\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\proyectoAPI\\vista\\MainWindow.xaml",
               "RelativeToolTip": "proyectoAPI\\vista\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-14T12:39:27.598Z"
+              "WhenOpened": "2025-01-14T12:39:27.598Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ApiObject.cs",
               "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\proyectoAPI\\modelo\\ApiObject.cs",
               "RelativeDocumentMoniker": "proyectoAPI\\modelo\\ApiObject.cs",
@@ -54,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Controlador.cs",
               "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-graficos\\proyectoAPI\\proyectoAPI\\controlador\\Controlador.cs",
               "RelativeDocumentMoniker": "proyectoAPI\\controlador\\Controlador.cs",

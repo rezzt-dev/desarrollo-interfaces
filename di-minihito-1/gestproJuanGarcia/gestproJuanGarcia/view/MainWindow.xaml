@@ -181,12 +181,261 @@
 
       <TabItem Name="tbiEmpleados" Header="EMPLEADOS" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
                Foreground="#FFB18181" BorderThickness="0">
-        <Grid Background="#FFFDFDFD"></Grid>
+        <Grid Background="#FFFDFDFD">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.5*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
+
+          <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="1.5*"/>
+          </Grid.RowDefinitions>
+
+          <TextBox Name="txtBusquedaEmpleado" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="10" Padding="5"
+                   VerticalContentAlignment="Center" FontSize="16" FontFamily="Comic Sans MS"
+                   BorderThickness="0" Background="#FFE2CDE2" Foreground="#FFC5A6C5" Width="350" Text=""
+                   TextChanged="tboxBusquedaEmpleados_TextChanged" KeyDown="tboxBusquedaEmpleados_KeyDown"/>
+
+          <DataGrid Name="dataEmpleados" Grid.Row="1" Grid.Column="0" Grid.RowSpan="2" Grid.ColumnSpan="3"
+            BorderThickness="0" Margin="10" FontFamily="Cascadia Code" FontSize="14" Focusable="False" 
+            IsReadOnly="True" AutoGenerateColumns="False" SelectionChanged="dataEmpleados_SelectionChanged">
+            <DataGrid.Columns>
+              <DataGridTextColumn Header="NOMBRE" Binding="{Binding NombreEmpleado}" Width="*"/>
+              <DataGridTextColumn Header="APELLIDOS" Binding="{Binding ApellidosEmpleado}"/>
+              <DataGridTextColumn Header="CSR" Binding="{Binding CsrEmpleado}" Width="*"/>
+              <DataGridTextColumn Header="USUARIO" Binding="{Binding IdUsuario}" Width="*"/>
+              <DataGridTextColumn Header="ROL" Binding="{Binding IdRol}" Width="*"/>
+            </DataGrid.Columns>
+          </DataGrid>
+
+          <Grid Grid.Row="0" Grid.RowSpan="3" Grid.Column="3" Grid.ColumnSpan="2" Margin="5">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Name="stpNombreEmpleado" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center">
+              <Label Name="lblNombreEmpleado" Content="Nombre" FontFamily="Cascadia Code Bold" FontSize="12" Width="200"/>
+              <TextBox Name="txtNombreEmpleado" Text=" " Background="#FFE2CDE2" Height="25" Margin="1"
+                       VerticalContentAlignment="Center" BorderThickness="0" Width="240"/>
+            </StackPanel>
+
+            <StackPanel Name="stpApellidosEmpleado" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center">
+              <Label Name="lblApellidosEmpleado" Content="Apellidos" FontFamily="Cascadia Code Bold" FontSize="12" Width="200" />
+              <TextBox Name="txtApellidosEmpleado" Text=" " Background="#FFE2CDE2" Height="25" Margin="1"
+                       VerticalContentAlignment="Center" BorderThickness="0" Width="240"/>
+            </StackPanel>
+
+            <StackPanel Name="stpRolEmpleado" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center">
+              <Label Name="lblRolEmpleado" Content="ROL" FontFamily="Cascadia Code Bold" FontSize="12" Width="200"/>
+              <ComboBox Name="comboBoxRoles" Background="#FFE2CDE2"  Height="25" Margin="1" VerticalContentAlignment="Center"
+                        BorderThickness="0" Width="240"/>
+            </StackPanel>
+
+            <StackPanel Name="stpCSREmpleado" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center">
+              <Label Name="lblCSREmpleado" Content="CSR" FontFamily="Cascadia Code Bold" FontSize="12" Width="200"/>
+              <xctk:IntegerUpDown Name="btnCSREmpleado" Grid.Row="2" Grid.Column="1" Maximum="10000" Minimum="0" Value="10" 
+                                  VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="5" Height="25" Increment="1"
+                                  Background="#FFE2CDE2" Width="230"/>
+            </StackPanel>
+          </Grid>
+
+          <Grid Grid.Row="3" Grid.Column="0" Margin="5">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="5*"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Name="lblCboxUsuarioRegistradoSI" Content="USUARIO YA REGISTRADO" FontFamily="Cascadia Code" FontSize="11"
+                   VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Row="0" Grid.Column="0"/>
+            <CheckBox Name="cboxUsuarioRegistradoSI" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+
+            <Label Name="lblCboxUsuarioRegistradoNO" Content="USUARIO NO REGISTRADO" FontFamily="Cascadia Code" FontSize="11"
+                   VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Row="1" Grid.Column="0"/>
+            <CheckBox Name="cboxUsuarioRegistradoNO" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+          </Grid>
+
+          <Grid Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="4">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="0" RadiusX="10" RadiusY="10"
+               Height="40" Width="150"/>
+            <Button Name="btnAgregarEmpleado" Grid.Row="0" Grid.Column="0" Content="Añadir" Background="{x:Null}" 
+                    Height="35" Width="150" FontFamily="Cascadia Code Bold" FontSize="12"
+                    Margin="5" BorderBrush="Transparent" Click="btnAgregarEmpleado_Click"/>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="1" RadiusX="10" RadiusY="10"
+               Height="40" Width="150"/>
+            <Button Name="btnModificarEmpleado" Grid.Row="0" Grid.Column="1" Content="Modificar" Background="{x:Null}" 
+                    Height="35" Width="150" FontFamily="Cascadia Code Bold" FontSize="12"
+                    Margin="5" BorderBrush="Transparent" Click="btnModificarEmpleado_Click"/>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="2" RadiusX="10" RadiusY="10"
+               Height="40" Width="150"/>
+            <Button Name="btnEliminarEmpleado" Grid.Row="0" Grid.Column="2" Content="Eliminar" Background="{x:Null}" 
+                    Height="35" Width="150" FontFamily="Cascadia Code Bold" FontSize="12"
+                    Margin="5" BorderBrush="Transparent" Click="btnEliminarEmpleado_Click"/>
+          </Grid>
+
+          <Grid Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="5">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="3*"/>
+              <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Separator Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" BorderThickness="5" BorderBrush="Black" Margin="5,2,5,2"/>
+            <Grid Grid.Row="0" Grid.Column="0">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.5*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+              </Grid.ColumnDefinitions>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+              </Grid.RowDefinitions>
+
+              <Label Name="lblListaUsuarios" Grid.Row="0" Grid.Column="0" Content="SELECCIONA UN USUARIO" FontFamily="Cascadia Code" FontSize="14"
+                     VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+              <ComboBox Name="comboBoxUsuarios" Grid.Row="1" Grid.Column="0" Margin="5" Height="30" BorderThickness="0" VerticalAlignment="Top" SelectionChanged="comboBoxUsuarios_SelectionChanged"/>
+
+              <Label Name="lblNombreUsuario2" Grid.Row="0" Grid.Column="1" Content="Usuario" FontFamily="Cascadia Code" FontSize="14"
+                     VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+              <Rectangle Fill="#eaeaea" Margin="5" Grid.Row="1" Grid.Column="1" RadiusX="10" RadiusY="10"
+                         Height="30" VerticalAlignment="Top" />
+              <TextBox Name="txtNombreUsuario2" Grid.Row="1" Grid.Column="1" Height="30" Margin="5"
+                         VerticalAlignment="Top" IsReadOnly="True" Background="{x:Null}" BorderThickness="0"/>
+
+              <Label Name="lblPassUsuario2" Grid.Row="0" Grid.Column="2" Content="Password" FontFamily="Cascadia Code" FontSize="14"
+                     VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+              <Rectangle Fill="#eaeaea" Margin="5" Grid.Row="1" Grid.Column="2" RadiusX="10" RadiusY="10"
+                         Height="30" VerticalAlignment="Top" />
+              <TextBox Name="txtPassUsuario2" Grid.Row="1" Grid.Column="2" IsReadOnly="True" Height="30" Margin="5"
+                         VerticalAlignment="Top" Background="{x:Null}" BorderThickness="0"/>
+
+              <Rectangle Fill="#FF50345B" Margin="5" Grid.Column="4" Grid.Row="1" RadiusX="10" RadiusY="10"
+                         Height="30" VerticalAlignment="Top"/>
+              <Button Name="btnRegistarUsuarioEmpleado" Grid.Column="4" Grid.Row="1" Content="Registrar y Recargar" VerticalAlignment="Top"
+                      HorizontalAlignment="Center" FontFamily="Cascadia Code" FontSize="13" FontWeight="Bold" Margin="5" Height="30" Background="{x:Null}" Click="btnRegistarUsuarioEmpleado_Click"/>
+            </Grid>
+            <Image Name="imgLogotipoMaestre4" Grid.Row="1" Source="/Images/logotipo.png"
+                 HorizontalAlignment="Left" Margin="2"/>
+          </Grid>
+        </Grid>
       </TabItem>
 
       <TabItem Name="tbiGEconomica" Header="G.ECONOMICA" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
                Foreground="#FFB18181" BorderThickness="0">
-        <Grid Background="#FFFDFDFD"></Grid>
+        <Grid Background="#FFFDFDFD">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
+
+          <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+          </Grid.RowDefinitions>
+
+          <Image Name="imgLogotipoMaestre5" Grid.Row="4" Grid.Column="0" Source="/Images/logotipo.png"
+                 HorizontalAlignment="Right" Margin="2,20,2,2"/>
+
+          <DataGrid Name="dataGestionEconomica" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="3"
+                    BorderThickness="0" Margin="10" FontFamily="Cascadia Code" FontSize="14" Focusable="False" 
+                    IsReadOnly="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+              <DataGridTextColumn Header="PROYECTO" Binding="{Binding IdProyecto}" Width="*"/>
+              <DataGridTextColumn Header="EMPLEADO" Binding="{Binding IdEmpleado}" Width="*"/>
+              <DataGridTextColumn Header="HORAS" Binding="{Binding NumHoras}" Width="*"/>
+              <DataGridTextColumn Header="FECHA" Binding="{Binding Fecha}" Width="*"/>
+              <DataGridTextColumn Header="COSTES" Binding="{Binding Costes}" Width="*"/>
+            </DataGrid.Columns>
+          </DataGrid>
+
+          <Grid Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2" Grid.RowSpan="3">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <StackPanel Name="stpListaProyectos" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center">
+              <Label Name="lblListaProyectosGEco" Content="Proyecto" FontFamily="Cascadia Code Bold" FontSize="12" Width="200"/>
+              <ComboBox Name="comboBoxProyectosGEco" Background="#FFE2CDE2"  Height="25" Margin="1" VerticalContentAlignment="Center"
+                        BorderThickness="0" Width="240"/>
+            </StackPanel>
+
+            <StackPanel Name="stpListaEmpleados" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center">
+              <Label Name="lblListaEmpleadosGEco" Content="Empleado" FontFamily="Cascadia Code Bold" FontSize="12" Width="200"/>
+              <ComboBox Name="comboBoxEmpleadosGEco" Background="#FFE2CDE2"  Height="25" Margin="1" VerticalContentAlignment="Center"
+                        BorderThickness="0" Width="240"/>
+            </StackPanel>
+
+            <StackPanel Name="stpFechaGEco" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center">
+              <Label Name="lblFechaGEco" Content="Fecha" FontFamily="Cascadia Code Bold" FontSize="12" Width="200"/>
+              <DatePicker Name="dateFechaGEco" SelectedDate="{x:Static sys:DateTime.Now}" FontFamily="Cascadia Code" FontWeight="Bold" 
+                          xmlns:sys="clr-namespace:System;assembly=mscorlib" VerticalContentAlignment="Center" Width="240"/>
+            </StackPanel>
+
+            <StackPanel Name="stpHorasEmpleGEco" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center">
+              <Label Name="lblHorasEmpleGEco" Content="Horas" FontFamily="Cascadia Code Bold" FontSize="12" Width="200"/>
+              <xctk:IntegerUpDown Name="btnHorasEmple" Grid.Row="2" Grid.Column="1" Maximum="10000" Minimum="0" Value="8" 
+                                  VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="5" Height="25" Increment="1"
+                                  Width="240"/>
+            </StackPanel>
+          </Grid>
+
+          <Grid Grid.Row="4" Grid.ColumnSpan="4" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="0" RadiusX="10" RadiusY="10"
+                       Height="40" Width="150" VerticalAlignment="Top"/>
+            <Button Name="btnImportarHoras" Grid.Row="0" Grid.Column="0" Content="Importar Horas" Background="{x:Null}" 
+                    Height="35" Width="150" FontFamily="Cascadia Code Bold" FontSize="12"
+                    Margin="5" BorderBrush="Transparent" VerticalAlignment="Top" Click="btnImportarHoras_ClickAsync"/>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="1" RadiusX="10" RadiusY="10"
+                       Height="40" Width="150" VerticalAlignment="Top"/>
+            <Button Name="btnModificarRegistroGEco" Grid.Row="0" Grid.Column="1" Content="Modificar" Background="{x:Null}" 
+                    Height="35" Width="150" FontFamily="Cascadia Code Bold" FontSize="12"
+                    Margin="5" BorderBrush="Transparent" VerticalAlignment="Top"/>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="2" RadiusX="10" RadiusY="10"
+                       Height="40" Width="150" VerticalAlignment="Top"/>
+            <Button Name="btnEliminarRegistroGEco" Grid.Row="0" Grid.Column="2" Content="Eliminar" Background="{x:Null}" 
+                    Height="35" Width="150" FontFamily="Cascadia Code Bold" FontSize="12"
+                    Margin="5" BorderBrush="Transparent" VerticalAlignment="Top"/>
+          </Grid>
+        </Grid>
       </TabItem>
       <TabItem Name="tbiEstadisticas" Header="ESTADISTICAS" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
                Foreground="#FFB18181" BorderThickness="0">
@@ -194,7 +443,87 @@
       </TabItem>
       <TabItem Name="tbiUsuarios" Header="USUARIOS" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
                Foreground="#FFB18181">
-        <Grid Background="#FFFDFDFD"></Grid>
+        <Grid Background="#FFFDFDFD">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
+
+          <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+          </Grid.RowDefinitions>
+
+          <Image Name="imgLogotipoMaestre3" Grid.Row="6" Grid.Column="0" Source="/Images/logotipo.png"
+                 HorizontalAlignment="Right" Margin="2"/>
+
+
+          <DataGrid Name="dataUsuarios" Grid.Row="1" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="3"
+            BorderThickness="0" Margin="10" FontFamily="Cascadia Code" FontSize="14" Focusable="False" 
+            IsReadOnly="True" AutoGenerateColumns="False" SelectionChanged="dataUsuarios_SelectionChanged">
+            <DataGrid.Columns>
+              <DataGridTextColumn Header="USUARIO" Binding="{Binding NombreUsuario}" Width="*"/>
+              <DataGridTextColumn Header="CONTRASEÑA" Binding="{Binding PassUsuario}" Width="*"/>
+            </DataGrid.Columns>
+          </DataGrid>
+
+          <Grid Grid.Row="1" Grid.RowSpan="3" Grid.Column="3" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="*"/>
+              <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Name="stpNombreUsuario" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center">
+              <Label Name="lblNombreUsuario" Content="Usuario" FontFamily="Cascadia Code Bold" FontSize="12" Width="240"/>
+              <Separator Margin="1" Visibility="Hidden"/>
+              <TextBox Name="txtNombreUsuario" Text=" " Background="#FFE2CDE2" Height="25" Margin="1"
+             VerticalContentAlignment="Center" BorderThickness="0" Width="240"/>
+            </StackPanel>
+
+            <StackPanel Name="stpPassUsuario" Grid.Row="1" Grid.ColumnSpan="2" Grid.Column="3" Orientation="Vertical" VerticalAlignment="Center">
+              <Label Name="lblPassUsuario" Content="Password" FontFamily="Cascadia Code Bold" FontSize="12" Width="240"/>
+              <Separator Margin="1" Visibility="Hidden"/>
+              <TextBox Name="txtPassUsuario" Text=" " Background="#FFE2CDE2" Height="25" Margin="1"
+             VerticalContentAlignment="Center" BorderThickness="0" Width="240"/>
+            </StackPanel>
+          </Grid>
+
+          <Grid Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="5">
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="0" RadiusX="10" RadiusY="10"
+               Height="40" Width="170"/>
+            <Button Name="btnDarAltaUsuario" Grid.Row="0" Grid.Column="0" Content="Dar de Alta" Background="{x:Null}" 
+            Height="35" Width="170" FontFamily="Cascadia Code Bold" FontSize="12" 
+            Margin="5" BorderBrush="Transparent" Click="btnDarAltaUsuario_Click"/>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="1" RadiusX="10" RadiusY="10"
+               Height="40" Width="170"/>
+            <Button Name="btnEliminarUsuario" Grid.Row="0" Grid.Column="1" Content="Eliminar" Background="{x:Null}" 
+            Height="35" Width="170" FontFamily="Cascadia Code Bold" FontSize="12" 
+            Margin="5" BorderBrush="Transparent" Click="btnEliminarUsuario_Click"/>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="2" RadiusX="10" RadiusY="10"
+               Height="40" Width="170"/>
+            <Button Name="btnActualizarPassUsuario" Grid.Row="0" Grid.Column="2" Content="Update Contraseña" Background="{x:Null}" 
+            Height="35" Width="170" FontFamily="Cascadia Code Bold" FontSize="12" 
+            Margin="5" BorderBrush="Transparent" Click="btnActualizarPassUsuario_Click"/>
+          </Grid>
+        </Grid>
       </TabItem>
     </TabControl>
   </Grid>

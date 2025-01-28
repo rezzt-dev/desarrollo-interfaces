@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{2D44D1E7-9F4D-4D4D-BDE3-F770D83D3E84}|proyectoPilas\\proyectoPilas.csproj|solutionrelative:proyectopilas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D44D1E7-9F4D-4D4D-BDE3-F770D83D3E84}|proyectoPilas\\proyectoPilas.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectopilas\\proyectopilas\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D44D1E7-9F4D-4D4D-BDE3-F770D83D3E84}|proyectoPilas\\proyectoPilas.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectoPilas\\proyectopilas\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D44D1E7-9F4D-4D4D-BDE3-F770D83D3E84}|proyectoPilas\\proyectoPilas.csproj|solutionrelative:proyectopilas\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D44D1E7-9F4D-4D4D-BDE3-F770D83D3E84}|proyectoPilas\\proyectoPilas.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectopilas\\proyectopilas\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{2D44D1E7-9F4D-4D4D-BDE3-F770D83D3E84}|proyectoPilas\\proyectoPilas.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectoPilas\\proyectopilas\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2D44D1E7-9F4D-4D4D-BDE3-F770D83D3E84}|proyectoPilas\\proyectoPilas.csproj|solutionrelative:proyectopilas\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D44D1E7-9F4D-4D4D-BDE3-F770D83D3E84}|proyectoPilas\\proyectoPilas.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectopilas\\proyectopilas\\view\\detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D44D1E7-9F4D-4D4D-BDE3-F770D83D3E84}|proyectoPilas\\proyectoPilas.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectoPilas\\proyectopilas\\view\\detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D44D1E7-9F4D-4D4D-BDE3-F770D83D3E84}|proyectoPilas\\proyectoPilas.csproj|solutionrelative:proyectopilas\\view\\detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,8 +42,7 @@
               "RelativeToolTip": "proyectoPilas\\view\\DetailPage.xaml.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAkwB0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T11:51:47.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T11:51:47.529Z"
             },
             {
               "$type": "Document",
@@ -54,8 +53,7 @@
               "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectoPilas\\proyectoPilas\\view\\MainPage.xaml",
               "RelativeToolTip": "proyectoPilas\\view\\MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-20T11:43:34.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T11:43:34.854Z"
             },
             {
               "$type": "Document",
@@ -67,8 +65,7 @@
               "RelativeToolTip": "proyectoPilas\\view\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAkwB8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T11:40:27.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T11:40:27.396Z"
             },
             {
               "$type": "Document",
