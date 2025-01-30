@@ -33,17 +33,11 @@ namespace gestproJuanGarcia.persistence
           // Crear lista de DiasFestivos desde el JSON
           List<DiaFestivo> diasFestivos = new List<DiaFestivo>();
 
-          foreach (var diaFestivoJson in documentoJson.RootElement.GetProperty("response").GetProperty("holidays").EnumerateArray())
+          if (!documentoJson.RootElement.TryGetProperty("response", out JsonElement response) ||
+            response.TryGetProperty("holidays", out JsonElement holidays))
           {
-            diasFestivos.Add(new DiaFestivo
-            {
-              Nombre = diaFestivoJson.GetProperty("name").GetString(),
-              Descripcion = diaFestivoJson.GetProperty("description").GetString(),
-              Fecha = DateTime.Parse(diaFestivoJson.GetProperty("date").GetProperty("iso").GetString()),
-              Pais = pais,
-              Tipo = diaFestivoJson.GetProperty("type")[0].GetString(),
-              Localidad = diaFestivoJson.GetProperty("locations").GetString()
-            });
+            Console.WriteLine("No se encontraron días festivos en la respuesta.");
+            return new RespuestaCalendarific { DiasFestivos = new List<DiaFestivo>() };
           }
 
           return new RespuestaCalendarific

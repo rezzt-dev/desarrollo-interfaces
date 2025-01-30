@@ -57,6 +57,9 @@ namespace gestproJuanGarcia
       listEmpleado = new List<Empleado>();
       empleado = new Empleado();
 
+      listProyectoEmpleado = new List<ProyectoEmpleado>();
+      proyectoEmpleado = new ProyectoEmpleado();
+
       listProyectos = proyecto.getProyectList();
       dataProyectos.ItemsSource = listProyectos;
 
@@ -75,8 +78,8 @@ namespace gestproJuanGarcia
 
       listProyectoEmpleado = proyectoEmpleado.getProyectoEmpleadoList();
       dataGestionEconomica.ItemsSource = listProyectoEmpleado;
-      comboBoxEmpleadosGEco.ItemsSource = listEmpleado;
-      comboBoxProyectosGEco.ItemsSource = listProyectos;
+      comboBoxEmpleadosGEco.ItemsSource = listEmpleado.Select(em => em.NombreEmpleado).ToList();
+      comboBoxProyectosGEco.ItemsSource = listProyectos.Select(pro => pro.Nombre).ToList();
 
       comboBoxProyectosGEco.SelectedIndex = 0;
       comboBoxEmpleadosGEco.SelectedIndex = 0;
@@ -570,27 +573,30 @@ namespace gestproJuanGarcia
 
     private async void btnImportarHoras_ClickAsync(object sender, RoutedEventArgs e)
     {
-      ProyectoEmpleado proyectoEmpleado = (ProyectoEmpleado) dataGestionEconomica.SelectedItem;
-
-      comboBoxProyectosGEco.SelectedItem = listProyectos.Where(p => p.Id == proyectoEmpleado.IdProyecto).FirstOrDefault().Nombre;
-      comboBoxEmpleadosGEco.SelectedItem = listEmpleado.Where(p => p.IdEmpleado == proyectoEmpleado.IdEmpleado).FirstOrDefault().NombreEmpleado;
-      dateFechaGEco.Text = Convert.ToString(proyectoEmpleado.Fecha);
-      btnHorasEmple.Text = Convert.ToString(proyectoEmpleado.NumHoras);
-
       DateTime fechaImport = Convert.ToDateTime(dateFechaGEco.Text);
       ControladorCalendarific controladorAnio = new ControladorCalendarific();
 
       RespuestaCalendarific respuesta = await controladorAnio.ObtenerDiasFestivos("Spain", fechaImport.Year);
-      List<DiaFestivo> diasFestivos = respuesta.DiasFestivos;
+      if (respuesta == null || respuesta.DiasFestivos == null)
+      {
+        System.Windows.MessageBox.Show("Error al obtener días festivos. Verifique la conexión a la API.",
+            "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+        return;
+      }
 
-      if (diasFestivos.Where(d => d.Fecha == fechaImport) != null) {
+
+      List<DiaFestivo> diasFestivos = respuesta?.DiasFestivos ?? new List<DiaFestivo>();
+
+
+
+      if (diasFestivos.Any(d => d.Fecha == fechaImport)) {
         System.Windows.MessageBox.Show($"Error, el dia es festivo", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
         return;
       } else
       {
 
-        Empleado tempEmple = listEmpleado.Where(e => e.NombreEmpleado == (String) comboBoxEmpleadosGEco.SelectedItem).FirstOrDefault();
-        Proyecto tempProyect = listProyectos.Where(e => e.Nombre == (String) comboBoxProyectosGEco.SelectedItem).FirstOrDefault();
+        Empleado tempEmple = listEmpleado.Where(aux => aux.NombreEmpleado == (String) comboBoxEmpleadosGEco.SelectedItem).FirstOrDefault();
+        Proyecto tempProyect = listProyectos.Where(aux => aux.Nombre == (String) comboBoxProyectosGEco.SelectedItem).FirstOrDefault();
         ProyectoEmpleado auxProyectoEmpleado = new ProyectoEmpleado(Convert.ToInt32(btnHorasEmple.Text), (tempEmple.CsrEmpleado * Convert.ToInt32(btnHorasEmple.Text)), 
           Convert.ToDateTime(dateFechaGEco), tempProyect.Id, tempEmple.IdEmpleado);
 

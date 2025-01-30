@@ -24,7 +24,7 @@ namespace gestproJuanGarcia.persistence.manages
     public List<ProyectoEmpleado> leerListaProyectoEmpleado()
     {
       ProyectoEmpleado proyectoEmpleado = new ProyectoEmpleado();
-      List<Object> list = DBBroker.obtenerAgente().leer("SELECT * FROM proyectoempleado.empleado;");
+      List<Object> list = DBBroker.obtenerAgente().leer("SELECT * FROM proyectoempleado.proyectoempleado;");
 
       foreach (List<Object> aux in list)
       {
