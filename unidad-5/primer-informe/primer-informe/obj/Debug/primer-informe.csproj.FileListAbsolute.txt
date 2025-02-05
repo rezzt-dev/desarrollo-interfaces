@@ -17,11 +17,9 @@ C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\pri
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\obj\Debug\primer-informe.csproj.AssemblyReference.cache
-C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\obj\Debug\MainWindow.g.cs
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\obj\Debug\App.g.cs
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\obj\Debug\primer-informe_MarkupCompile.cache
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\obj\Debug\primer-informe_MarkupCompile.lref
-C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\obj\Debug\MainWindow.baml
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\obj\Debug\primer-informe.g.resources
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\obj\Debug\primer_informe.Properties.Resources.resources
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\obj\Debug\primer-informe.csproj.GenerateResource.cache
@@ -31,3 +29,5 @@ C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\pri
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\obj\Debug\primer-informe.pdb
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\bin\Debug\sapbusinessobjects.wpf.viewer.dll
 C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\obj\Debug\view\MainWindow.g.cs
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\primer-informe\primer-informe\obj\Debug\view\MainWindow.baml

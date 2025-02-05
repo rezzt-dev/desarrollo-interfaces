@@ -1,0 +1,7 @@
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\proyectos-informes\proyectoPersonas\proyectoPersonas\obj\Debug\net48\proyectoPersonas.csproj.AssemblyReference.cache
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\proyectos-informes\proyectoPersonas\proyectoPersonas\obj\Debug\net48\proyectoPersonas.csproj.SuggestedBindingRedirects.cache
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\proyectos-informes\proyectoPersonas\proyectoPersonas\obj\Debug\net48\proyectoPersonas.exe.config
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\proyectos-informes\proyectoPersonas\proyectoPersonas\obj\Debug\net48\view\MainWindow.g.cs
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\proyectos-informes\proyectoPersonas\proyectoPersonas\obj\Debug\net48\App.g.cs
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\proyectos-informes\proyectoPersonas\proyectoPersonas\obj\Debug\net48\proyectoPersonas_MarkupCompile.cache
+C:\Users\b15-11m\Desktop\github\personal-data\desarrollo-interfaces\unidad-5\proyectos-informes\proyectoPersonas\proyectoPersonas\obj\Debug\net48\proyectoPersonas_MarkupCompile.lref
