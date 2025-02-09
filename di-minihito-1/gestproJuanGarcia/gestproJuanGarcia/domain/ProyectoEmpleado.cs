@@ -22,6 +22,7 @@ namespace gestproJuanGarcia.domain
     public ProyectoEmpleado () => pem = new ProyectoEmpleadoManager ();
     public ProyectoEmpleado (int inputNumHoras, Decimal inputCostes, DateTime inputFecha, int inputIdProyecto, int inputIdEmpleado)
     {
+      pem = new ProyectoEmpleadoManager ();
       _fecha = inputFecha;
       _idEmpleado = inputIdEmpleado;
       _numHoras = inputNumHoras;

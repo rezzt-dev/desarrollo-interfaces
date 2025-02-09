@@ -211,7 +211,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="database\roles.sql" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\elementos\boton.png" />
   </ItemGroup>

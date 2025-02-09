@@ -427,13 +427,13 @@
                        Height="40" Width="150" VerticalAlignment="Top"/>
             <Button Name="btnModificarRegistroGEco" Grid.Row="0" Grid.Column="1" Content="Modificar" Background="{x:Null}" 
                     Height="35" Width="150" FontFamily="Cascadia Code Bold" FontSize="12"
-                    Margin="5" BorderBrush="Transparent" VerticalAlignment="Top"/>
+                    Margin="5" BorderBrush="Transparent" VerticalAlignment="Top" Click="btnModificarHoras_ClickAsync"/>
 
             <Rectangle Fill="#FF50345B" Margin="5" Grid.Row="0" Grid.Column="2" RadiusX="10" RadiusY="10"
                        Height="40" Width="150" VerticalAlignment="Top"/>
             <Button Name="btnEliminarRegistroGEco" Grid.Row="0" Grid.Column="2" Content="Eliminar" Background="{x:Null}" 
                     Height="35" Width="150" FontFamily="Cascadia Code Bold" FontSize="12"
-                    Margin="5" BorderBrush="Transparent" VerticalAlignment="Top"/>
+                    Margin="5" BorderBrush="Transparent" VerticalAlignment="Top" Click="btnEliminarHoras_Click"/>
           </Grid>
         </Grid>
       </TabItem>
