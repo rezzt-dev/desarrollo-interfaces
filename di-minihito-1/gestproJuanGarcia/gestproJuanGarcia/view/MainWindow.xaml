@@ -439,7 +439,16 @@
       </TabItem>
       <TabItem Name="tbiEstadisticas" Header="ESTADISTICAS" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
                Foreground="#FFB18181" BorderThickness="0">
-        <Grid Background="#FFFDFDFD"></Grid>
+        <Grid Background="#FFFDFDFD">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+          </Grid.RowDefinitions>
+
+          <Frame Name="frameEstadisticas"/>
+        </Grid>
       </TabItem>
       <TabItem Name="tbiUsuarios" Header="USUARIOS" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"
                Foreground="#FFB18181">

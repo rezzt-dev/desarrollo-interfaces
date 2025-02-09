@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
+              "Title": "view\\MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "gestproJuanGarcia\\view\\MainWindow.xaml.cs",
               "ToolTip": "D:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml.cs",
               "RelativeToolTip": "gestproJuanGarcia\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAMYCAAAAAAAAAADwv9cCAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAUwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T20:56:23.691Z",
+              "WhenOpened": "2025-02-09T21:38:21.801Z",
               "EditorCaption": ""
             },
             {
@@ -46,7 +46,7 @@
               "ToolTip": "D:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\di-minihito-1\\gestproJuanGarcia\\gestproJuanGarcia\\view\\MainWindow.xaml",
               "RelativeToolTip": "gestproJuanGarcia\\view\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-09T20:34:39.465Z",
+              "WhenOpened": "2025-02-09T21:37:27.01Z",
               "EditorCaption": ""
             }
           ]
