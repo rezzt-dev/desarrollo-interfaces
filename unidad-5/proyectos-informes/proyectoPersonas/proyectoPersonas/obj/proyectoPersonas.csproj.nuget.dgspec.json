@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\proyectoPersonas.csproj": {}
+    "D:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\proyectoPersonas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\proyectoPersonas.csproj": {
+    "D:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\proyectoPersonas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\proyectoPersonas.csproj",
+        "projectUniqueName": "D:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\proyectoPersonas.csproj",
         "projectName": "proyectoPersonas",
-        "projectPath": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\proyectoPersonas.csproj",
-        "packagesPath": "C:\\Users\\b15-11m\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\obj\\",
+        "projectPath": "D:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\proyectoPersonas.csproj",
+        "packagesPath": "C:\\Users\\rezzt\\.nuget\\packages\\",
+        "outputPath": "D:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\b15-11m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rezzt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net48": {
@@ -79,6 +84,12 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[9.1.0, )"
@@ -88,7 +99,7 @@
               "version": "[9.0.1, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,17 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\",
+  "WorkspaceRootPath": "D:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectopersonas\\proyectopersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|d:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectopersonas\\proyectopersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|solutionrelative:proyectopersonas\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\b15-11m\\AppData\\Local\\Temp\\.vsdbgsrc\\4770e56a002c228d433dc1c9f1e8058a389ca45f079e736915295aff96a975c2\\ReportAlbum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectopersonas\\proyectopersonas\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7850074-ABD5-45A5-B21C-4717D29608D9}|proyectoPersonas\\proyectoPersonas.csproj|solutionrelative:proyectopersonas\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,38 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\view\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\view\\MainWindow.xaml",
               "RelativeDocumentMoniker": "proyectoPersonas\\view\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\view\\MainWindow.xaml",
+              "ToolTip": "D:\\documents\\github-repositories\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\view\\MainWindow.xaml",
               "RelativeToolTip": "proyectoPersonas\\view\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-05T08:31:00.183Z",
+              "WhenOpened": "2025-02-08T14:54:59.764Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReportAlbum.cs",
-              "DocumentMoniker": "C:\\Users\\b15-11m\\AppData\\Local\\Temp\\.vsdbgsrc\\4770e56a002c228d433dc1c9f1e8058a389ca45f079e736915295aff96a975c2\\ReportAlbum.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4770e56a002c228d433dc1c9f1e8058a389ca45f079e736915295aff96a975c2\\ReportAlbum.cs",
-              "ToolTip": "C:\\Users\\b15-11m\\AppData\\Local\\Temp\\.vsdbgsrc\\4770e56a002c228d433dc1c9f1e8058a389ca45f079e736915295aff96a975c2\\ReportAlbum.cs [Solo lectura]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\4770e56a002c228d433dc1c9f1e8058a389ca45f079e736915295aff96a975c2\\ReportAlbum.cs [Solo lectura]",
-              "ViewState": "AgIAAB0CAAAAAAAAAAAIwDECAAADAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T08:30:26.485Z",
-              "EditorCaption": " [Solo lectura]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\view\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "proyectoPersonas\\view\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\proyectos-informes\\proyectoPersonas\\proyectoPersonas\\view\\MainWindow.xaml.cs",
-              "RelativeToolTip": "proyectoPersonas\\view\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAxwFYAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T13:42:45.737Z"
             }
           ]
         }
