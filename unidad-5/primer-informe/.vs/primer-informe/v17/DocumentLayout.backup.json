@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\primer-informe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDDE5A10-44AD-487D-99DA-FEA0B6DE2CD8}|primer-informe\\primer-informe.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\primer-informe\\primer-informe\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDDE5A10-44AD-487D-99DA-FEA0B6DE2CD8}|primer-informe\\primer-informe.csproj|solutionrelative:primer-informe\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDDE5A10-44AD-487D-99DA-FEA0B6DE2CD8}|primer-informe\\primer-informe.csproj|c:\\users\\b15-11m\\desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\primer-informe\\primer-informe\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DDDE5A10-44AD-487D-99DA-FEA0B6DE2CD8}|primer-informe\\primer-informe.csproj|solutionrelative:primer-informe\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDDE5A10-44AD-487D-99DA-FEA0B6DE2CD8}|primer-informe\\primer-informe.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\primer-informe\\primer-informe\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DDDE5A10-44AD-487D-99DA-FEA0B6DE2CD8}|primer-informe\\primer-informe.csproj|solutionrelative:primer-informe\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{DDDE5A10-44AD-487D-99DA-FEA0B6DE2CD8}|primer-informe\\primer-informe.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\primer-informe\\primer-informe\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDDE5A10-44AD-487D-99DA-FEA0B6DE2CD8}|primer-informe\\primer-informe.csproj|solutionrelative:primer-informe\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDDE5A10-44AD-487D-99DA-FEA0B6DE2CD8}|primer-informe\\primer-informe.csproj|C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\primer-informe\\primer-informe\\reports\\crystalreport1.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,18 +50,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\primer-informe\\primer-informe\\view\\MainWindow.xaml",
               "RelativeDocumentMoniker": "primer-informe\\view\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\primer-informe\\primer-informe\\view\\MainWindow.xaml",
               "RelativeToolTip": "primer-informe\\view\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-03T10:00:32.106Z"
+              "WhenOpened": "2025-02-03T10:00:32.106Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\b15-11m\\Desktop\\github\\personal-data\\desarrollo-interfaces\\unidad-5\\primer-informe\\primer-informe\\view\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "primer-informe\\view\\MainWindow.xaml.cs",
@@ -69,8 +70,7 @@
               "RelativeToolTip": "primer-informe\\view\\MainWindow.xaml.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAswC4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T09:58:02.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T09:58:02.104Z"
             },
             {
               "$type": "Document",

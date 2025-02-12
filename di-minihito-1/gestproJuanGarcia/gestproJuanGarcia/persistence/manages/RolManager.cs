@@ -9,18 +9,37 @@ using System.Threading.Tasks;
 
 namespace gestproJuanGarcia.persistence.manages
 {
+  /// <summary>
+  /// clase de manejador de rol
+  /// </summary>
   public class RolManager
   {
+    /// <summary>
+    /// The data table
+    /// </summary>
     private DataTable dataTable;
+    /// <summary>
+    /// The list roles
+    /// </summary>
     private List<Rol> listRoles;
+    /// <summary>
+    /// The last identifier
+    /// </summary>
     private int lastId;
 
+    /// <summary>
+    /// Initializes a new instance of the <see cref="RolManager"/> class.
+    /// </summary>
     public RolManager()
     {
       dataTable = new DataTable();
       listRoles = new List<Rol>();
     }
 
+    /// <summary>
+    /// Leers the roles.
+    /// </summary>
+    /// <returns></returns>
     public List<Rol> leerRoles()
     {
       Rol rol = new Rol();
@@ -35,6 +54,11 @@ namespace gestproJuanGarcia.persistence.manages
       return listRoles;
     }
 
+    /// <summary>
+    /// Gets the last identifier.
+    /// </summary>
+    /// <param name="inputRol">The input rol.</param>
+    /// <returns></returns>
     public int getLastId(Rol inputRol)
     {
       List<Object> listAux = DBBroker.obtenerAgente().leer("SELECT COALESCE(MAX(IDROL), 0) FROM proyectoempleado.rol;");
@@ -47,6 +71,10 @@ namespace gestproJuanGarcia.persistence.manages
       return lastId;
     }
 
+    /// <summary>
+    /// Insertars the rol.
+    /// </summary>
+    /// <param name="inputRol">The input rol.</param>
     public void insertarRol(Rol inputRol)
     {
       DBBroker dbBroker = DBBroker.obtenerAgente();
@@ -56,6 +84,10 @@ namespace gestproJuanGarcia.persistence.manages
           inputRol.DescRol + "');");
     }
 
+    /// <summary>
+    /// Modificars the rol.
+    /// </summary>
+    /// <param name="inputRol">The input rol.</param>
     public void modificarRol(Rol inputRol)
     {
       DBBroker dbBroker = DBBroker.obtenerAgente();
@@ -64,6 +96,10 @@ namespace gestproJuanGarcia.persistence.manages
           inputRol.DescRol + "' WHERE IDROL = " + inputRol.IdRol + ";");
     }
 
+    /// <summary>
+    /// Eliminars the rol.
+    /// </summary>
+    /// <param name="inputRol">The input rol.</param>
     public void eliminarRol(Rol inputRol)
     {
       DBBroker dbBroker = DBBroker.obtenerAgente();

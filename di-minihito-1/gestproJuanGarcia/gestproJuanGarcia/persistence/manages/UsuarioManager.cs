@@ -9,18 +9,37 @@ using System.Threading.Tasks;
 
 namespace gestproJuanGarcia.persistence.manages
 {
+  /// <summary>
+  /// clase de manejador de usuario
+  /// </summary>
   public class UsuarioManager
   {
+    /// <summary>
+    /// The data table
+    /// </summary>
     private DataTable dataTable;
+    /// <summary>
+    /// The list usuarios
+    /// </summary>
     private List<Usuario> listUsuarios;
+    /// <summary>
+    /// The last identifier
+    /// </summary>
     private int lastId;
 
+    /// <summary>
+    /// Initializes a new instance of the <see cref="UsuarioManager"/> class.
+    /// </summary>
     public UsuarioManager()
     {
       dataTable = new DataTable();
       listUsuarios = new List<Usuario>();
     }
 
+    /// <summary>
+    /// Leers the usuarios.
+    /// </summary>
+    /// <returns></returns>
     public List<Usuario> leerUsuarios()
     {
       Usuario usuario = new Usuario();
@@ -35,6 +54,11 @@ namespace gestproJuanGarcia.persistence.manages
       return listUsuarios;
     }
 
+    /// <summary>
+    /// Gets the last identifier.
+    /// </summary>
+    /// <param name="inputUsuario">The input usuario.</param>
+    /// <returns></returns>
     public int getLastId(Usuario inputUsuario)
     {
       List<Object> listAux = DBBroker.obtenerAgente().leer("SELECT COALESCE(MAX(IDUSUARIO), 0) FROM proyectoempleado.usuario;");
@@ -47,6 +71,10 @@ namespace gestproJuanGarcia.persistence.manages
       return lastId;
     }
 
+    /// <summary>
+    /// Insertars the usuario.
+    /// </summary>
+    /// <param name="inputUsuario">The input usuario.</param>
     public void insertarUsuario(Usuario inputUsuario)
     {
       DBBroker dbBroker = DBBroker.obtenerAgente();
@@ -56,6 +84,10 @@ namespace gestproJuanGarcia.persistence.manages
           inputUsuario.PassUsuario + "');");
     }
 
+    /// <summary>
+    /// Modificars the usuario.
+    /// </summary>
+    /// <param name="inputUsuario">The input usuario.</param>
     public void modificarUsuario(Usuario inputUsuario)
     {
       DBBroker dbBroker = DBBroker.obtenerAgente();
@@ -64,6 +96,10 @@ namespace gestproJuanGarcia.persistence.manages
           inputUsuario.PassUsuario + "' WHERE IDUSUARIO = " + inputUsuario.IdUsuario + ";");
     }
 
+    /// <summary>
+    /// Eliminars the usuario.
+    /// </summary>
+    /// <param name="inputUsuario">The input usuario.</param>
     public void eliminarUsuario(Usuario inputUsuario)
     {
       DBBroker dbBroker = DBBroker.obtenerAgente();

@@ -1,9 +1,13 @@
 ﻿using gestproJuanGarcia.domain;
+using gestproJuanGarcia.domain.reportsDomain;
 using gestproJuanGarcia.persistence;
+using gestproJuanGarcia.reports.reportCostesIngresoProyecto;
+using gestproJuanGarcia.reports.reportNumPerfilProyecto;
 using Mysqlx.Cursor;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Data;
 using System.Linq;
 using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Security.Cryptography;
@@ -26,23 +30,67 @@ namespace gestproJuanGarcia
   /// <summary>
   /// Lógica de interacción para MainWindow.xaml
   /// </summary>
+  /// <seealso cref="System.Windows.Window" />
+  /// <seealso cref="System.Windows.Markup.IComponentConnector" />
   public partial class MainWindow : Window
   {
+    /// <summary>
+    /// The list proyectos
+    /// </summary>
     private List<Proyecto> listProyectos;
+    /// <summary>
+    /// The proyecto
+    /// </summary>
     private Proyecto proyecto;
 
+    /// <summary>
+    /// The list usarios
+    /// </summary>
     private List<Usuario> listUsarios;
+    /// <summary>
+    /// The usuario
+    /// </summary>
     private Usuario usuario;
 
+    /// <summary>
+    /// The list rol
+    /// </summary>
     private List<Rol> listRol;
+    /// <summary>
+    /// The rol
+    /// </summary>
     private Rol rol;
 
+    /// <summary>
+    /// The list empleado
+    /// </summary>
     private List<Empleado> listEmpleado;
+    /// <summary>
+    /// The empleado
+    /// </summary>
     private Empleado empleado;
 
+    /// <summary>
+    /// The list proyecto empleado
+    /// </summary>
     private List<ProyectoEmpleado> listProyectoEmpleado;
+    /// <summary>
+    /// The proyecto empleado
+    /// </summary>
     private ProyectoEmpleado proyectoEmpleado;
 
+    /// <summary>
+    /// The data table informes1
+    /// </summary>
+    private DataTable dataTableInformes1;
+    /// <summary>
+    /// The data table informes2
+    /// </summary>
+    private DataTable dataTableInformes2;
+
+    /// <summary>
+    /// Initializes a new instance of the <see cref="MainWindow"/> class.
+    /// </summary>
     public MainWindow()
     {
       InitializeComponent();
@@ -85,6 +133,19 @@ namespace gestproJuanGarcia
       comboBoxProyectosGEco.SelectedIndex = 0;
       comboBoxEmpleadosGEco.SelectedIndex = 0;
 
+      dataTableInformes1 = new DataTable("CostesProyecto");
+      dataTableInformes2 = new DataTable("PerfilesProyectos");
+
+      dataTableInformes1.Columns.Add("CodigoProyecto");
+      dataTableInformes1.Columns.Add("Fecha");
+      dataTableInformes1.Columns.Add("CosteTotal");
+
+      dataTableInformes2.Columns.Add("CodigoProyecto");
+      dataTableInformes2.Columns.Add("Fecha");
+      dataTableInformes2.Columns.Add("PerfilEmpleado");
+      dataTableInformes2.Columns.Add("NumeroPersonas");
+      dataTableInformes2.Columns.Add("TotalPersonas");
+
       btnAgregarProyecto.IsEnabled = true;
       btnEliminarProyecto.IsEnabled = false;
       btnModificarProyecto.IsEnabled = false;
@@ -100,6 +161,9 @@ namespace gestproJuanGarcia
     }
 
     // metodo | "cleanData" | limpia los campos
+    /// <summary>
+    /// Cleans the data.
+    /// </summary>
     private void cleanData()
     {
       txtCodigoProyectoInput.Text = "";
@@ -119,6 +183,11 @@ namespace gestproJuanGarcia
 
     }
 
+    /// <summary>
+    /// Handles the SelectionChanged event of the dataProyectos control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="SelectionChangedEventArgs"/> instance containing the event data.</param>
     private void dataProyectos_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
       if (dataProyectos.SelectedItems.Count > 0)
@@ -135,6 +204,11 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnAgregarProyecto control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnAgregarProyecto_Click(object sender, RoutedEventArgs e)
     {
       if (Double.TryParse(txtPresupuestoProyecto.Text, out double presupuestoProyecto))
@@ -168,6 +242,11 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnModificarProyecto control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnModificarProyecto_Click(object sender, RoutedEventArgs e)
     {
       Proyecto selectProyecto = (Proyecto)dataProyectos.SelectedItem;
@@ -197,6 +276,11 @@ namespace gestproJuanGarcia
 
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnEliminarProyecto control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnEliminarProyecto_Click(object sender, RoutedEventArgs e)
     {
       Proyecto selectedProyecto = (Proyecto)dataProyectos.SelectedItem;
@@ -213,6 +297,11 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Handles the Selected event of the dataProyectos control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void dataProyectos_Selected(object sender, RoutedEventArgs e)
     {
       Proyecto selectProyecto = (Proyecto)dataProyectos.SelectedItem;
@@ -222,6 +311,11 @@ namespace gestproJuanGarcia
       txtPresupuestoProyecto.Text = selectProyecto.Presupuesto.ToString();
     }
 
+    /// <summary>
+    /// Handles the KeyDown event of the tboxBusqueda control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="KeyEventArgs"/> instance containing the event data.</param>
     private void tboxBusqueda_KeyDown(object sender, KeyEventArgs e)
     {
       if (e.Key == Key.Enter)
@@ -230,11 +324,21 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Handles the TextChanged event of the tboxBusqueda control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="TextChangedEventArgs"/> instance containing the event data.</param>
     private void tboxBusqueda_TextChanged(object sender, TextChangedEventArgs e)
     {
       RealizarBusqueda();
     }
 
+    /// <summary>
+    /// Handles the KeyDown event of the tboxBusquedaEmpleados control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="KeyEventArgs"/> instance containing the event data.</param>
     private void tboxBusquedaEmpleados_KeyDown(object sender, KeyEventArgs e)
     {
       if (e.Key == Key.Enter)
@@ -243,11 +347,19 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Handles the TextChanged event of the tboxBusquedaEmpleados control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="TextChangedEventArgs"/> instance containing the event data.</param>
     private void tboxBusquedaEmpleados_TextChanged(object sender, TextChangedEventArgs e)
     {
       realizarBusquedaEmpleados();
     }
 
+    /// <summary>
+    /// Realizars the busqueda.
+    /// </summary>
     private void RealizarBusqueda()
     {
       string searchText = tboxBusqueda.Text.Trim().ToLower();
@@ -278,6 +390,9 @@ namespace gestproJuanGarcia
       dataProyectos.Items.Refresh();
     }
 
+    /// <summary>
+    /// Realizars the busqueda empleados.
+    /// </summary>
     private void realizarBusquedaEmpleados()
     {
       string searchText = txtBusquedaEmpleado.Text.Trim().ToLower();
@@ -300,6 +415,11 @@ namespace gestproJuanGarcia
       dataEmpleados.Items.Refresh();
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnCargarDatos control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnCargarDatos_Click(object sender, RoutedEventArgs e)
     {
       for (int i = 0; i < 20; i++)
@@ -312,6 +432,11 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Encrypts the pass m d5.
+    /// </summary>
+    /// <param name="inputRawPassword">The input raw password.</param>
+    /// <returns></returns>
     private string encryptPassMD5(string inputRawPassword)
     {
       MD5 md5 = MD5.Create();
@@ -320,31 +445,61 @@ namespace gestproJuanGarcia
       return BitConverter.ToString(hashBytes).Replace("-", "").ToLower();
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnProyectos control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnProyectos_Click(object sender, RoutedEventArgs e)
     {
       tbcMenu.SelectedItem = tbiProyecto;
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnEmpleados control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnEmpleados_Click(object sender, RoutedEventArgs e)
     {
       tbcMenu.SelectedItem = tbiEmpleados;
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnGEconomica control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnGEconomica_Click(object sender, RoutedEventArgs e)
     {
       tbcMenu.SelectedItem = tbiGEconomica;
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnEstadisticas control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnEstadisticas_Click(object sender, RoutedEventArgs e)
     {
       tbcMenu.SelectedItem = tbiEstadisticas;
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnUsuarios control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnUsuarios_Click(object sender, RoutedEventArgs e)
     {
       tbcMenu.SelectedItem = tbiUsuarios;
     }
 
+    /// <summary>
+    /// Handles the SelectionChanged event of the dataUsuarios control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="SelectionChangedEventArgs"/> instance containing the event data.</param>
     private void dataUsuarios_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
       if (dataUsuarios.SelectedItems.Count > 0)
@@ -360,6 +515,11 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnDarAltaUsuario control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnDarAltaUsuario_Click(object sender, RoutedEventArgs e)
     {
       if (System.Windows.MessageBox.Show("¿Quieres agregar un usuario?", "Confirmación", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
@@ -384,6 +544,11 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnEliminarUsuario control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnEliminarUsuario_Click(object sender, RoutedEventArgs e)
     {
       Usuario selectUsuario = (Usuario)dataUsuarios.SelectedItem;
@@ -400,6 +565,11 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnActualizarPassUsuario control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnActualizarPassUsuario_Click(object sender, RoutedEventArgs e)
     {
       Usuario selectUsuario = (Usuario)dataUsuarios.SelectedItem;
@@ -421,6 +591,10 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Cargars the nombres roles.
+    /// </summary>
+    /// <returns></returns>
     private List<String> cargarNombresRoles()
     {
       List<String> roles = new List<String>();
@@ -428,6 +602,11 @@ namespace gestproJuanGarcia
       return roles;
     }
 
+    /// <summary>
+    /// Handles the SelectionChanged event of the dataEmpleados control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="SelectionChangedEventArgs"/> instance containing the event data.</param>
     private void dataEmpleados_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
       //      String nombreRol = (String)comboBoxRoles.Items[comboBoxRoles.SelectedIndex];
@@ -462,6 +641,11 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnAgregarEmpleado control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnAgregarEmpleado_Click(object sender, RoutedEventArgs e)
     {
       if (System.Windows.MessageBox.Show("¿Quieres agregar un empleado?", "Confirmación", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
@@ -484,6 +668,11 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnModificarEmpleado control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnModificarEmpleado_Click(object sender, RoutedEventArgs e)
     {
       Empleado selectEmpleado = (Empleado)dataEmpleados.SelectedItem;
@@ -522,6 +711,11 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnEliminarEmpleado control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnEliminarEmpleado_Click(object sender, RoutedEventArgs e)
     {
       Empleado selectEmpleado = (Empleado)dataEmpleados.SelectedItem;
@@ -538,6 +732,11 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Handles the SelectionChanged event of the comboBoxUsuarios control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="SelectionChangedEventArgs"/> instance containing the event data.</param>
     private void comboBoxUsuarios_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
       if (comboBoxUsuarios.SelectedItem != null)
@@ -554,6 +753,11 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnRegistarUsuarioEmpleado control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnRegistarUsuarioEmpleado_Click(object sender, RoutedEventArgs e)
     {
       Empleado empleado = (Empleado)dataEmpleados.SelectedItem;
@@ -578,6 +782,11 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Handles the ClickAsync event of the btnImportarHoras control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private async void btnImportarHoras_ClickAsync(object sender, RoutedEventArgs e)
     {
       if (!DateTime.TryParse(dateFechaGEco.Text, out DateTime fechaImport))
@@ -667,6 +876,11 @@ namespace gestproJuanGarcia
       }
     }
 
+    /// <summary>
+    /// Handles the ClickAsync event of the btnModificarHoras control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private async void btnModificarHoras_ClickAsync(object sender, RoutedEventArgs e)
     {
       if (dataGestionEconomica.SelectedItem is ProyectoEmpleado seleccionado)
@@ -717,6 +931,11 @@ namespace gestproJuanGarcia
       cleanData();
     }
 
+    /// <summary>
+    /// Handles the Click event of the btnEliminarHoras control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
     private void btnEliminarHoras_Click(object sender, RoutedEventArgs e)
     {
       if (dataGestionEconomica.SelectedItem is ProyectoEmpleado seleccionado)
@@ -737,6 +956,174 @@ namespace gestproJuanGarcia
       else
       {
         System.Windows.MessageBox.Show("Seleccione un registro para eliminar.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+      }
+    }
+
+    /// <summary>
+    /// Recogers the datos informe costes proyecto.
+    /// </summary>
+    /// <returns></returns>
+    private List<CostesProyecto> recogerDatosInformeCostesProyecto ()
+    {
+      List<CostesProyecto> listaCostesProyecto = new List<CostesProyecto>();
+      int sumaCosteTotal = 0;
+
+
+      foreach (ProyectoEmpleado auxProyectEmple in listProyectoEmpleado)
+      {
+        String auxFecha = auxProyectEmple.Fecha.Month + " " + auxProyectEmple.Fecha.Year;
+        Proyecto auxProyect = listProyectos.Where(p => p.Id == auxProyectEmple.IdProyecto).FirstOrDefault();
+
+        if (auxProyect != null)
+        {
+          foreach (Empleado auxEmple in listEmpleado)
+          {
+            Empleado auxEmpleado2 = listEmpleado.Where(em => em.IdEmpleado == auxProyectEmple.IdEmpleado).FirstOrDefault();
+            if (auxEmpleado2 != null)
+            {
+              sumaCosteTotal += (auxEmpleado2.CsrEmpleado * auxProyectEmple.NumHoras);
+            }
+          }
+
+          if (listaCostesProyecto.Where(lcp => lcp.CodigoProyecto.Equals(auxProyect.Codigo) && lcp.FechaProyecto.Equals(auxFecha)) != null)
+          {
+            CostesProyecto auxCostesProyecto = listaCostesProyecto.Where(lcp => lcp.CodigoProyecto.Equals(auxProyect.Codigo) && lcp.FechaProyecto.Equals(auxFecha)).FirstOrDefault();
+            listaCostesProyecto.Remove(auxCostesProyecto);
+          }
+
+          String codigoProy = auxProyect.Codigo;
+          String fechaProyec = auxProyectEmple.Fecha.Month + " " + auxProyectEmple.Fecha.Year;
+          int costeTotal = sumaCosteTotal;
+
+          CostesProyecto auxCostProy2 = new CostesProyecto(codigoProy, fechaProyec, costeTotal);
+          listaCostesProyecto.Add(auxCostProy2);
+        }
+        sumaCosteTotal = 0;
+      }
+
+      return listaCostesProyecto;
+    }
+
+    /// <summary>Recogers the datos informe perfiles proyectos.</summary>
+    /// <returns>
+    ///   <br />
+    /// </returns>
+    private List<PerfilesProyectos> recogerDatosInformePerfilesProyectos ()
+    {
+      List<PerfilesProyectos> listaPerfilesProyecto = new List<PerfilesProyectos>();
+      Rol helperRol = new Rol();
+      int cantidadPersonas = 0;
+
+      foreach (ProyectoEmpleado auxProyectEmple in listProyectoEmpleado)
+      {
+        String auxFecha = auxProyectEmple.Fecha.Month + " " + auxProyectEmple.Fecha.Year;
+        Proyecto auxProyect = listProyectos.Where(p => p.Id == auxProyectEmple.IdProyecto).FirstOrDefault();
+
+        if (auxProyect != null)
+        {
+          foreach (Rol auxRol in listRol)
+          {
+            helperRol = auxRol;
+            List<Empleado> listEmpleadoForRol = listEmpleado.Where(em => em.IdRol == auxRol.IdRol).ToList();
+            cantidadPersonas += listEmpleadoForRol.Count();
+          }
+        }
+
+        if (listaPerfilesProyecto.Where(lpp => lpp.FechaProyecto.Equals(auxFecha)) != null)
+        {
+          PerfilesProyectos auxPerfilProyecto = listaPerfilesProyecto.Where(lpp => lpp.CodigoProyecto.Equals(auxProyect.Codigo) && lpp.FechaProyecto.Equals(auxFecha) && lpp.PerfilEmpleado.Equals(helperRol.NombreRol)).FirstOrDefault();
+          listaPerfilesProyecto.Remove(auxPerfilProyecto);
+        }
+
+        String codProyecto = auxProyect.Codigo;
+        String fechaProyec = auxProyectEmple.Fecha.Month + " " + auxProyectEmple.Fecha.Year;
+        String perfilEmpleado = helperRol.NombreRol;
+        int numPersonasRol = cantidadPersonas;
+
+        PerfilesProyectos auxPerfilProyecto2 = new PerfilesProyectos(codProyecto, fechaProyec, perfilEmpleado, numPersonasRol);
+        listaPerfilesProyecto.Add(auxPerfilProyecto2);
+        cantidadPersonas = 0;
+      }
+
+      return listaPerfilesProyecto;
+    }
+
+    /// <summary>
+    /// Handles the Click event of the btnCargarInforme control.
+    /// </summary>
+    /// <param name="sender">The source of the event.</param>
+    /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
+    private void btnCargarInforme_Click(object sender, RoutedEventArgs e)
+    {
+      switch (comboxInformes.SelectedIndex)
+      {
+        case 1:
+          List<PerfilesProyectos> perfilesProyectos = recogerDatosInformePerfilesProyectos();
+          int totalPersonas = 0;
+
+          foreach (PerfilesProyectos perf in perfilesProyectos)
+          {
+            totalPersonas += perf.NumPersonas;
+          }
+
+          foreach (PerfilesProyectos perf in perfilesProyectos)
+          {
+            DataRow row = dataTableInformes2.NewRow();
+            row["CodigoProyecto"] = perf.CodigoProyecto;
+            row["Fecha"] = perf.FechaProyecto;
+            row["PerfilEmpleado"] = perf.PerfilEmpleado;
+            row["NumeroPersonas"] = perf.NumPersonas;
+            dataTableInformes2.Rows.Add(row);
+          }
+
+          DataRow row2 = dataTableInformes2.NewRow();
+          row2["TotalPersonas"] = totalPersonas;
+
+          reportPerfilesProyectos reportPerfiles = new reportPerfilesProyectos();
+
+          if (reportPerfiles.Database.Tables["PerfilesProyectos"] == null)
+          {
+            System.Windows.MessageBox.Show("Error: La tabla 'DataTable1' no existe en el informe.");
+            return;
+          }
+
+          reportPerfiles.Database.Tables["PerfilesProyectos"].SetDataSource(dataTableInformes2);
+
+          if (reportViewer.ViewerCore != null)
+          {
+            reportViewer.ViewerCore.ReportSource = reportPerfiles;
+          }
+          else { }
+          break;
+
+        default:
+          List<CostesProyecto> costesProyectos = recogerDatosInformeCostesProyecto();
+
+          foreach (CostesProyecto cost in costesProyectos)
+          {
+            DataRow row = dataTableInformes1.NewRow();
+            row["CodigoProyecto"] = cost.CodigoProyecto;
+            row["Fecha"] = cost.FechaProyecto;
+            row["CosteTotal"] = cost.CosteTotal;
+            dataTableInformes1.Rows.Add(row);
+          }
+
+          reportCostesProyectos reportCostes = new reportCostesProyectos();
+
+          if (reportCostes.Database.Tables["CostesProyecto"] == null)
+          {
+            System.Windows.MessageBox.Show("Error: La tabla 'DataTable1' no existe en el informe.");
+            return;
+          }
+
+          reportCostes.Database.Tables["CostesProyecto"].SetDataSource(dataTableInformes1);
+
+          if (reportViewer.ViewerCore != null)
+          {
+            reportViewer.ViewerCore.ReportSource = reportCostes;
+          }
+          else { }
+          break;
       }
     }
   }

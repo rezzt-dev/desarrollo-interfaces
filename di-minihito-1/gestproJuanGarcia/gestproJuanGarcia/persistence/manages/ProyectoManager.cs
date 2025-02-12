@@ -10,18 +10,37 @@ using System.Threading.Tasks;
 
 namespace gestproJuanGarcia.persistence.manages
 {
+  /// <summary>
+  /// clase de manejador de proyecto
+  /// </summary>
   public class ProyectoManager
   {
+    /// <summary>
+    /// The data table
+    /// </summary>
     private DataTable dataTable;
+    /// <summary>
+    /// The list proyectos
+    /// </summary>
     private List<Proyecto> listProyectos;
+    /// <summary>
+    /// The last identifier
+    /// </summary>
     int lastId;
 
+    /// <summary>
+    /// Initializes a new instance of the <see cref="ProyectoManager"/> class.
+    /// </summary>
     public ProyectoManager ()
     {
       dataTable = new DataTable ();
       listProyectos = new List<Proyecto> ();
     }
 
+    /// <summary>
+    /// Leers the proyectos.
+    /// </summary>
+    /// <returns></returns>
     public List<Proyecto> leerProyectos()
     {
       Proyecto proyecto = new Proyecto ();
@@ -36,6 +55,11 @@ namespace gestproJuanGarcia.persistence.manages
       return listProyectos;
     }
 
+    /// <summary>
+    /// Gets the last identifier.
+    /// </summary>
+    /// <param name="inputProyecto">The input proyecto.</param>
+    /// <returns></returns>
     public int getLastId (Proyecto inputProyecto)
     {
       List<Object> listAux;
@@ -49,8 +73,12 @@ namespace gestproJuanGarcia.persistence.manages
       return lastId;
     }
 
-    
 
+
+    /// <summary>
+    /// Insertars the proyecto.
+    /// </summary>
+    /// <param name="inputProyecto">The input proyecto.</param>
     public void insertarProyecto (Proyecto inputProyecto)
     {
       DBBroker dbBroker = DBBroker.obtenerAgente();
@@ -62,6 +90,10 @@ namespace gestproJuanGarcia.persistence.manages
         inputProyecto.Presupuesto + ");");
     }
 
+    /// <summary>
+    /// Modificars the proyecto.
+    /// </summary>
+    /// <param name="inputProyecto">The input proyecto.</param>
     public void modificarProyecto (Proyecto inputProyecto)
     {
       DBBroker dbBroker = DBBroker.obtenerAgente();
@@ -72,6 +104,10 @@ namespace gestproJuanGarcia.persistence.manages
         inputProyecto.Presupuesto + " WHERE IDPROYECTO = " + inputProyecto.Id + ";");
     }
 
+    /// <summary>
+    /// Eliminars the proyecto.
+    /// </summary>
+    /// <param name="inputProyecto">The input proyecto.</param>
     public void eliminarProyecto (Proyecto inputProyecto)
     {
       DBBroker dbBroker = DBBroker.obtenerAgente();

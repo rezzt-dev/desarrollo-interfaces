@@ -1,4 +1,5 @@
 ﻿<Window x:Class="gestproJuanGarcia.MainWindow"
+        xmlns:Viewer="clr-namespace:SAPBusinessObjects.WPF.Viewer;assembly=SAPBusinessObjects.WPF.Viewer"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -445,9 +446,28 @@
           </Grid.ColumnDefinitions>
           <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="4.5*"/>
           </Grid.RowDefinitions>
 
-          <Frame Name="frameEstadisticas"/>
+          <Grid Grid.Row="0" Grid.Column="0" >
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"/>
+              <ColumnDefinition Width="1.5*"/>
+            </Grid.ColumnDefinitions>
+
+            <ComboBox Name="comboxInformes" SelectedIndex="0" Margin="10" Grid.Column="0" FontFamily="Cascadia Code Light" VerticalAlignment="Center"
+                      HorizontalAlignment="Center" Height="40" VerticalContentAlignment="Center">
+              <ComboBoxItem x:Name="cboxReportItem1" Content="Costes/Ingreso por Proyecto"/>
+              <ComboBoxItem x:Name="cboxReportItem2" Content="Numero de Perfiles por Proyecto"/>
+            </ComboBox>
+
+            <Rectangle Fill="#FF50345B" Margin="5" Grid.Column="1" RadiusX="10" RadiusY="10"
+                       Height="40" Width="150" VerticalAlignment="Center"/>
+            <Button Name="btnCargarInforme" Grid.Row="0" Grid.Column="1" Content="Mostrar Informe" Background="{x:Null}" 
+                    Height="35" Width="150" FontFamily="Comfortaa Bold" FontSize="12"
+                    Margin="5" BorderBrush="Transparent" VerticalAlignment="Center" Foreground="White" Click="btnCargarInforme_Click"/>
+          </Grid>
+          <Viewer:CrystalReportsViewer Name="reportViewer" Grid.Row="1" Grid.Column="0" Margin="5"/>
         </Grid>
       </TabItem>
       <TabItem Name="tbiUsuarios" Header="USUARIOS" IsSelected="True" Padding="5" IsEnabled="False" BorderBrush="{x:Null}" Background="Pink"

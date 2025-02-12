@@ -7,18 +7,34 @@ using System.Linq;
 
 namespace gestproJuanGarcia.persistence.manages
 {
-    public class ProyectoEmpleadoManager
+  /// <summary>
+  /// clase de manejador de proyectoEmpleado
+  /// </summary>
+  public class ProyectoEmpleadoManager
     {
-        private DataTable dataTable;
-        private List<ProyectoEmpleado> listProyectoEmpleado;
+    /// <summary>
+    /// The data table
+    /// </summary>
+    private DataTable dataTable;
+    /// <summary>
+    /// The list proyecto empleado
+    /// </summary>
+    private List<ProyectoEmpleado> listProyectoEmpleado;
 
-        public ProyectoEmpleadoManager()
+    /// <summary>
+    /// Initializes a new instance of the <see cref="ProyectoEmpleadoManager"/> class.
+    /// </summary>
+    public ProyectoEmpleadoManager()
         {
             dataTable = new DataTable();
             listProyectoEmpleado = new List<ProyectoEmpleado>();
         }
 
-        public List<ProyectoEmpleado> leerListaProyectoEmpleado()
+    /// <summary>
+    /// Leers the lista proyecto empleado.
+    /// </summary>
+    /// <returns></returns>
+    public List<ProyectoEmpleado> leerListaProyectoEmpleado()
         {
             ProyectoEmpleado proyectoEmpleado;
             List<Object> list = DBBroker.obtenerAgente().leer("SELECT HORAS, COSTES, FECHA, IDPROYECTO, IDEMPLEADO FROM proyectoempleado.proyectoempleado;");
@@ -39,7 +55,11 @@ namespace gestproJuanGarcia.persistence.manages
             return listProyectoEmpleado;
         }
 
-        public void insertarProyectoEmpleado(ProyectoEmpleado inputProyectoEmpleado)
+    /// <summary>
+    /// Insertars the proyecto empleado.
+    /// </summary>
+    /// <param name="inputProyectoEmpleado">The input proyecto empleado.</param>
+    public void insertarProyectoEmpleado(ProyectoEmpleado inputProyectoEmpleado)
         {
             DBBroker dbBroker = DBBroker.obtenerAgente();
             string query = $"INSERT INTO proyectoempleado.proyectoempleado (HORAS, COSTES, FECHA, IDPROYECTO, IDEMPLEADO) VALUES ("
@@ -49,7 +69,11 @@ namespace gestproJuanGarcia.persistence.manages
             dbBroker.modificar(query);
         }
 
-        public void modificarProyectoEmpleado(ProyectoEmpleado inputProyectoEmpleado)
+    /// <summary>
+    /// Modificars the proyecto empleado.
+    /// </summary>
+    /// <param name="inputProyectoEmpleado">The input proyecto empleado.</param>
+    public void modificarProyectoEmpleado(ProyectoEmpleado inputProyectoEmpleado)
         {
             DBBroker dbBroker = DBBroker.obtenerAgente();
             string query = $"UPDATE proyectoempleado.proyectoempleado SET HORAS = " + inputProyectoEmpleado.NumHoras + ", COSTES = " + inputProyectoEmpleado.Costes +
@@ -58,7 +82,11 @@ namespace gestproJuanGarcia.persistence.manages
             dbBroker.modificar(query);
         }
 
-        public void eliminarProyectoEmpleado(ProyectoEmpleado inputProyectoEmpleado)
+    /// <summary>
+    /// Eliminars the proyecto empleado.
+    /// </summary>
+    /// <param name="inputProyectoEmpleado">The input proyecto empleado.</param>
+    public void eliminarProyectoEmpleado(ProyectoEmpleado inputProyectoEmpleado)
         {
             DBBroker dbBroker = DBBroker.obtenerAgente();
             string query = $"DELETE FROM proyectoempleado.proyectoempleado WHERE FECHA = '" + inputProyectoEmpleado.Fecha.ToString("yyyy-MM-dd") + "' AND IDPROYECTO = " + inputProyectoEmpleado.IdProyecto + " AND IDEMPLEADO = " + inputProyectoEmpleado.IdEmpleado + ";";
